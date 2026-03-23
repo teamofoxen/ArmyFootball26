@@ -1010,6 +1010,37 @@ function cleanTripPlan(text) {
   // Remove any remaining stray │ characters
   text = text.replace(/│/g, '');
 
+  // Style option labels as bold subheadings (before continuation merge so they
+  // don't get mis-classified as continuations)
+  text = text.replace(/^ {2,}(Option \d+[^\n]*)$/gm, '**$1**');
+
+  // Merge continuation lines into the preceding key-value or bullet-note line.
+  // Box values sometimes wrap across two │...│ rows; after stripping the box chars
+  // the second row becomes an orphaned indented line with no key:value pattern.
+  // Note bullets (  - text) can also have indented continuation lines.
+  const lineArr = text.split('\n');
+  const outLines = [];
+  let prevType = 'other'; // 'kv' | 'note' | 'other'
+  for (const ln of lineArr) {
+    const blank  = !ln.trim();
+    const isKV   = /^ {2,}\w[^:\n]+?\s+:\s*.+/.test(ln);
+    const isNote = /^ *[\-\*] /.test(ln);
+    // Box continuation: indented line that is NOT a kv row, not a note bullet,
+    // and immediately follows a kv row (no blank line between them)
+    const isBoxCont  = !blank && !isKV && !isNote && /^ {2,}\S/.test(ln) && prevType === 'kv';
+    // Note continuation: extra-indented line (4+ spaces) that immediately follows
+    // a bullet note line
+    const isNoteCont = !blank && !isNote && /^ {4,}\S/.test(ln) && prevType === 'note';
+
+    if ((isBoxCont || isNoteCont) && outLines.length > 0) {
+      outLines[outLines.length - 1] += ' ' + ln.trim();
+    } else {
+      outLines.push(ln);
+      prevType = blank ? 'other' : isKV ? 'kv' : isNote ? 'note' : 'other';
+    }
+  }
+  text = outLines.join('\n');
+
   // Collapse 3+ blank lines to 2
   text = text.replace(/\n{3,}/g, '\n\n');
 
@@ -1067,8 +1098,8 @@ function renderMarkdown(md) {
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
     // hr
     .replace(/^---+$/gm, '<hr>')
-    // lists
-    .replace(/^[\-\*] (.+)$/gm, '<li>$1</li>')
+    // lists — allow any number of leading spaces before the dash/asterisk
+    .replace(/^ *[\-\*] (.+)$/gm, '<li>$1</li>')
     // key-value rows: "  Key     : Value" → styled two-column row
     // Requires 2+ leading spaces, word-char key, 1+ spaces before colon separator
     .replace(
