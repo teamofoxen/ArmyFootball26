@@ -716,8 +716,12 @@
       <div class="stat-label">Booked</div>
     </div>
     <div class="stat">
-      <div class="stat-num" id="stat-planned">—</div>
-      <div class="stat-label">Planned</div>
+      <div class="stat-num" id="stat-inprogress">—</div>
+      <div class="stat-label">In Progress</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="stat-open">—</div>
+      <div class="stat-label">Open</div>
     </div>
     <div class="stat">
       <div class="stat-num" id="stat-total">13</div>
@@ -782,8 +786,8 @@
 <!-- STATUS BAR -->
 <div class="status-bar">
   <div class="status-item"><div class="dot dot-booked"></div> Booked</div>
-  <div class="status-item"><div class="dot" style="background:var(--partial)"></div> Partially booked</div>
-  <div class="status-item"><div class="dot dot-planned"></div> Planned</div>
+  <div class="status-item"><div class="dot" style="background:var(--partial)"></div> In Progress</div>
+  <div class="status-item"><div class="dot dot-planned"></div> Open</div>
   <div class="status-item"><div class="dot dot-drive"></div> Drive trip</div>
   <div class="status-item"><div class="dot dot-stub"></div> Bowl TBD</div>
 </div>
@@ -946,11 +950,11 @@ function parseTrip(filename, content) {
 
 function statusBadge(status) {
   const map = {
-    booked:  ['badge-booked', '✓ BOOKED'],
-    partial: ['badge-partial', '🔶 PARTIAL'],
-    planned: ['badge-planned', '📋 PLANNED'],
-    stub:    ['badge-stub', '⚠ BOWL TBD'],
-    drive:   ['badge-drive', '🚗 DRIVE'],
+    booked:  ['badge-booked',   '✓ BOOKED'],
+    partial: ['badge-partial',  '🔶 IN PROGRESS'],
+    planned: ['badge-planned',  '📋 OPEN'],
+    stub:    ['badge-stub',     '⚠ BOWL TBD'],
+    drive:   ['badge-drive',    '🚗 DRIVE'],
   };
   const [cls, label] = map[status] || map.stub;
   return `<span class="trip-badge ${cls}">${label}</span>`;
@@ -1159,28 +1163,29 @@ async function loadTrips() {
 }
 
 function renderTrips() {
-  const booked  = tripData.filter(t => t.status === 'booked').length;
-  const partial = tripData.filter(t => t.status === 'partial').length;
-  const planned = tripData.filter(t => ['planned','drive'].includes(t.status)).length;
-  const total   = tripData.length;
+  const booked     = tripData.filter(t => t.status === 'booked').length;
+  const inProgress = tripData.filter(t => t.status === 'partial').length;
+  const open       = tripData.filter(t => ['planned','drive','stub'].includes(t.status)).length;
+  const total      = tripData.length;
 
-  document.getElementById('stat-booked').textContent = booked;
-  document.getElementById('stat-planned').textContent = planned + partial;
-  document.getElementById('stat-total').textContent = total;
+  document.getElementById('stat-booked').textContent     = booked;
+  document.getElementById('stat-inprogress').textContent = inProgress;
+  document.getElementById('stat-open').textContent       = open;
+  document.getElementById('stat-total').textContent      = total;
 
-  // Progress (booked = done)
+  // Progress: fully booked out of total
   const pct = Math.round((booked / total) * 100);
   document.getElementById('progress-pct').textContent = pct + '%';
   document.getElementById('progress-fill').style.width = pct + '%';
   document.getElementById('season-progress').style.display = 'block';
 
-  // Render cards grouped
+  // Render cards grouped by booking status
   const container = document.getElementById('trips-container');
   container.innerHTML = '';
 
-  const bookedTrips  = tripData.filter(t => t.status === 'booked');
-  const partialTrips = tripData.filter(t => t.status === 'partial');
-  const pendingTrips = tripData.filter(t => !['booked','partial'].includes(t.status));
+  const bookedTrips     = tripData.filter(t => t.status === 'booked');
+  const inProgressTrips = tripData.filter(t => t.status === 'partial');
+  const openTrips       = tripData.filter(t => !['booked','partial'].includes(t.status));
 
   if (bookedTrips.length) {
     container.innerHTML += `
@@ -1191,22 +1196,22 @@ function renderTrips() {
       <div class="trip-grid">${bookedTrips.map(renderCard).join('')}</div>`;
   }
 
-  if (partialTrips.length) {
+  if (inProgressTrips.length) {
     container.innerHTML += `
       <div class="section-header">
-        <div class="section-title">Partially Booked</div>
+        <div class="section-title">In Progress</div>
         <div class="section-line"></div>
       </div>
-      <div class="trip-grid">${partialTrips.map(renderCard).join('')}</div>`;
+      <div class="trip-grid">${inProgressTrips.map(renderCard).join('')}</div>`;
   }
 
-  if (pendingTrips.length) {
+  if (openTrips.length) {
     container.innerHTML += `
       <div class="section-header">
-        <div class="section-title">Upcoming</div>
+        <div class="section-title">Open</div>
         <div class="section-line"></div>
       </div>
-      <div class="trip-grid">${pendingTrips.map(renderCard).join('')}</div>`;
+      <div class="trip-grid">${openTrips.map(renderCard).join('')}</div>`;
   }
 }
 
