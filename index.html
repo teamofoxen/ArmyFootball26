@@ -796,21 +796,15 @@ function hideConfig() {
 // ─── GITHUB API ───────────────────────────────────────────────────
 async function fetchGitHub(path, cfg) {
   const url = `https://api.github.com/repos/${cfg.user}/${cfg.repo}/contents/${path}?ref=${cfg.branch}`;
-  const res = await fetch(url, {
-    headers: {
-      'Authorization': `token ${cfg.token}`,
-      'Accept': 'application/vnd.github.v3+json'
-    }
-  });
+  const headers = { 'Accept': 'application/vnd.github.v3+json' };
+  if (cfg.token) headers['Authorization'] = `token ${cfg.token}`;
+  const res = await fetch(url, { headers });
   if (!res.ok) throw new Error(`GitHub API error: ${res.status} ${res.statusText}`);
   return res.json();
 }
 
 async function fetchFileContent(fileObj, cfg) {
-  // Use download_url for raw content
-  const res = await fetch(fileObj.download_url, {
-    headers: { 'Authorization': `token ${cfg.token}` }
-  });
+  const res = await fetch(fileObj.download_url);
   if (!res.ok) throw new Error(`Failed to fetch ${fileObj.name}`);
   return res.text();
 }
