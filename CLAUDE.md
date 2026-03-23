@@ -31,7 +31,8 @@ Using today's date, scan the schedule in `travel-system.md` and identify:
 
 **0c — Sweep all 13 trip files for status**
 Read the status line (line 2) of each file in `trips/`. Categorize each trip as:
-- ✅ BOOKED — confirmed reservation exists
+- ✅ BOOKED — flight (where applicable), hotel, AND rental car (where applicable) are all confirmed
+- 🔶 PARTIALLY BOOKED — one or more applicable components confirmed but not all
 - 📋 PLANNED — plan exists but nothing booked yet
 - ⚠️ STUB — placeholder only, needs full planning
 - ❓ UNKNOWN — status line is missing or unclear
@@ -45,9 +46,10 @@ SESSION BRIEFING — [Today's Date]
 NEXT GAME: [Opponent] — [Date] ([X weeks away])
 
 BOOKING STATUS:
-  ✅ Booked   : [list]
-  📋 Planned  : [list]
-  ⚠️  Stub     : [list]
+  ✅ Booked            : [list]
+  🔶 Partially Booked  : [list]
+  📋 Planned           : [list]
+  ⚠️  Stub              : [list]
 
 URGENT (within 8 weeks, not booked): [list or "None"]
 CRITICAL (within 4 weeks, not booked): [list or "None"]
@@ -191,9 +193,12 @@ Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned
 ### Booking updates
 When the user mentions that anything has been confirmed — flight, hotel, or rental car —
 immediately and without being asked:
-1. Update line 2 of the relevant trip file to `BOOKED — [what was confirmed, date, price]`
-   - If only partially booked (e.g., hotel booked but not flights), use:
-     `PARTIALLY BOOKED — [what is confirmed] | [what remains]`
+1. Update line 2 of the relevant trip file:
+   - Use `BOOKED — [details]` **only when ALL applicable components are confirmed**:
+     - Fly trips: flight ✅ + hotel ✅ + rental car ✅
+     - Drive trips: hotel ✅ (no flight or rental car required)
+   - Use `PARTIALLY BOOKED — [what is confirmed] | [what remains]` when one or more
+     applicable components are confirmed but others are not yet booked
 2. Update the booking details section inside the trip file
 3. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
 

@@ -1,5 +1,5 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
-**Status: BOOKED — Hotel confirmed (Comfort Suites Central Valley, Woodbury NY)**
+**Status: PARTIALLY BOOKED — Hotel confirmed (Comfort Suites Central Valley, Woodbury NY) | Flights and rental car not yet booked**
 **Hotel: ✅ ALREADY BOOKED — Comfort Suites Central Valley – Woodbury**
 
 ---

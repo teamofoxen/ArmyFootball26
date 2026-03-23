@@ -4,6 +4,20 @@ Use this exact structure for every trip plan. All sections are required.
 If real data is unavailable for a section, write: `DATA UNAVAILABLE — [reason]`
 Never leave a section blank or fill it with invented information.
 
+## BOOKING STATUS DEFINITIONS
+
+These are the only valid values for the status line (line 2) of each trip file:
+
+| Status | Meaning |
+|--------|---------|
+| `BOOKED` | All applicable components confirmed: flight (fly trips) + hotel + rental car (fly trips) |
+| `PARTIALLY BOOKED` | One or more applicable components confirmed, but not all |
+| `PLANNED` | Full plan exists but nothing has been booked yet |
+| `STUB` | Placeholder only — full planning not yet complete |
+
+> **Drive trips** (Louisiana Tech, Tulsa, Rice): BOOKED requires hotel confirmed only — no flight or rental car needed.
+> **Fly trips** (all others): BOOKED requires flight + hotel + rental car all confirmed.
+
 ---
 
 ```
