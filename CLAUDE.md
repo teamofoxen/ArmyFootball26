@@ -184,6 +184,33 @@ Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned
 
 ---
 
+## AUTOMATIC BEHAVIORS (no user prompt required)
+
+### Booking updates
+When the user mentions that anything has been confirmed — flight, hotel, or rental car —
+immediately and without being asked:
+1. Update line 2 of the relevant trip file to `BOOKED — [what was confirmed, date, price]`
+   - If only partially booked (e.g., hotel booked but not flights), use:
+     `PARTIALLY BOOKED — [what is confirmed] | [what remains]`
+2. Update the booking details section inside the trip file
+3. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
+
+### Session logging
+At the end of every session, without being asked:
+1. Open `logs/` and either append to today's dated file or create a new one:
+   `logs/session-YYYY-MM-DD.md`
+2. Write a session entry covering:
+   - What was discussed or changed
+   - Any new bookings confirmed
+   - Updated system state (trip status table)
+   - Open items for next session
+3. Commit the log with message `Log session — YYYY-MM-DD`
+
+A session ends when the user says goodbye, closes out, or clearly indicates they are done.
+If unsure, write the log anyway — it can always be amended.
+
+---
+
 ## ABSOLUTE PROHIBITIONS
 
 | Rule | Detail |
