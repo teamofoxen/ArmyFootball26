@@ -136,13 +136,13 @@ GROUND TRANSPORTATION
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Option 1 hotel, 2 adults)
+  (Option 1 flights + Option 1 hotel, 3 passengers)
 
-  Flights (RT)    : ~$300–400/person × 2 = ~$600–800
+  Flights (RT)    : ~$300–400/person × 3 = ~$900–1,200
   Hotel           : ~$175/night × 2 nights = ~$350
   Ground Transit  : ~$100 (airport Ubers + game day)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,050–1,250
+  ESTIMATED TOTAL : ~$1,350–1,650
 
   Budget Status   : ✅ WITHIN BUDGET
 

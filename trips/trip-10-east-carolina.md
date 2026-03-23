@@ -113,14 +113,14 @@ HOTEL OPTIONS
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Option 1 hotel, 2 adults)
+  (Option 1 flights + Option 1 hotel, 3 passengers)
 
-  Flights (RT)    : ~$320–420/person × 2 = ~$640–840
+  Flights (RT)    : ~$320–420/person × 3 = ~$960–1,260
   Hotel           : ~$135/night × 2 nights = ~$270
   Rental Car      : ~$95 weekend
   Gas/Tolls       : ~$40
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,045–1,245
+  ESTIMATED TOTAL : ~$1,365–1,665
 
   Budget Status   : ✅ WITHIN BUDGET
 

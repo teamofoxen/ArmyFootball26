@@ -65,8 +65,8 @@ HOTEL OPTIONS — TBD
 COST ESTIMATE — TBD
 ────────────────────────────────────────────────────────────────
   Local bowl  : ~$50–75 (gas + parking only)
-  Short fly   : ~$600–900 total for 2 adults
-  Long fly    : ~$1,000–1,400 total for 2 adults
+  Short fly   : ~$900–1,350 total for 3 passengers
+  Long fly    : ~$1,500–2,100 total for 3 passengers
 
 
 RULES COMPLIANCE CHECK — TBD

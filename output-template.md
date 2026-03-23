@@ -145,9 +145,9 @@ GROUND TRANSPORTATION
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Based on Option 1 recommendations, 2 adults)
+  (Based on Option 1 recommendations, 3 passengers)
 
-  Flights (RT)    : $[XXX] × 2 = $[XXXX]
+  Flights (RT)    : $[XXX]/person × 3 = $[XXXX]
   Hotel           : $[XXX]/night × [#] nights = $[XXXX]
   Ground Transit  : ~$[XXX] estimated
   ─────────────────────────────────────────

@@ -103,7 +103,7 @@ GROUND TRANSPORTATION
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Drive + Option 1 hotel, 2 adults)
+  (Drive + Option 1 hotel, 3 passengers)
 
   Flights         : $0 — driving
   Gas (RT ~480 mi): ~$60–70 (est. at ~$3/gal, ~25 mpg)

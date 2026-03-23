@@ -16,7 +16,7 @@ NYC AREA AIRPORTS  : EWR | LGA | JFK — search all three; nonstop only, lowest 
                      EWR: ~65 mi to Central Valley via NJ Tpke → I-87 N (~1h 15m)
                      LGA: ~55 mi to Central Valley via GWB → I-87 N (~1h–1h 30m)
                      JFK: ~65 mi to Central Valley via GWB → I-87 N (~1h 15m–1h 45m)
-TRAVEL PARTY SIZE  : 2 adults
+TRAVEL PARTY SIZE  : 3 passengers
 AIRLINE PREFERENCE : Nonstop first, lowest price second; American preferred as tiebreaker only (DFW hub)
 SEAT CLASS         : Economy (upgrades only if ≤ $75 more per person)
 MAX FLIGHT PRICE   : $600/person one-way (domestic)
