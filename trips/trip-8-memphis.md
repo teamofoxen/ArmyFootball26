@@ -146,17 +146,6 @@ COST SUMMARY
   Budget Status   : ✅ WITHIN BUDGET
 
 
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Flights from real get_flights search data (not invented)
-  ✓  Nonstop available on American — prioritized
-  ✓  No red-eye flights
-  ✓  Hotel within 10 miles of stadium
-  ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  Nonstop prioritized; cheapest nonstop option selected
-  ✓  Arrive MEM day before game — buffer exceeded
-
-
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   - Halloween weekend — verify hotel rates aren't inflated;

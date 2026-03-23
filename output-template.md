@@ -156,17 +156,6 @@ COST SUMMARY
   Budget Status   : [WITHIN BUDGET / OVER BUDGET — see notes]
 
 
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓/✗  Flights from real get_flights data (not invented) — N/A for drive trips
-  ✓/✗  No layovers exceed 2h 30m
-  ✓/✗  No red-eye flights
-  ✓/✗  Hotel within 10 miles of stadium
-  ✓/✗  Hotel rate within MASTER SETTINGS limits
-  ✓/✗  Preferred airline used (or documented why not)
-  ✓/✗  Arrive destination ≥ 3 hours before kickoff
-
-
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   [Any trip-specific advice, booking urgency, alerts, or exceptions

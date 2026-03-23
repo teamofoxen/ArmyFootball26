@@ -26,7 +26,7 @@ OUTBOUND FLIGHT
   Carriers    : American Airlines | United Airlines (both nonstop)
   Flight Time : ~3h 33m nonstop DFW → any NYC-area airport
 
-  Option 1 — American nonstop EWR (verify price vs. all airports)
+  Option 1 — American nonstop (verify price vs. all airports)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~7:00–9:00 AM CT from DFW               │
@@ -35,7 +35,7 @@ OUTBOUND FLIGHT
   │  Est. Price  : ~$159–210/person                         │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 — United nonstop EWR (verify price vs. all airports)
+  Option 2 — United nonstop (verify price vs. all airports)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : United Airlines                          │
   │  Departs     : ~8:00–10:00 AM CT from DFW               │
@@ -124,17 +124,6 @@ COST SUMMARY
   ESTIMATED TOTAL : ~$1,065–1,265
 
   Budget Status   : ✅ WITHIN BUDGET
-
-
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Flights from real get_flights data (not invented)
-  ✓  Nonstop available — American and United both serve DFW→NYC
-  ✓  No red-eye flights
-  ✓  Hotel proximity: ~15 mi (Comfort Suites) — West Point exception; no hotels within 10 mi of Michie Stadium
-  ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  Nonstop prioritized; cheapest airport/airline to be verified at booking
-  ✓  Arrive NYC day before game — adequate buffer
 
 
 NOTES & RECOMMENDATIONS

@@ -111,16 +111,6 @@ COST SUMMARY
   Budget Status   : ✅ WELL WITHIN BUDGET
 
 
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Drive trip — get_flights not required per TRANSPORT MODE
-  ✓  No flights to fabricate — N/A
-  ✓  Hotel within 10 miles of stadium (2.6 miles)
-  ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  Depart noon Friday, arrive 4:30 PM — 3+ hrs before kickoff
-  ✓  Personal vehicle handles all inter-city transport
-
-
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   - ⚡ FRIDAY NIGHT GAME — confirm ESPN kickoff time as soon

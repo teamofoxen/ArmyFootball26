@@ -147,17 +147,6 @@ COST SUMMARY
   Budget Status   : ✅ WITHIN BUDGET
 
 
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Flights from real get_flights search data (not invented)
-  ✓  Nonstop flights available and prioritized
-  ✓  No red-eye flights
-  ✓  Hotel within 10 miles of stadium (Option 1: 1.5 mi)
-  ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  Nonstop prioritized; cheapest nonstop option selected
-  ✓  Arrive PHL well before kickoff
-
-
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   - Book 6–8 weeks out for best American Airlines pricing on

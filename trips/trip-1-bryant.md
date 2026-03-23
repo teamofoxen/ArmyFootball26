@@ -53,7 +53,7 @@ OUTBOUND FLIGHT
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American or United                       │
   │  Destination : LGA or JFK                               │
-  │  Stops       : Nonstop or 1 stop                        │
+  │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$130–200/person                         │
   │  Notes       : Add ~15–30 min to drive vs. EWR route;   │
   │                choose whichever airport is cheapest     │
@@ -105,7 +105,7 @@ HOTEL — ✅ ALREADY BOOKED
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Comfort Suites already booked, 2 adults)
+  (Based on Option 1 recommendations, 2 adults)
 
   Flights (RT)    : ~$320–440/person × 2 = ~$640–880
   Hotel           : BOOKED
@@ -115,17 +115,6 @@ COST SUMMARY
   ESTIMATED TOTAL : ~$775–1,015 (excl. hotel)
 
   Budget Status   : ✅ WITHIN BUDGET
-
-
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Flights from real get_flights data (not invented)
-  ✓  Nonstop available — American and United both serve DFW→NYC
-  ✓  No red-eye flights
-  ✓  Hotel proximity: ~15 mi (Comfort Suites) — West Point exception; no hotels within 10 mi of Michie Stadium ✅
-  ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  Nonstop prioritized; cheapest airport/airline to be verified at booking
-  ✓  Arrive NYC day before game — adequate buffer
 
 
 NOTES & RECOMMENDATIONS

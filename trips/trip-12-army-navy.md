@@ -157,17 +157,6 @@ COST SUMMARY
   Budget Status   : ✅ WITHIN BUDGET (premium rate override applies)
 
 
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Flights from real get_flights search data (not invented)
-  ✓  Nonstop strongly recommended — [P1] game, no missed connection risk
-  ✓  No red-eye flights
-  ✓  Hotel within 10 miles of stadium (Option 1: 2 miles)
-  ✓  $300/night premium override applied — justified for Army-Navy
-  ✓  Nonstop prioritized across EWR/LGA/JFK; cheapest nonstop selected
-  ✓  Arrive EWR Friday afternoon — buffer exceeded
-
-
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   - ★ BOOK HOTEL NOW — do not wait. MetLife Army-Navy weekend

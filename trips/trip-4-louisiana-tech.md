@@ -107,16 +107,6 @@ COST SUMMARY
   Budget Status   : ✅ WELL WITHIN BUDGET (lowest cost trip of season)
 
 
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Drive trip — get_flights not required per TRANSPORT MODE
-  ✓  No flights to fabricate — N/A
-  ✓  Hotel within 10 miles of stadium (1.9 miles)
-  ✓  Hotel rate within MASTER SETTINGS limits ($110/night avg)
-  ✓  Arrive Ruston ≥ 3 hours before kickoff (Friday evening)
-  ✓  Personal vehicle handles all local transport
-
-
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   - ⚠️ BOOK HAMPTON INN EARLY — Ruston has very limited hotel

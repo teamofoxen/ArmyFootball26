@@ -115,16 +115,6 @@ COST SUMMARY
   Budget Status   : ✅ WITHIN BUDGET (3-night stay; rate reasonable)
 
 
-RULES COMPLIANCE CHECK
-────────────────────────────────────────────────────────────────
-  ✓  Drive trip — get_flights not required per TRANSPORT MODE
-  ✓  No flights to fabricate — N/A
-  ✓  Hotel within 10 miles of stadium (Option 1: ~0.5 miles)
-  ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  Arrive Houston day before game — buffer exceeded
-  ✓  Personal vehicle handles all inter-city transport
-
-
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   - Best drive timing of the season — Thanksgiving Day I-45
