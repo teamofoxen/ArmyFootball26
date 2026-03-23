@@ -623,6 +623,41 @@
     footer { padding: 16px 20px; flex-direction: column; gap: 8px; }
     .config-row { grid-template-columns: 1fr; }
   }
+
+  /* STATUS BADGE — modal trip status block */
+  .status-badge {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 8px;
+    padding: 10px 14px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .sb-booked  { background: rgba(76,175,125,0.12); border: 1px solid rgba(76,175,125,0.35); }
+  .sb-partial { background: rgba(232,132,58,0.12); border: 1px solid rgba(232,132,58,0.35); }
+  .sb-planned { background: rgba(200,168,75,0.08); border: 1px solid rgba(200,168,75,0.25); }
+  .sb-stub    { background: rgba(100,100,100,0.1);  border: 1px solid rgba(100,100,100,0.35); }
+  .sb-type    { font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.12em; color: var(--white); }
+  .sb-detail  { font-size: 12px; color: var(--gray-light); }
+  .sb-parts   { list-style: none; margin: 8px 0 0 0; width: 100%; padding: 0; }
+  .sb-parts li { font-size: 13px; padding: 3px 0; }
+  .sb-ok { color: var(--booked); }
+  .sb-no { color: #E57373; }
+
+  /* PLAN CONTENT — cleaned trip plan rendering */
+  .md-content .plan-section {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin: 22px 0 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--dark3);
+  }
+  .md-content .plan-section:first-child { margin-top: 0; }
 </style>
 </head>
 <body>
@@ -648,7 +683,7 @@
   <div class="header-left">
     <div class="header-eyebrow">⚔ 2026 Season</div>
     <h1>Army <span>Football</span><br>Travel</h1>
-    <div class="header-sub">Black Knights Away Game Dashboard</div>
+    <div class="header-sub">2026 Season · All 13 Games</div>
   </div>
   <div class="header-stats" id="header-stats">
     <div class="stat">
@@ -844,10 +879,13 @@ function parseTrip(filename, content) {
     if (dm) gameDate = dm[1].replace(/\*\*/g, '').trim();
   }
 
-  // Opponent from title or filename
-  const opponent = title.replace(/^Trip\s*\d+[:\-\s]*/i, '')
-                        .replace(/Army\s*(vs\.?|@|at)\s*/i, '')
-                        .replace(/\(.*\)/, '').trim();
+  // Opponent from title — strip "Trip N — ", leading vs/@/at, parentheticals, emoji annotations
+  const opponent = title
+    .replace(/^Trip\s*\d+\s*[—–\-]+\s*/i, '')   // "Trip 4 — " (handles em-dash)
+    .replace(/^(vs\.?\s+|@\s*|at\s+)/i, '')       // leading "vs ", "@ ", "at "
+    .replace(/\(.*?\)/g, '')                        // (HOME), (TBD), etc.
+    .replace(/\s*[★⚡].*$/, '')                    // "★ ARMY-NAVY GAME", "⚡ FRIDAY NIGHT"
+    .trim();
 
   // Location
   const locLine = lines.find(l => /location:|venue:|stadium:/i.test(l));
@@ -915,13 +953,84 @@ function renderCard(trip) {
     </div>`;
 }
 
+// ─── TRIP CONTENT CLEANER ─────────────────────────────────────
+// Strips ASCII box-drawing chars and converts section headers to markdown h3
+function cleanTripPlan(text) {
+  // Remove code block fences
+  text = text.replace(/^```\s*$/gm, '');
+
+  // Convert "SECTION HEADER\n────────────" to "### SECTION HEADER"
+  // Character class uses literal space (not \s) to avoid eating the newline
+  text = text.replace(
+    /^([A-Z][A-Z0-9 \/&()\-—–★⚡.]+)\n[─]{4,}/gm,
+    (_, h) => `\n### ${h.trim()}`
+  );
+
+  // Remove ═══ banner / border lines
+  text = text.replace(/^ *═+.*$/gm, '');
+
+  // Remove remaining standalone ─── divider lines
+  text = text.replace(/^ *─{4,}\s*$/gm, '');
+
+  // Remove box border lines: ┌──┐ and └──┘
+  text = text.replace(/^ *[┌└][─┐┘ ]+$/gm, '');
+
+  // Clean box content lines: strip leading/trailing │
+  text = text.replace(/^ *│\s*(.*?)\s*│?\s*$/gm, '  $1');
+
+  // Remove any remaining stray │ characters
+  text = text.replace(/│/g, '');
+
+  // Collapse 3+ blank lines to 2
+  text = text.replace(/\n{3,}/g, '\n\n');
+
+  return text;
+}
+
+// Render the **Status: ...** line as a styled block with per-component bullets
+function renderStatusBlock(line) {
+  const clean = line.replace(/\*\*/g, '').replace(/^Status:\s*/i, '').trim();
+  const sep = clean.indexOf(' — ');
+  const statusType = (sep >= 0 ? clean.slice(0, sep) : clean).trim();
+  const detail     = sep >= 0 ? clean.slice(sep + 3).trim() : '';
+
+  const up = statusType.toUpperCase();
+  let cls = 'sb-planned';
+  if (up.startsWith('BOOKED'))         cls = 'sb-booked';
+  else if (up.startsWith('PARTIALLY')) cls = 'sb-partial';
+  else if (up === 'STUB')              cls = 'sb-stub';
+
+  let html = `<div class="status-badge ${cls}"><strong class="sb-type">${statusType}</strong>`;
+
+  if (detail) {
+    const parts = detail.split(' | ').map(p => p.trim()).filter(Boolean);
+    if (parts.length <= 1) {
+      html += `<span class="sb-detail"> — ${parts[0] || ''}</span>`;
+    } else {
+      html += '<ul class="sb-parts">';
+      if (up.startsWith('PARTIALLY')) {
+        html += `<li class="sb-ok">✅ ${parts[0]}</li>`;
+        for (let i = 1; i < parts.length; i++)
+          html += `<li class="sb-no">❌ ${parts[i]}</li>`;
+      } else {
+        // BOOKED — all components confirmed
+        for (const p of parts)
+          html += `<li class="sb-ok">✅ ${p}</li>`;
+      }
+      html += '</ul>';
+    }
+  }
+
+  return html + '</div>';
+}
+
 // ─── MARKDOWN RENDERER (lightweight) ─────────────────────────────
 function renderMarkdown(md) {
   let html = md
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     // headings
-    .replace(/^#### (.+)$/gm, '<h3>$1</h3>')
-    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^#### (.+)$/gm, '<h3 class="plan-section">$1</h3>')
+    .replace(/^### (.+)$/gm, '<h3 class="plan-section">$1</h3>')
     .replace(/^## (.+)$/gm, '<h2>$1</h2>')
     .replace(/^# (.+)$/gm, '<h2>$1</h2>')
     // bold/italic
@@ -954,7 +1063,16 @@ function openModal(num) {
   document.getElementById('modal-title').textContent = trip.opponent || trip.title;
   document.getElementById('modal-subtitle').textContent =
     [trip.gameDate, trip.location].filter(Boolean).join(' · ') || 'Trip Details';
-  document.getElementById('modal-content').innerHTML = renderMarkdown(trip.content);
+
+  // Extract and render status line separately, then clean and render the rest
+  let statusHtml = '';
+  const content = trip.content.replace(/^\*\*Status:.*\*\*\s*$/im, match => {
+    statusHtml = renderStatusBlock(match.trim());
+    return '';
+  });
+  document.getElementById('modal-content').innerHTML =
+    statusHtml + renderMarkdown(cleanTripPlan(content));
+
   document.getElementById('modal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
