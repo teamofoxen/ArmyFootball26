@@ -1,5 +1,5 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
-**Status: PLANNED — March 23, 2026**
+**Status: BOOKED — Hotel confirmed (Comfort Suites Central Valley, Woodbury NY)**
 **Hotel: ✅ ALREADY BOOKED — Comfort Suites Central Valley – Woodbury**
 
 ---

@@ -1,5 +1,5 @@
 # Trip 13 — Bowl Game (TBD)
-**Status: PENDING BOWL ASSIGNMENT — Update when announced (early December 2026)**
+**Status: STUB — Awaiting bowl assignment (expected early December 2026)**
 
 ---
 
