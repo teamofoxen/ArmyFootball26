@@ -15,6 +15,54 @@ output a structured travel plan.
 
 Every time the user requests a trip plan, you MUST follow these steps in order:
 
+### Step 0 — Session Orientation (run ONCE at the start of every session)
+
+**0a — Read the latest session log**
+Open `logs/` and read the most recently dated file. Extract:
+- What changed in the last session
+- Any open items or flagged follow-ups
+- Current booking status of each trip
+
+**0b — Check today's date against the game schedule**
+Using today's date, scan the schedule in `travel-system.md` and identify:
+- The next upcoming game (and how many weeks away it is)
+- Any game within 8 weeks that has no confirmed booking — flag as **URGENT**
+- Any game within 4 weeks that has no confirmed booking — flag as **CRITICAL**
+
+**0c — Sweep all 13 trip files for status**
+Read the status line (line 2) of each file in `trips/`. Categorize each trip as:
+- ✅ BOOKED — confirmed reservation exists
+- 📋 PLANNED — plan exists but nothing booked yet
+- ⚠️ STUB — placeholder only, needs full planning
+- ❓ UNKNOWN — status line is missing or unclear
+
+**0d — Report to the user before taking any other action**
+Output a session briefing in this format:
+
+```
+SESSION BRIEFING — [Today's Date]
+
+NEXT GAME: [Opponent] — [Date] ([X weeks away])
+
+BOOKING STATUS:
+  ✅ Booked   : [list]
+  📋 Planned  : [list]
+  ⚠️  Stub     : [list]
+
+URGENT (within 8 weeks, not booked): [list or "None"]
+CRITICAL (within 4 weeks, not booked): [list or "None"]
+
+OPEN ITEMS FROM LAST SESSION:
+  - [item]
+  - [item]
+
+Ready for your instructions.
+```
+
+Do not skip this step. Do not proceed until the briefing is delivered.
+
+---
+
 ### Step 1 — Read `travel-system.md`
 Load the full planning document. Identify the requested trip by number or opponent name.
 Extract:
