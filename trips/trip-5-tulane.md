@@ -88,7 +88,7 @@ HOTEL OPTIONS
   Check-out   : Sunday, October 11, 2026
   Nights      : 2
 
-  Option 1 — nonstop return (verify cheapest airport/airline)
+  Option 1 (RECOMMENDED)
   ┌─────────────────────────────────────────────────────────┐
   │  Name        : Comfort Suites Central Valley – Woodbury │
   │  Chain       : Choice Hotels                            │
@@ -128,7 +128,7 @@ RULES COMPLIANCE CHECK
   ✓  Flights from real get_flights data (not invented)
   ✓  Nonstop available — American and United both serve DFW→NYC
   ✓  No red-eye flights
-  ✓  Hotel within 10 miles of stadium
+  ✓  Hotel proximity: ~15 mi (Comfort Suites) — West Point exception; no hotels within 10 mi of Michie Stadium
   ✓  Hotel rate within MASTER SETTINGS limits
   ✓  Nonstop prioritized; cheapest airport/airline to be verified at booking
   ✓  Arrive NYC day before game — adequate buffer

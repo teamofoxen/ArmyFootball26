@@ -6,7 +6,7 @@
 ```
 ═══════════════════════════════════════════════════════════════
   ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 6 — Army-Navy Game ★ HIGHEST PRIORITY
+  Trip 12 — Army-Navy Game ★ HIGHEST PRIORITY
 ═══════════════════════════════════════════════════════════════
 
 GAME DETAILS

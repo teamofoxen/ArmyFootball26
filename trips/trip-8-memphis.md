@@ -6,7 +6,7 @@
 ```
 ═══════════════════════════════════════════════════════════════
   ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 4 — @ Memphis Tigers
+  Trip 8 — @ Memphis Tigers
 ═══════════════════════════════════════════════════════════════
 
 GAME DETAILS

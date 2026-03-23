@@ -6,7 +6,7 @@
 ```
 ═══════════════════════════════════════════════════════════════
   ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 1 — @ Temple Owls
+  Trip 3 — @ Temple Owls
 ═══════════════════════════════════════════════════════════════
 
 GAME DETAILS

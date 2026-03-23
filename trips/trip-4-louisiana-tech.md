@@ -6,7 +6,7 @@
 ```
 ═══════════════════════════════════════════════════════════════
   ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 2 — @ Louisiana Tech Bulldogs
+  Trip 4 — @ Louisiana Tech Bulldogs
 ═══════════════════════════════════════════════════════════════
 
 GAME DETAILS

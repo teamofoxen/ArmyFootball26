@@ -22,10 +22,15 @@ SEAT CLASS         : Economy (upgrades only if ≤ $75 more per person)
 MAX FLIGHT PRICE   : $600/person one-way (domestic)
 MAX LAYOVER TIME   : 2 hours 30 minutes
 AVOID              : Red-eye flights (depart after 10 PM or arrive before 6 AM)
-HOTEL CHAIN PREF   : Choice Hotels (Choice Privileges) — Comfort Suites, Crowne Plaza, Comfort Inn
+HOTEL CHAIN PREF   : Choice Hotels (Choice Privileges) — Comfort Suites, Comfort Inn
+                     IHG (Crowne Plaza) — acceptable backup; Crowne Plaza is NOT a Choice Hotels brand
                      Fallback: Marriott | Hilton | Hyatt when Choice Hotels unavailable
 MAX NIGHTLY RATE   : $200/night (game weekend premium: $275/night)
 HOTEL PROXIMITY    : Within 10 miles of stadium
+                     HOME GAME EXCEPTION: Michie Stadium is inside West Point Military Academy —
+                     no commercial hotels exist within 10 miles. Closest viable options are
+                     ~15 miles (Comfort Suites Central Valley) and ~25 miles (Crowne Plaza Suffern).
+                     The 10-mile rule is waived for home games.
 HOTEL PARKING      : Required if renting a car
 RENTAL CAR         : Hertz (preferred vendor) — only when public transit/Uber is insufficient
 OUTBOUND TRAVEL    : Day before the game (Friday for Saturday games)
@@ -81,7 +86,7 @@ Search all three NYC airports and pick the best price. See HOME GAME TRAVEL stan
 
 ---
 
-## TRIP 1 — @ Temple Owls
+## TRIP 3 — @ Temple Owls
 
 ```
 OPPONENT        : Temple Owls
@@ -120,7 +125,7 @@ TRIP-SPECIFIC RULES
 
 ---
 
-## TRIP 2 — @ Louisiana Tech Bulldogs
+## TRIP 4 — @ Louisiana Tech Bulldogs
 
 ```
 OPPONENT        : Louisiana Tech Bulldogs
@@ -154,7 +159,7 @@ TRIP-SPECIFIC RULES
 
 ---
 
-## TRIP 3 — @ Tulsa Golden Hurricane ⚡ FRIDAY NIGHT
+## TRIP 7 — @ Tulsa Golden Hurricane ⚡ FRIDAY NIGHT
 
 ```
 OPPONENT        : Tulsa Golden Hurricane
@@ -190,7 +195,7 @@ TRIP-SPECIFIC RULES
 
 ---
 
-## TRIP 4 — @ Memphis Tigers
+## TRIP 8 — @ Memphis Tigers
 
 ```
 OPPONENT        : Memphis Tigers
@@ -230,7 +235,7 @@ TRIP-SPECIFIC RULES
 
 ---
 
-## TRIP 5 — @ Rice Owls
+## TRIP 11 — @ Rice Owls
 
 ```
 OPPONENT        : Rice Owls
@@ -271,7 +276,7 @@ TRIP-SPECIFIC RULES
 
 ---
 
-## TRIP 6 — Army-Navy Game ★ HIGHEST PRIORITY
+## TRIP 12 — Army-Navy Game ★ HIGHEST PRIORITY
 
 ```
 OPPONENT        : Navy Midshipmen
@@ -320,7 +325,7 @@ TRIP-SPECIFIC RULES
 
 ---
 
-## TRIP 7 — Bowl Game (TBD)
+## TRIP 13 — Bowl Game (TBD)
 
 ```
 OPPONENT        : TBD (announced early December 2026)

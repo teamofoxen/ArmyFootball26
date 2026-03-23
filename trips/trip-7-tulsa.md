@@ -6,7 +6,7 @@
 ```
 ═══════════════════════════════════════════════════════════════
   ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 3 — @ Tulsa Golden Hurricane
+  Trip 7 — @ Tulsa Golden Hurricane
 ═══════════════════════════════════════════════════════════════
 
 GAME DETAILS

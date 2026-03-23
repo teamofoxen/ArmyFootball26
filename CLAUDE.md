@@ -102,7 +102,8 @@ results = get_flights(origin="DFW", destination="MEM", date="2026-10-31")
 Use web search to find hotels matching the trip's hotel criteria. Filter results using:
 - MASTER SETTINGS (chain preferences, max nightly rate, proximity rules)
 - Trip-specific hotel notes
-- **Choice Privileges chains (Comfort Suites, Crowne Plaza, Comfort Inn) preferred first**
+- **Choice Hotels (Choice Privileges) chains preferred first — Comfort Suites, Comfort Inn**
+  *(Note: Crowne Plaza is IHG, not Choice Hotels — acceptable as backup especially for home games)*
 
 Search query format: `"[City] hotel near [Stadium Name] [Month] [Year] [chain preference]"`
 
@@ -181,7 +182,8 @@ Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned
 
 - Search for **up to 10 hotel options** per trip
 - Sort results by **distance from the stadium** (closest first)
-- **Prioritize Choice Hotels (Choice Privileges)**: Comfort Suites, Crowne Plaza, Comfort Inn, Quality Inn
+- **Prioritize Choice Hotels (Choice Privileges)**: Comfort Suites, Comfort Inn, Quality Inn
+  *(Crowne Plaza is IHG — acceptable as a backup option, but not a Choice Hotels brand)*
 - Fall back to Marriott, Hilton, Hyatt when Choice Hotels are unavailable nearby
 - All results must be within 10 miles of the stadium (MASTER SETTINGS)
 - Use Hertz for all rental car needs (preferred vendor)

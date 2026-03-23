@@ -43,7 +43,7 @@ VALID_STATUS_PREFIXES = (
 REQUIRED_SECTIONS = [
     ("Game details",         ["GAME DETAILS"]),
     ("Transport/drive plan", ["OUTBOUND FLIGHT", "DRIVE PLAN", "TRANSPORT", "RETURN FLIGHT"]),
-    ("Hotel section",        ["HOTEL OPTIONS", "HOTEL —", "HOTEL\n"]),
+    ("Hotel section",        ["HOTEL OPTIONS", "HOTEL —"]),
     ("Cost summary",         ["COST SUMMARY", "COST ESTIMATE"]),
     ("Notes section",        ["NOTES &", "NOTES AND"]),
     ("Rules compliance",     ["RULES COMPLIANCE"]),
@@ -51,11 +51,14 @@ REQUIRED_SECTIONS = [
 
 
 def parse_status(line2: str) -> str:
-    """Return the status keyword (BOOKED, PLANNED, etc.) or 'UNKNOWN'."""
+    """Return the status keyword (BOOKED, PLANNED, PARTIALLY BOOKED, etc.) or 'UNKNOWN'."""
     for prefix in VALID_STATUS_PREFIXES:
         if line2.startswith(prefix):
-            # Extract the keyword between "**Status: " and the next space or dash
+            # Extract the status keyword after "**Status: "
             rest = line2[len("**Status: "):]
+            # "PARTIALLY BOOKED" is two words — detect it before splitting
+            if rest.startswith("PARTIALLY BOOKED"):
+                return "PARTIALLY BOOKED"
             return rest.split()[0].rstrip("*—-,")
     return "UNKNOWN"
 
