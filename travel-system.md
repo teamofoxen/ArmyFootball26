@@ -45,26 +45,32 @@ BUFFER TIME        : Arrive at destination ≥ 3 hours before kickoff
 
 ## FULL 2026 SEASON SCHEDULE — VERIFIED
 
-| Game | Date | Opponent | Home/Away | Venue | Travel Needed |
-|------|------|----------|-----------|-------|---------------|
-| 1 | Sat, Sep 5 | Bryant | HOME | Michie Stadium, West Point | NO |
-| 2 | Sat, Sep 12 | South Florida | HOME | Michie Stadium, West Point | NO |
-| — | Sat, Sep 19 | BYE WEEK | — | — | NO |
-| 3 | Sat, Sep 26 | @ Temple | AWAY | Lincoln Financial Field, Philadelphia, PA | YES — Trip 1 |
-| 4 | Sat, Oct 3 | @ Louisiana Tech | AWAY | Joe Aillet Stadium, Ruston, LA | YES — Trip 2 |
-| 5 | Sat, Oct 10 | Tulane | HOME | Michie Stadium, West Point | NO |
-| 6 | Sat, Oct 17 | Florida Atlantic | HOME | Michie Stadium, West Point | NO |
-| 7 | Fri, Oct 23 | @ Tulsa ⚡ | AWAY | H.A. Chapman Stadium, Tulsa, OK | YES — Trip 3 |
-| 8 | Sat, Oct 31 | @ Memphis | AWAY | Simmons Bank Liberty Stadium, Memphis, TN | YES — Trip 4 |
-| 9 | Sat, Nov 7 | Air Force | HOME | Michie Stadium, West Point | NO |
-| — | Sat, Nov 14 | BYE WEEK | — | — | NO |
-| 10 | Sat, Nov 21 | East Carolina | HOME | Michie Stadium, West Point | NO |
-| 11 | Sat, Nov 28 | @ Rice | AWAY | Rice Stadium, Houston, TX | YES — Trip 5 |
-| 12 | Sat, Dec 12 | vs Navy ★ | NEUTRAL | MetLife Stadium, East Rutherford, NJ | YES — Trip 6 |
-| 13 | TBD | Bowl Game | AWAY/NEUTRAL | TBD | YES — Trip 7 |
+Traveling to ALL 13 games. Home games require DFW → EWR flights + rental car to West Point.
+
+| Trip | Date | Opponent | Site | Venue | Transport |
+|------|------|----------|------|-------|-----------|
+| 1 | Sat, Sep 5 | Bryant | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 2 | Sat, Sep 12 | South Florida | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| — | Sat, Sep 19 | BYE WEEK | — | — | — |
+| 3 | Sat, Sep 26 | @ Temple | AWAY | Lincoln Financial Field, Philadelphia, PA | Fly DFW→PHL |
+| 4 | Sat, Oct 3 | @ Louisiana Tech | AWAY | Joe Aillet Stadium, Ruston, LA | Drive I-20 E |
+| 5 | Sat, Oct 10 | Tulane | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 6 | Sat, Oct 17 | Florida Atlantic | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 7 | Fri, Oct 23 | @ Tulsa ⚡ | AWAY | H.A. Chapman Stadium, Tulsa, OK | Drive US-75 N |
+| 8 | Sat, Oct 31 | @ Memphis | AWAY | Simmons Bank Liberty Stadium, Memphis, TN | Fly DFW→MEM |
+| 9 | Sat, Nov 7 | Air Force | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| — | Sat, Nov 14 | BYE WEEK | — | — | — |
+| 10 | Sat, Nov 21 | East Carolina | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 11 | Sat, Nov 28 | @ Rice | AWAY | Rice Stadium, Houston, TX | Drive I-45 S |
+| 12 | Sat, Dec 12 | vs Navy ★ | NEUTRAL | MetLife Stadium, East Rutherford, NJ | Fly DFW→EWR |
+| 13 | TBD | Bowl Game | AWAY/NEUTRAL | TBD | Fly or Drive TBD |
 
 ⚡ Friday night game on ESPN
 ★ Army-Navy Game — neutral site, highest priority game of the season
+
+HOME GAME TRAVEL NOTE: All home games require DFW → EWR (nonstop, ~3.5 hrs) +
+rental car from EWR to West Point (69 miles / ~1h 20m). Preferred hotel: The Thayer
+Hotel at West Point (on campus). Book Thayer 6 months in advance for game weekends.
 
 ---
 
@@ -356,17 +362,31 @@ TRIP-SPECIFIC RULES
 
 ---
 
-## HOME GAME REFERENCE (NO TRAVEL REQUIRED)
+## HOME GAME TRAVEL — STANDARD PLAN (Trips 1, 2, 5, 6, 9, 10)
 
-The following games are at Michie Stadium, West Point, NY.
+All home games follow the same travel structure from DFW:
 
-| Date | Opponent | Notes |
-|------|----------|-------|
-| Sat, Sep 5 | Bryant | Season opener — Michie Stadium renovation grand opening |
-| Sat, Sep 12 | South Florida | First-ever meeting as AAC members |
-| Sat, Oct 10 | Tulane | Rematch of 2024 AAC Championship game |
-| Sat, Oct 17 | Florida Atlantic | — |
-| Sat, Nov 7 | Air Force | Commander-in-Chief's Trophy game at HOME |
-| Sat, Nov 21 | East Carolina | — |
+```
+FLIGHT          : DFW → EWR (nonstop, ~3h 33m) — American or United
+OUTBOUND        : Friday before game
+RETURN          : Sunday after game
+GROUND          : Rent car at EWR → drive 69 miles to West Point (~1h 20m)
+ROUTE           : EWR → I-287 N → Palisades Pkwy N → US-9W N → West Point
+HOTEL (PRIMARY) : The Thayer Hotel at West Point — 674 Thayer Rd, on campus
+HOTEL (BACKUP)  : Courtyard by Marriott Newburgh Stewart Airport (~12 mi)
+HOTEL (BUDGET)  : Hampton Inn & Suites Newburgh Stewart Airport (~12 mi)
+FLIGHT COST     : ~$159–220/person one-way (American or United nonstop)
+HOTEL COST      : Thayer ~$180–300/night (varies by game weekend demand)
+BOOK THAYER     : 6 months in advance — game weekends sell out
+```
+
+| Game | Date | Trip File | Notable |
+|------|------|-----------|---------|
+| Bryant | Sat, Sep 5 | trip-1-bryant.md | Season opener + stadium renovation opening |
+| South Florida | Sat, Sep 12 | trip-2-south-florida.md | First AAC home game |
+| Tulane | Sat, Oct 10 | trip-5-tulane.md | AAC Championship rematch |
+| Florida Atlantic | Sat, Oct 17 | trip-6-florida-atlantic.md | Peak fall foliage weekend |
+| Air Force | Sat, Nov 7 | trip-9-air-force.md | CIC Trophy — book Thayer early |
+| East Carolina | Sat, Nov 21 | trip-10-east-carolina.md | Final home game; fly back before Thanksgiving rush |
 
 BYE WEEKS: September 19 | November 14
