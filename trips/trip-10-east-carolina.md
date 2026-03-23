@@ -22,9 +22,9 @@ GAME DETAILS
 OUTBOUND FLIGHT
 ────────────────────────────────────────────────────────────────
   Travel Date : Friday, November 20, 2026
-  Route       : DFW → EWR
+  Route       : DFW → EWR | LGA | JFK (search all three — compare price)
   Carriers    : American Airlines | United Airlines (both nonstop)
-  Flight Time : ~3h 33m nonstop
+  Flight Time : ~3h 33m nonstop DFW → any NYC-area airport
 
   Option 1 (RECOMMENDED — American, morning)
   ┌─────────────────────────────────────────────────────────┐
@@ -44,14 +44,22 @@ OUTBOUND FLIGHT
   │  Est. Price  : ~$159–220/person                         │
   └─────────────────────────────────────────────────────────┘
 
+  Option 3 (LGA or JFK)
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American or United                       │
+  │  Destination : LGA or JFK                               │
+  │  Est. Price  : ~$130–200/person                         │
+  │  Notes       : Add ~15–30 min to drive vs. EWR route;   │
+  │                choose whichever airport is cheapest     │
+  └─────────────────────────────────────────────────────────┘
+
 
 RETURN FLIGHT
 ────────────────────────────────────────────────────────────────
   Travel Date : Sunday, November 22, 2026
-  Route       : EWR → DFW
-  Note        : Pre-Thanksgiving week — Tuesday Nov 24 and
-                Wednesday Nov 25 are peak travel days.
-                Fly Sunday Nov 22 to beat the rush.
+  Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
+  ⚠️ Fly Sunday Nov 22 — pre-Thanksgiving travel peaks
+     Tuesday Nov 24 and Wednesday Nov 25. Sunday is clean.
 
   Option 1 (RECOMMENDED)
   ┌─────────────────────────────────────────────────────────┐
@@ -63,11 +71,14 @@ RETURN FLIGHT
   └─────────────────────────────────────────────────────────┘
 
 
-GROUND TRANSPORT — EWR TO WEST POINT
+GROUND TRANSPORT — EWR TO CENTRAL VALLEY / SUFFERN
 ────────────────────────────────────────────────────────────────
   Mode          : Rental car from EWR
-  Distance      : 69 miles | ~1h 20m
-  Route         : EWR → I-287 N → Palisades Pkwy N → US-9W N
+  Route to CS   : EWR → NJ Tpke N → I-287 E → I-87 N → Exit 16
+                  (~65 miles, ~1h 15m to Comfort Suites)
+  Route to CP   : EWR → NJ Tpke N → I-287 N → NY-17 N → Suffern
+                  (~55 miles, ~1h to Crowne Plaza)
+  Hotel → Stadium: ~15–25 min to Michie Stadium
   Est. cost     : ~$80–110 for weekend rental
 
 
@@ -79,61 +90,45 @@ HOTEL OPTIONS
 
   Option 1 (RECOMMENDED)
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : The Thayer Hotel at West Point           │
-  │  Chain       : Independent (Historic Hotel of America)  │
-  │  Address     : 674 Thayer Road, West Point, NY 10996    │
-  │  Distance    : ON West Point campus                     │
-  │  Est. Rate   : ~$180–220/night | Total: ~$360–440       │
-  │  Parking     : On-site available                        │
-  │  Notes       : Final home game — Senior Day atmosphere; │
-  │                good availability vs. earlier season     │
+  │  Name        : Comfort Suites Central Valley – Woodbury │
+  │  Chain       : Choice Hotels                            │
+  │  Address     : 100 Estrada Rd, Woodbury, NY 10917       │
+  │  Distance    : ~15 miles from Michie Stadium (~20 min)  │
+  │  Est. Rate   : ~$120–150/night | Total: ~$240–300       │
+  │  Parking     : Free on-site ✓                           │
   └─────────────────────────────────────────────────────────┘
 
   Option 2
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Courtyard by Marriott Newburgh           │
-  │                Stewart Airport                          │
-  │  Chain       : Marriott ✓                               │
-  │  Distance    : ~12 miles from West Point                │
+  │  Name        : Crowne Plaza Suffern-Mahwah              │
+  │  Chain       : IHG (Crowne Plaza)                       │
+  │  Address     : Three Executive Blvd, Suffern, NY 10901  │
+  │  Distance    : ~25 miles from Michie Stadium (~35 min)  │
   │  Est. Rate   : ~$140–170/night | Total: ~$280–340       │
-  │  Parking     : Free on-site ✓                           │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Hampton Inn & Suites Newburgh            │
-  │                Stewart Airport                          │
-  │  Chain       : Hilton ✓                                 │
-  │  Distance    : ~12 miles from West Point                │
-  │  Est. Rate   : ~$125–155/night | Total: ~$250–310       │
-  │  Parking     : Free on-site ✓                           │
+  │  Parking     : On-site available                        │
   └─────────────────────────────────────────────────────────┘
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Thayer Hotel, 2 adults)
+  (Option 1 flights + Option 1 hotel, 2 adults)
 
   Flights (RT)    : ~$320–420/person × 2 = ~$640–840
-  Hotel           : ~$200/night × 2 nights = ~$400
+  Hotel           : ~$135/night × 2 nights = ~$270
   Rental Car      : ~$95 weekend
-  Gas/Tolls       : ~$30
+  Gas/Tolls       : ~$40
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,165–1,365
+  ESTIMATED TOTAL : ~$1,045–1,245
 
   Budget Status   : ✅ WITHIN BUDGET
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - Pre-Thanksgiving game weekend — fly home Sunday Nov 22
-    to avoid the Thanksgiving travel crunch (Tue/Wed Nov 24–25)
-  - November in West Point: 35–45°F, cold and possibly wet;
-    dress for late autumn conditions
-  - Final home game before Army-Navy — Senior Day ceremonies
-    typically held; plan to arrive early for pre-game events
-  - Immediately after this game: start final Army-Navy prep
-    (Trip 12 is just 3 weeks later)
+  - Fly home Sunday Nov 22 to avoid pre-Thanksgiving rush
+  - Final home game before Army-Navy (3 weeks later Dec 12)
+  - November in West Point: 35–45°F; cold and possibly wet
+  - Senior Day ceremonies — arrive early for pre-game events
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026

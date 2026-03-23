@@ -12,6 +12,10 @@ These settings apply to every trip unless a trip explicitly overrides them.
 HOME BASE          : Dallas-Fort Worth, TX
 PRIMARY AIRPORT    : DFW (Dallas/Fort Worth International)
 BACKUP AIRPORT     : DAL (Dallas Love Field — Southwest only)
+NYC AREA AIRPORTS  : EWR | LGA | JFK — search all three for best price and schedule
+                     EWR: ~65 mi to Central Valley via NJ Tpke → I-87 N (~1h 15m)
+                     LGA: ~55 mi to Central Valley via GWB → I-87 N (~1h–1h 30m)
+                     JFK: ~65 mi to Central Valley via GWB → I-87 N (~1h 15m–1h 45m)
 TRAVEL PARTY SIZE  : 2 adults
 AIRLINE PREFERENCE : American > Delta > United (American hubs at DFW)
 SEAT CLASS         : Economy (upgrades only if ≤ $75 more per person)
@@ -45,32 +49,32 @@ BUFFER TIME        : Arrive at destination ≥ 3 hours before kickoff
 
 ## FULL 2026 SEASON SCHEDULE — VERIFIED
 
-Traveling to ALL 13 games. Home games require DFW → EWR flights + rental car to West Point.
+Traveling to ALL 13 games. Home games require DFW → EWR/LGA/JFK flights + rental car to West Point area.
 
 | Trip | Date | Opponent | Site | Venue | Transport |
 |------|------|----------|------|-------|-----------|
-| 1 | Sat, Sep 5 | Bryant | HOME | Michie Stadium, West Point | Fly DFW→EWR |
-| 2 | Sat, Sep 12 | South Florida | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 1 | Sat, Sep 5 | Bryant | HOME | Michie Stadium, West Point | Fly DFW→NYC |
+| 2 | Sat, Sep 12 | South Florida | HOME | Michie Stadium, West Point | Fly DFW→NYC |
 | — | Sat, Sep 19 | BYE WEEK | — | — | — |
 | 3 | Sat, Sep 26 | @ Temple | AWAY | Lincoln Financial Field, Philadelphia, PA | Fly DFW→PHL |
 | 4 | Sat, Oct 3 | @ Louisiana Tech | AWAY | Joe Aillet Stadium, Ruston, LA | Drive I-20 E |
-| 5 | Sat, Oct 10 | Tulane | HOME | Michie Stadium, West Point | Fly DFW→EWR |
-| 6 | Sat, Oct 17 | Florida Atlantic | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 5 | Sat, Oct 10 | Tulane | HOME | Michie Stadium, West Point | Fly DFW→NYC |
+| 6 | Sat, Oct 17 | Florida Atlantic | HOME | Michie Stadium, West Point | Fly DFW→NYC |
 | 7 | Fri, Oct 23 | @ Tulsa ⚡ | AWAY | H.A. Chapman Stadium, Tulsa, OK | Drive US-75 N |
 | 8 | Sat, Oct 31 | @ Memphis | AWAY | Simmons Bank Liberty Stadium, Memphis, TN | Fly DFW→MEM |
-| 9 | Sat, Nov 7 | Air Force | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 9 | Sat, Nov 7 | Air Force | HOME | Michie Stadium, West Point | Fly DFW→NYC |
 | — | Sat, Nov 14 | BYE WEEK | — | — | — |
-| 10 | Sat, Nov 21 | East Carolina | HOME | Michie Stadium, West Point | Fly DFW→EWR |
+| 10 | Sat, Nov 21 | East Carolina | HOME | Michie Stadium, West Point | Fly DFW→NYC |
 | 11 | Sat, Nov 28 | @ Rice | AWAY | Rice Stadium, Houston, TX | Drive I-45 S |
-| 12 | Sat, Dec 12 | vs Navy ★ | NEUTRAL | MetLife Stadium, East Rutherford, NJ | Fly DFW→EWR |
+| 12 | Sat, Dec 12 | vs Navy ★ | NEUTRAL | MetLife Stadium, East Rutherford, NJ | Fly DFW→NYC |
 | 13 | TBD | Bowl Game | AWAY/NEUTRAL | TBD | Fly or Drive TBD |
 
 ⚡ Friday night game on ESPN
 ★ Army-Navy Game — neutral site, highest priority game of the season
 
-HOME GAME TRAVEL NOTE: All home games require DFW → EWR (nonstop, ~3.5 hrs) +
-rental car from EWR to West Point (69 miles / ~1h 20m). Preferred hotel: The Thayer
-Hotel at West Point (on campus). Book Thayer 6 months in advance for game weekends.
+HOME GAME TRAVEL NOTE: All home games require DFW → EWR/LGA/JFK (nonstop, ~3.5 hrs) +
+rental car from airport to West Point area (~55–65 miles / ~1h–1h 30m depending on airport).
+Search all three NYC airports and pick the best price. See HOME GAME TRAVEL standard plan below.
 
 ---
 
@@ -277,11 +281,11 @@ NOTE            : Second time at MetLife Stadium (first was 2021)
 
 AIRPORTS
   Origin        : DFW (primary)
-  Destination   : EWR (Newark Liberty — closest to MetLife, ~15 min by car)
-  Alt Dest      : JFK (John F. Kennedy — ~45 min to MetLife)
-                  LGA (LaGuardia — ~35 min to MetLife)
-  Note          : EWR is the clear best choice — closest airport to MetLife Stadium.
-                  DFW → EWR nonstop is ~3.5 hrs on American or United.
+  Destination   : EWR | LGA | JFK — search all three for best price
+  Distances     : EWR → MetLife ~15 min | LGA → MetLife ~35 min | JFK → MetLife ~45 min
+  Note          : EWR is physically closest to MetLife Stadium but search all three —
+                  price difference may make LGA or JFK the better value.
+                  DFW → any NYC airport nonstop is ~3.5 hrs on American or United.
 
 TRAVEL DATES
   Outbound      : Friday, December 11, 2026
@@ -367,17 +371,26 @@ TRIP-SPECIFIC RULES
 All home games follow the same travel structure from DFW:
 
 ```
-FLIGHT          : DFW → EWR (nonstop, ~3h 33m) — American or United
+FLIGHT          : DFW → EWR | LGA | JFK — search all three, pick best price
+                  American or United nonstop (~3h 33m); compare all three airports
+FLIGHT TIME     : ~3h 33m nonstop DFW → any NYC-area airport
 OUTBOUND        : Friday before game
 RETURN          : Sunday after game
-GROUND          : Rent car at EWR → drive 69 miles to West Point (~1h 20m)
-ROUTE           : EWR → I-287 N → Palisades Pkwy N → US-9W N → West Point
-HOTEL (PRIMARY) : The Thayer Hotel at West Point — 674 Thayer Rd, on campus
-HOTEL (BACKUP)  : Courtyard by Marriott Newburgh Stewart Airport (~12 mi)
-HOTEL (BUDGET)  : Hampton Inn & Suites Newburgh Stewart Airport (~12 mi)
+GROUND          : Rent car at airport → drive to Central Valley or Suffern area
+
+FROM EWR        : NJ Tpke N → I-287 E → I-87 N (NY Thruway) → Exit 16 (Harriman)
+                  → ~65 miles, ~1h 15m to Central Valley
+FROM LGA/JFK    : Cross Bronx/GWB → I-87 N → ~55–65 miles, ~1h–1h 30m
+
+HOTEL (PRIMARY) : Comfort Suites Central Valley – Woodbury
+                  100 Estrada Rd, Woodbury, NY 10917
+                  ~15 miles / ~20 min to Michie Stadium via US-9W N
+HOTEL (ALT)     : Crowne Plaza Suffern-Mahwah
+                  Three Executive Blvd, Suffern, NY 10901
+                  ~25 miles / ~35 min to Michie Stadium via Palisades Pkwy N
 FLIGHT COST     : ~$159–220/person one-way (American or United nonstop)
-HOTEL COST      : Thayer ~$180–300/night (varies by game weekend demand)
-BOOK THAYER     : 6 months in advance — game weekends sell out
+HOTEL COST      : Comfort Suites ~$120–160/night | Crowne Plaza ~$140–180/night
+NOTE            : Trip 1 (Bryant, Sep 5) already booked at Comfort Suites
 ```
 
 | Game | Date | Trip File | Notable |
@@ -386,7 +399,7 @@ BOOK THAYER     : 6 months in advance — game weekends sell out
 | South Florida | Sat, Sep 12 | trip-2-south-florida.md | First AAC home game |
 | Tulane | Sat, Oct 10 | trip-5-tulane.md | AAC Championship rematch |
 | Florida Atlantic | Sat, Oct 17 | trip-6-florida-atlantic.md | Peak fall foliage weekend |
-| Air Force | Sat, Nov 7 | trip-9-air-force.md | CIC Trophy — book Thayer early |
+| Air Force | Sat, Nov 7 | trip-9-air-force.md | CIC Trophy — book hotel early, high demand |
 | East Carolina | Sat, Nov 21 | trip-10-east-carolina.md | Final home game; fly back before Thanksgiving rush |
 
 BYE WEEKS: September 19 | November 14

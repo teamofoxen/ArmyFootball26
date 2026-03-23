@@ -1,5 +1,6 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
 **Status: PLANNED — March 23, 2026**
+**Hotel: ✅ ALREADY BOOKED — Comfort Suites Central Valley – Woodbury**
 
 ---
 
@@ -24,11 +25,9 @@ GAME DETAILS
 OUTBOUND FLIGHT
 ────────────────────────────────────────────────────────────────
   Travel Date : Friday, September 4, 2026
-  Route       : DFW → EWR (Newark Liberty)
-  Note        : No direct DFW→SWF service. EWR is the gateway
-                to West Point — 69 miles / ~1h 20m drive north.
+  Route       : DFW → EWR | LGA | JFK (search all three — compare price)
   Carriers    : American Airlines | United Airlines (both nonstop)
-  Flight Time : ~3h 33m nonstop
+  Flight Time : ~3h 33m nonstop DFW → any NYC-area airport
 
   Option 1 (RECOMMENDED — American, morning)
   ┌─────────────────────────────────────────────────────────┐
@@ -37,11 +36,11 @@ OUTBOUND FLIGHT
   │  Arrives     : ~12:00–2:00 PM ET at EWR                 │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$159–220/person                         │
-  │  Notes       : Arrive early afternoon — full evening    │
-  │                to get settled near West Point           │
+  │  Notes       : Morning arrival — full afternoon to      │
+  │                drive to Central Valley and settle in    │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (United — more nonstop frequency)
+  Option 2 (United — more frequency)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : United Airlines                          │
   │  Departs     : ~8:00–10:00 AM CT from DFW               │
@@ -50,11 +49,21 @@ OUTBOUND FLIGHT
   │  Est. Price  : ~$159–236/person                         │
   └─────────────────────────────────────────────────────────┘
 
+  Option 3 (LGA or JFK)
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American or United                       │
+  │  Destination : LGA or JFK                               │
+  │  Stops       : Nonstop or 1 stop                        │
+  │  Est. Price  : ~$130–200/person                         │
+  │  Notes       : Add ~15–30 min to drive vs. EWR route;   │
+  │                choose whichever airport is cheapest     │
+  └─────────────────────────────────────────────────────────┘
+
 
 RETURN FLIGHT
 ────────────────────────────────────────────────────────────────
   Travel Date : Sunday, September 6, 2026
-  Route       : EWR → DFW
+  Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
 
   Option 1 (RECOMMENDED)
   ┌─────────────────────────────────────────────────────────┐
@@ -66,87 +75,55 @@ RETURN FLIGHT
   └─────────────────────────────────────────────────────────┘
 
 
-GROUND TRANSPORT — EWR TO WEST POINT
+GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY
 ────────────────────────────────────────────────────────────────
-  Mode          : Rental car from EWR (required)
-  Distance      : 69 miles | ~1h 20m
-  Route         : EWR → I-78 W → I-287 N → Palisades Pkwy N →
-                  US-9W N → West Point (Highland Falls gate)
-  Rental return : EWR on Sunday before departure
-  Est. cost     : ~$80–120 for weekend rental
-  Note          : Uber/Lyft from EWR to West Point = ~$90–120
-                  one-way; rental car is far more cost-effective
+  Mode          : Rental car from whichever NYC airport you fly into
+  Destination   : Comfort Suites Central Valley – Woodbury
+  From EWR      : NJ Tpke N → I-287 E → I-87 N → Exit 16 (~65 mi, ~1h 15m)
+  From LGA/JFK  : GWB → I-87 N → Exit 16 (~55–65 mi, ~1h–1h 30m)
+  Hotel → Stadium: ~15 miles / ~20 min via US-9W N to West Point
+  Rental return : Return to same airport on Sunday before departure
+  Est. cost     : ~$80–110 for weekend rental
 
 
-HOTEL OPTIONS
+HOTEL — ✅ ALREADY BOOKED
 ────────────────────────────────────────────────────────────────
   Check-in    : Friday, September 4, 2026
   Check-out   : Sunday, September 6, 2026
   Nights      : 2
 
-  Option 1 (RECOMMENDED — On Campus)
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : The Thayer Hotel at West Point           │
-  │  Chain       : Independent (Historic Hotel of America)  │
-  │  Address     : 674 Thayer Road, West Point, NY 10996    │
-  │  Distance    : ON West Point campus — steps from        │
-  │                Michie Stadium                           │
-  │  Est. Rate   : ~$250–300/night | Total: ~$500–600       │
-  │                (season opener + renovation = premium)   │
-  │  Parking     : On-site available                        │
-  │  Notes       : THE hotel for West Point football. On    │
-  │                campus, Hudson River views, Zulu Bar.    │
-  │                ⚠️ Books 6 months out — reserve NOW      │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 (Marriott — Newburgh/Stewart)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Courtyard by Marriott Newburgh           │
-  │                Stewart Airport                          │
-  │  Chain       : Marriott ✓                               │
-  │  Area        : Newburgh, NY (~12 miles from West Point) │
-  │  Est. Rate   : ~$160–200/night | Total: ~$320–400       │
+  │  Name        : Comfort Suites Central Valley – Woodbury │
+  │  Chain       : Choice Hotels                            │
+  │  Address     : 100 Estrada Rd, Woodbury, NY 10917       │
+  │  Distance    : ~15 miles from Michie Stadium            │
+  │  Drive time  : ~20 min via US-9W N                      │
   │  Parking     : Free on-site ✓                           │
-  │  Notes       : Good Marriott points option; short drive │
-  │                to West Point game day                   │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 (Hilton — Newburgh/Stewart)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Hampton Inn & Suites Newburgh            │
-  │                Stewart Airport                          │
-  │  Chain       : Hilton ✓                                 │
-  │  Area        : Newburgh, NY (~12 miles from West Point) │
-  │  Est. Rate   : ~$150–185/night | Total: ~$300–370       │
-  │  Parking     : Free on-site ✓                           │
-  │  Notes       : Solid value; free breakfast              │
+  │  Status      : ✅ ALREADY BOOKED                        │
   └─────────────────────────────────────────────────────────┘
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Thayer Hotel, 2 adults)
+  (Option 1 flights + Comfort Suites already booked, 2 adults)
 
   Flights (RT)    : ~$320–440/person × 2 = ~$640–880
-  Hotel           : ~$275/night × 2 nights = ~$550
-  Rental Car      : ~$100 weekend
-  Gas/Tolls       : ~$30
+  Hotel           : BOOKED
+  Rental Car      : ~$95 weekend
+  Gas/Tolls       : ~$40 (NJ Tpke + NY Thruway)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,320–1,560
+  ESTIMATED TOTAL : ~$775–1,015 (excl. hotel)
 
-  Budget Status   : ✅ WITHIN BUDGET (Thayer premium justified
-                    for season opener + renovation opening)
+  Budget Status   : ✅ WITHIN BUDGET
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - ⚠️ BOOK THAYER HOTEL IMMEDIATELY — season opener +
-    Michie Stadium grand reopening = sold out fast
-  - This is a historic occasion (renovation opening); Thayer
-    Hotel is the only right call for this game
-  - September in West Point: 70s°F, beautiful Hudson Valley
-  - Labor Day weekend — Friday traffic on I-95/Palisades Pkwy
-    heading north can be heavy; depart EWR by 2 PM at latest
+  - Hotel already booked ✅ — book flights next
+  - Labor Day weekend — I-87 N will be busy Friday afternoon;
+    aim to leave EWR by 2:00 PM at latest
+  - Historic occasion: Michie Stadium renovation grand opening
+  - September in West Point: 70s°F, beautiful Hudson Valley fall
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026

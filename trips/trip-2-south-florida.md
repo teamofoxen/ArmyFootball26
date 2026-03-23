@@ -22,9 +22,9 @@ GAME DETAILS
 OUTBOUND FLIGHT
 ────────────────────────────────────────────────────────────────
   Travel Date : Friday, September 11, 2026
-  Route       : DFW → EWR
+  Route       : DFW → EWR | LGA | JFK (search all three — compare price)
   Carriers    : American Airlines | United Airlines (both nonstop)
-  Flight Time : ~3h 33m nonstop
+  Flight Time : ~3h 33m nonstop DFW → any NYC-area airport
 
   Option 1 (RECOMMENDED — American, morning)
   ┌─────────────────────────────────────────────────────────┐
@@ -44,11 +44,20 @@ OUTBOUND FLIGHT
   │  Est. Price  : ~$159–220/person                         │
   └─────────────────────────────────────────────────────────┘
 
+  Option 3 (LGA or JFK)
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American or United                       │
+  │  Destination : LGA or JFK                               │
+  │  Est. Price  : ~$130–200/person                         │
+  │  Notes       : Add ~15–30 min to drive vs. EWR route;   │
+  │                choose whichever airport is cheapest     │
+  └─────────────────────────────────────────────────────────┘
+
 
 RETURN FLIGHT
 ────────────────────────────────────────────────────────────────
   Travel Date : Sunday, September 13, 2026
-  Route       : EWR → DFW
+  Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
 
   Option 1 (RECOMMENDED)
   ┌─────────────────────────────────────────────────────────┐
@@ -60,11 +69,14 @@ RETURN FLIGHT
   └─────────────────────────────────────────────────────────┘
 
 
-GROUND TRANSPORT — EWR TO WEST POINT
+GROUND TRANSPORT — EWR TO CENTRAL VALLEY / SUFFERN
 ────────────────────────────────────────────────────────────────
   Mode          : Rental car from EWR
-  Distance      : 69 miles | ~1h 20m
-  Route         : EWR → I-287 N → Palisades Pkwy N → US-9W N
+  Route to CS   : EWR → NJ Tpke N → I-287 E → I-87 N → Exit 16
+                  (~65 miles, ~1h 15m to Comfort Suites)
+  Route to CP   : EWR → NJ Tpke N → I-287 N → NY-17 N → Suffern
+                  (~55 miles, ~1h to Crowne Plaza)
+  Hotel → Stadium: ~15–25 min to Michie Stadium
   Est. cost     : ~$80–110 for weekend rental
 
 
@@ -76,56 +88,44 @@ HOTEL OPTIONS
 
   Option 1 (RECOMMENDED)
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : The Thayer Hotel at West Point           │
-  │  Chain       : Independent (Historic Hotel of America)  │
-  │  Address     : 674 Thayer Road, West Point, NY 10996    │
-  │  Distance    : ON West Point campus                     │
-  │  Est. Rate   : ~$230–280/night | Total: ~$460–560       │
-  │  Parking     : On-site available                        │
-  │  Notes       : On campus — walk to Michie Stadium.      │
-  │                ⚠️ Book well in advance                  │
+  │  Name        : Comfort Suites Central Valley – Woodbury │
+  │  Chain       : Choice Hotels                            │
+  │  Address     : 100 Estrada Rd, Woodbury, NY 10917       │
+  │  Distance    : ~15 miles from Michie Stadium (~20 min)  │
+  │  Est. Rate   : ~$120–155/night | Total: ~$240–310       │
+  │  Parking     : Free on-site ✓                           │
   └─────────────────────────────────────────────────────────┘
 
   Option 2
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Courtyard by Marriott Newburgh           │
-  │                Stewart Airport                          │
-  │  Chain       : Marriott ✓                               │
-  │  Distance    : ~12 miles from West Point                │
-  │  Est. Rate   : ~$155–190/night | Total: ~$310–380       │
-  │  Parking     : Free on-site ✓                           │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Hampton Inn & Suites Newburgh            │
-  │                Stewart Airport                          │
-  │  Chain       : Hilton ✓                                 │
-  │  Distance    : ~12 miles from West Point                │
+  │  Name        : Crowne Plaza Suffern-Mahwah              │
+  │  Chain       : IHG (Crowne Plaza)                       │
+  │  Address     : Three Executive Blvd, Suffern, NY 10901  │
+  │  Distance    : ~25 miles from Michie Stadium (~35 min)  │
   │  Est. Rate   : ~$140–175/night | Total: ~$280–350       │
-  │  Parking     : Free on-site ✓                           │
+  │  Parking     : On-site available                        │
   └─────────────────────────────────────────────────────────┘
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Thayer Hotel, 2 adults)
+  (Option 1 flights + Option 1 hotel, 2 adults)
 
   Flights (RT)    : ~$320–420/person × 2 = ~$640–840
-  Hotel           : ~$255/night × 2 nights = ~$510
+  Hotel           : ~$138/night × 2 nights = ~$275
   Rental Car      : ~$95 weekend
-  Gas/Tolls       : ~$30
+  Gas/Tolls       : ~$40
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,275–1,475
+  ESTIMATED TOTAL : ~$1,050–1,250
 
   Budget Status   : ✅ WITHIN BUDGET
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - September 11 travel — light Friday travel generally
-  - First AAC home conference game of the season
-  - September in West Point: 65–75°F, ideal football weather
+  - Back-to-back home games (Sep 5 and Sep 12) — consider
+    staying in the area the whole week to save on flights
+  - September in West Point: 65–75°F, great football weather
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
