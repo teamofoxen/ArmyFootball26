@@ -69,14 +69,16 @@ RETURN FLIGHT
   └─────────────────────────────────────────────────────────┘
 
 
-GROUND TRANSPORT — EWR TO CENTRAL VALLEY / SUFFERN
+GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY / SUFFERN
 ────────────────────────────────────────────────────────────────
-  Mode          : Rental car from EWR
-  Route to CS   : EWR → NJ Tpke N → I-287 E → I-87 N → Exit 16
+  Mode          : Rental car from whichever NYC airport you fly into
+  From EWR → CS : NJ Tpke N → I-287 E → I-87 N → Exit 16
                   (~65 miles, ~1h 15m to Comfort Suites)
-  Route to CP   : EWR → NJ Tpke N → I-287 N → NY-17 N → Suffern
+  From EWR → CP : NJ Tpke N → I-287 N → NY-17 N → Suffern
                   (~55 miles, ~1h to Crowne Plaza)
+  From LGA/JFK  : GWB → I-87 N → Exit 16 (~55–65 mi, ~1h–1h 30m)
   Hotel → Stadium: ~15–25 min to Michie Stadium
+  Rental return : Return to same airport on departure day
   Est. cost     : ~$80–110 for weekend rental
 
 

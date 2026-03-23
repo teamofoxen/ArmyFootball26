@@ -307,8 +307,8 @@ TRANSPORT
 
 TRIP-SPECIFIC RULES
   - [P1] HIGHEST PRIORITY — never skip or de-prioritize this game
-  - Call get_flights: DFW → EWR (Friday Dec 11 outbound, Sunday Dec 13 return)
-  - This IS a flight trip from DFW — ~3.5 hrs nonstop to EWR
+  - Call get_flights: DFW → EWR, DFW → LGA, DFW → JFK (all three — compare nonstop prices)
+  - This IS a flight trip from DFW — ~3.5 hrs nonstop to any NYC-area airport
   - Book hotel IMMEDIATELY — MetLife Army-Navy weekends sell out very fast
   - Purchase game tickets separately through Army's official alumni/fan allocation
   - 3:00 PM ET kickoff — depart hotel no later than noon; arrive stadium by 1:30 PM
