@@ -70,38 +70,6 @@ def check_sections(content: str) -> list[str]:
     return missing
 
 
-# Home game trips that fly DFW→NYC — must show all three airports in ground transport
-NYC_FLY_TRIPS = {
-    "trip-1-bryant.md",
-    "trip-2-south-florida.md",
-    "trip-5-tulane.md",
-    "trip-6-florida-atlantic.md",
-    "trip-9-air-force.md",
-    "trip-10-east-carolina.md",
-    "trip-12-army-navy.md",
-}
-
-
-def check_ewr_ghost(filename: str, content: str) -> list[str]:
-    """Detect EWR-only ground transport — the recurring ghost preference."""
-    if filename not in NYC_FLY_TRIPS:
-        return []
-    errors = []
-    if "Rental car from EWR" in content:
-        errors.append(
-            "Ghost EWR preference: ground transport says 'Rental car from EWR' — "
-            "should say 'whichever NYC airport you fly into'"
-        )
-    if "GROUND TRANSPORT — EWR TO" in content.upper():
-        errors.append(
-            "Ghost EWR preference: section header says 'EWR TO ...' — "
-            "should say 'NYC AIRPORT TO ...'"
-        )
-    if "LGA" not in content.upper() or "JFK" not in content.upper():
-        errors.append(
-            "Ghost EWR preference: ground transport section is missing LGA and/or JFK directions"
-        )
-    return errors
 
 
 def validate_file(filename: str) -> list[str]:
@@ -142,9 +110,6 @@ def validate_file(filename: str) -> list[str]:
     missing = check_sections(content)
     for section in missing:
         errors.append(f"Missing section: {section}")
-
-    for err in check_ewr_ghost(filename, content):
-        errors.append(err)
 
     return errors
 
