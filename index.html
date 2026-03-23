@@ -646,6 +646,31 @@
   .sb-ok { color: var(--booked); }
   .sb-no { color: #E57373; }
 
+  /* KEY-VALUE ROWS — trip plan data fields */
+  .kv-row {
+    display: flex;
+    gap: 12px;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    align-items: baseline;
+  }
+  .kv-row:last-of-type { border-bottom: none; }
+  .kv-key {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray-light);
+    min-width: 110px;
+    flex-shrink: 0;
+    padding-top: 1px;
+  }
+  .kv-val {
+    font-size: 13px;
+    color: var(--white);
+    line-height: 1.5;
+  }
+
   /* PLAN CONTENT — cleaned trip plan rendering */
   .md-content .plan-section {
     font-family: 'DM Mono', monospace;
@@ -1040,12 +1065,19 @@ function renderMarkdown(md) {
     .replace(/^---+$/gm, '<hr>')
     // lists
     .replace(/^[\-\*] (.+)$/gm, '<li>$1</li>')
+    // key-value rows: "  Key     : Value" → styled two-column row
+    // Requires 2+ leading spaces, word-char key, 1+ spaces before colon separator
+    .replace(
+      /^ {2,}(\w[^:\n]+?)\s+:\s*(.+)$/gm,
+      (_, k, v) => `<div class="kv-row"><span class="kv-key">${k.trim()}</span><span class="kv-val">${v.trim()}</span></div>`
+    )
     // paragraphs (blank line = new para)
     .split(/\n\n+/)
     .map(block => {
       block = block.trim();
       if (!block) return '';
-      if (/^<(h[1-6]|ul|li|hr|pre)/.test(block)) return block;
+      // don't re-wrap blocks that are already HTML elements
+      if (/^<(h[1-6]|ul|li|hr|pre|div)/.test(block)) return block;
       // wrap li in ul
       if (block.includes('<li>')) return `<ul>${block}</ul>`;
       return `<p>${block.replace(/\n/g, '<br>')}</p>`;
