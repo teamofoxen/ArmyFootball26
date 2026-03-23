@@ -868,7 +868,8 @@ async function fetchGitHub(path, cfg) {
 }
 
 async function fetchFileContent(fileObj, cfg) {
-  const res = await fetch(fileObj.download_url);
+  const url = fileObj.download_url + '?t=' + Date.now();
+  const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) throw new Error(`Failed to fetch ${fileObj.name}`);
   return res.text();
 }
