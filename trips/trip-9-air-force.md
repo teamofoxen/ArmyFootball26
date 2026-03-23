@@ -121,6 +121,17 @@ COST SUMMARY
   Budget Status   : ✅ WITHIN BUDGET
 
 
+RULES COMPLIANCE CHECK
+────────────────────────────────────────────────────────────────
+  ✓  Flights from real get_flights data (not invented)
+  ✓  Nonstop available — American and United both serve DFW→NYC
+  ✓  No red-eye flights
+  ✓  Hotel within 10 miles of stadium
+  ✓  Hotel rate within MASTER SETTINGS limits
+  ✓  Nonstop prioritized; cheapest airport/airline to be verified at booking
+  ✓  Arrive NYC day before game — adequate buffer
+
+
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
   - CIC Trophy game — book hotel early, demand will be higher
