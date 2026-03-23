@@ -20,13 +20,36 @@ def get_flights(origin, destination, date):
 
     try:
         response = requests.get(url, params=params, timeout=10)
-        data = response.json()
+    except requests.exceptions.Timeout:
+        return "ERROR: Network timeout — SerpAPI did not respond in 10 seconds. Try again."
+    except requests.exceptions.ConnectionError as e:
+        return f"ERROR: Network connection failed — {e}"
     except Exception as e:
-        return f"ERROR: Request failed - {e}"
+        return f"ERROR: Request failed — {e}"
+
+    if response.status_code == 401:
+        return "ERROR: Invalid or missing SerpAPI key. Check your .env file."
+    if response.status_code == 429:
+        return "ERROR: SerpAPI quota exhausted (100 searches/month on free tier). Upgrade plan or wait for reset."
+    if response.status_code >= 500:
+        return f"ERROR: SerpAPI server error (HTTP {response.status_code}). Try again later."
+    if response.status_code != 200:
+        return f"ERROR: Unexpected HTTP {response.status_code} from SerpAPI."
+
+    try:
+        data = response.json()
+    except Exception:
+        return "ERROR: SerpAPI returned non-JSON response. The API may be down."
+
+    # SerpAPI also returns quota/auth errors in the JSON body
+    if "error" in data:
+        error_msg = data["error"]
+        if "credit" in error_msg.lower() or "quota" in error_msg.lower() or "limit" in error_msg.lower():
+            return f"ERROR: SerpAPI quota exhausted — {error_msg}"
+        return f"ERROR: SerpAPI returned an error — {error_msg}"
 
     # Extract useful results
     results = []
-
     for r in data.get("organic_results", [])[:5]:
         results.append({
             "title": r.get("title"),
@@ -35,6 +58,6 @@ def get_flights(origin, destination, date):
         })
 
     if not results:
-        return "No results found."
+        return "NO RESULTS: SerpAPI returned no organic results for this search. Flight data unavailable — do not fabricate."
 
     return results
