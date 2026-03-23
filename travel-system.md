@@ -38,6 +38,7 @@ RETURN TRAVEL      : Day after the game (Sunday for Saturday games)
 DEPART TIME PREF   : Early morning from DFW (first available flights preferred)
 DEPART TIME MAX    : No departures after 3:00 PM CT from DFW (default — user may override)
 RETURN TIME MIN    : No return flights before 2:00 PM local time at departure airport (default — user may override)
+SAME AIRLINE RULE  : Outbound and return must be the same airline — do not mix carriers across a round trip
 BUFFER TIME        : Arrive at destination ≥ 3 hours before kickoff
                      (fly trips: at destination airport; drive trips: at hotel/stadium city)
 ```
