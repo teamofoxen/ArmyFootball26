@@ -71,6 +71,22 @@ Format your final answer exactly as defined in `output-template.md`. No deviatio
 All sections must be present. Mark any section as `DATA UNAVAILABLE` if real data
 could not be obtained — do not fabricate.
 
+### Step 7 — Save to `trips/`
+Write the completed plan to the corresponding file in the `trips/` folder:
+
+| Trip | File |
+|------|------|
+| Trip 1 — Temple       | `trips/trip-1-temple.md` |
+| Trip 2 — Louisiana Tech | `trips/trip-2-louisiana-tech.md` |
+| Trip 3 — Tulsa        | `trips/trip-3-tulsa.md` |
+| Trip 4 — Memphis      | `trips/trip-4-memphis.md` |
+| Trip 5 — Rice         | `trips/trip-5-rice.md` |
+| Trip 6 — Army-Navy    | `trips/trip-6-army-navy.md` |
+| Trip 7 — Bowl Game    | `trips/trip-7-bowl-game.md` |
+
+Overwrite the stub content entirely with the full completed plan.
+Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned]`.
+
 ---
 
 ## WHEN PLANNING A TRIP
