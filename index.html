@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Army Football 2026 — Travel Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --gold: #C8A84B;
+    --gold-light: #E8C96A;
+    --gold-dim: #8A6F2E;
+    --black: #0A0A0A;
+    --dark: #111111;
+    --dark2: #1A1A1A;
+    --dark3: #222222;
+    --gray: #444444;
+    --gray-light: #888888;
+    --white: #F5F0E8;
+    --booked: #4CAF7D;
+    --partial: #E8843A;
+    --planned: #C8A84B;
+    --stub: #666666;
+    --drive: #6B9FD4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--black);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* HEADER */
+  header {
+    position: relative;
+    padding: 48px 40px 36px;
+    border-bottom: 1px solid #222;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 24px;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: repeating-linear-gradient(
+      90deg,
+      transparent,
+      transparent 40px,
+      rgba(200, 168, 75, 0.03) 40px,
+      rgba(200, 168, 75, 0.03) 41px
+    );
+    pointer-events: none;
+  }
+
+  .header-left { position: relative; }
+
+  .header-eyebrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--gold);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(48px, 7vw, 88px);
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    color: var(--white);
+  }
+
+  h1 span {
+    color: var(--gold);
+  }
+
+  .header-sub {
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--gray-light);
+    font-weight: 300;
+  }
+
+  .header-stats {
+    position: relative;
+    display: flex;
+    gap: 32px;
+    flex-shrink: 0;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    line-height: 1;
+    color: var(--gold);
+  }
+
+  .stat-label {
+    font-size: 11px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gray-light);
+    margin-top: 4px;
+    font-family: 'DM Mono', monospace;
+  }
+
+  /* CONFIG BANNER */
+  .config-banner {
+    background: rgba(200, 168, 75, 0.08);
+    border: 1px solid rgba(200, 168, 75, 0.25);
+    border-radius: 6px;
+    padding: 14px 20px;
+    margin: 24px 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    color: var(--gold-light);
+  }
+
+  .config-banner.hidden { display: none; }
+
+  .config-banner svg { flex-shrink: 0; }
+
+  .config-banner a {
+    color: var(--gold);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* CONFIG FORM */
+  .config-panel {
+    background: var(--dark2);
+    border: 1px solid var(--gray);
+    border-radius: 8px;
+    padding: 24px;
+    margin: 0 40px 24px;
+    display: none;
+  }
+
+  .config-panel.visible { display: block; }
+
+  .config-panel h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+
+  .config-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+
+  .config-field label {
+    display: block;
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gray-light);
+    font-family: 'DM Mono', monospace;
+    margin-bottom: 6px;
+  }
+
+  .config-field input {
+    width: 100%;
+    background: var(--dark3);
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    padding: 10px 12px;
+    color: var(--white);
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .config-field input:focus { border-color: var(--gold); }
+  .config-field input::placeholder { color: var(--gray); }
+
+  .config-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 4px;
+  }
+
+  .btn {
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    border: none;
+    transition: all 0.15s;
+  }
+
+  .btn-primary {
+    background: var(--gold);
+    color: var(--black);
+  }
+
+  .btn-primary:hover { background: var(--gold-light); }
+
+  .btn-ghost {
+    background: transparent;
+    color: var(--gray-light);
+    border: 1px solid var(--gray);
+  }
+
+  .btn-ghost:hover { color: var(--white); border-color: var(--white); }
+
+  /* MAIN GRID */
+  main {
+    padding: 0 40px 60px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    padding-top: 32px;
+  }
+
+  .section-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.1em;
+    color: var(--gray-light);
+    text-transform: uppercase;
+  }
+
+  .section-line {
+    flex: 1;
+    height: 1px;
+    background: var(--dark3);
+  }
+
+  /* TRIP GRID */
+  .trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+  }
+
+  .trip-card {
+    background: var(--dark2);
+    border: 1px solid var(--dark3);
+    border-radius: 8px;
+    padding: 20px 22px;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .trip-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--gray);
+    transition: background 0.2s;
+  }
+
+  .trip-card.booked::before { background: var(--booked); }
+  .trip-card.partial::before { background: var(--partial); }
+  .trip-card.planned::before { background: var(--gold); }
+  .trip-card.stub::before { background: var(--stub); }
+  .trip-card.drive::before { background: var(--drive); }
+
+  .trip-card:hover {
+    border-color: var(--gray);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+
+  .trip-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+
+  .trip-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gray-light);
+    letter-spacing: 0.1em;
+  }
+
+  .trip-badge {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+
+  .badge-booked { background: rgba(76, 175, 125, 0.15); color: var(--booked); }
+  .badge-partial { background: rgba(232, 132, 58, 0.15); color: var(--partial); }
+  .badge-planned { background: rgba(200, 168, 75, 0.15); color: var(--gold-light); }
+  .badge-stub { background: rgba(100,100,100,0.15); color: var(--stub); }
+  .badge-drive { background: rgba(107, 159, 212, 0.15); color: var(--drive); }
+
+  .trip-opponent {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: var(--white);
+    margin-bottom: 6px;
+  }
+
+  .trip-meta {
+    font-size: 12px;
+    color: var(--gray-light);
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .trip-meta span {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .trip-details {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid var(--dark3);
+    font-size: 12px;
+    color: var(--gray-light);
+    line-height: 1.6;
+  }
+
+  .trip-details .detail-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 3px;
+  }
+
+  .detail-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gray);
+    min-width: 56px;
+    padding-top: 1px;
+  }
+
+  .detail-val { color: var(--white); font-size: 12px; }
+
+  /* MODAL */
+  .modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 100;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    backdrop-filter: blur(4px);
+  }
+
+  .modal-overlay.open { display: flex; }
+
+  .modal {
+    background: var(--dark);
+    border: 1px solid var(--dark3);
+    border-radius: 12px;
+    width: 100%;
+    max-width: 680px;
+    max-height: 85vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 24px 64px rgba(0,0,0,0.7);
+  }
+
+  .modal-header {
+    padding: 24px 28px 20px;
+    border-bottom: 1px solid var(--dark3);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .modal-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    letter-spacing: 0.04em;
+    line-height: 1;
+    color: var(--white);
+  }
+
+  .modal-subtitle {
+    font-size: 13px;
+    color: var(--gray-light);
+    margin-top: 4px;
+    font-weight: 300;
+  }
+
+  .modal-close {
+    background: var(--dark3);
+    border: none;
+    color: var(--gray-light);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition: all 0.15s;
+  }
+
+  .modal-close:hover { background: var(--gray); color: var(--white); }
+
+  .modal-body {
+    padding: 24px 28px;
+    overflow-y: auto;
+    flex: 1;
+  }
+
+  .modal-body pre {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    line-height: 1.7;
+    color: var(--white);
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  /* Markdown-ish rendering */
+  .md-content h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.08em;
+    color: var(--gold);
+    margin: 24px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--dark3);
+  }
+
+  .md-content h2:first-child { margin-top: 0; }
+
+  .md-content h3 {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--white);
+    margin: 14px 0 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+  }
+
+  .md-content p {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #C0B89A;
+    margin-bottom: 8px;
+  }
+
+  .md-content strong { color: var(--white); font-weight: 600; }
+
+  .md-content ul {
+    margin: 6px 0 12px 16px;
+  }
+
+  .md-content li {
+    font-size: 13px;
+    line-height: 1.7;
+    color: #C0B89A;
+    margin-bottom: 2px;
+  }
+
+  .md-content hr {
+    border: none;
+    border-top: 1px solid var(--dark3);
+    margin: 20px 0;
+  }
+
+  /* STATUS BAR */
+  .status-bar {
+    display: flex;
+    gap: 24px;
+    padding: 16px 40px;
+    background: var(--dark2);
+    border-bottom: 1px solid var(--dark3);
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    overflow-x: auto;
+  }
+
+  .status-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+  }
+
+  .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+
+  .dot-booked { background: var(--booked); }
+  .dot-planned { background: var(--gold); }
+  .dot-stub { background: var(--stub); }
+  .dot-drive { background: var(--drive); }
+
+  /* LOADING */
+  .loading-state {
+    text-align: center;
+    padding: 80px 40px;
+    color: var(--gray-light);
+  }
+
+  .loading-spinner {
+    width: 32px; height: 32px;
+    border: 2px solid var(--dark3);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .error-state {
+    text-align: center;
+    padding: 60px 40px;
+    color: var(--gray-light);
+  }
+
+  .error-state h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 28px;
+    color: #E57373;
+    margin-bottom: 12px;
+    letter-spacing: 0.06em;
+  }
+
+  /* PROGRESS BAR */
+  .season-progress {
+    margin: 24px 40px 0;
+  }
+
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gray-light);
+    margin-bottom: 8px;
+    letter-spacing: 0.1em;
+  }
+
+  .progress-track {
+    height: 4px;
+    background: var(--dark3);
+    border-radius: 2px;
+    overflow: hidden;
+  }
+
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--gold-dim), var(--gold));
+    border-radius: 2px;
+    transition: width 0.8s ease;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 20px 40px;
+    border-top: 1px solid var(--dark3);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gray);
+    letter-spacing: 0.08em;
+  }
+
+  .last-updated { color: var(--gray-light); }
+
+  @media (max-width: 640px) {
+    header { flex-direction: column; align-items: flex-start; padding: 28px 20px 24px; }
+    main { padding: 0 20px 40px; }
+    .config-panel, .config-banner { margin-left: 20px; margin-right: 20px; }
+    .season-progress { margin-left: 20px; margin-right: 20px; }
+    .status-bar { padding: 12px 20px; }
+    footer { padding: 16px 20px; flex-direction: column; gap: 8px; }
+    .config-row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<!-- MODAL -->
+<div class="modal-overlay" id="modal" onclick="closeModal(event)">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title" id="modal-title"></div>
+        <div class="modal-subtitle" id="modal-subtitle"></div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">✕</button>
+    </div>
+    <div class="modal-body">
+      <div class="md-content" id="modal-content"></div>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="header-left">
+    <div class="header-eyebrow">⚔ 2026 Season</div>
+    <h1>Army <span>Football</span><br>Travel</h1>
+    <div class="header-sub">Black Knights Away Game Dashboard</div>
+  </div>
+  <div class="header-stats" id="header-stats">
+    <div class="stat">
+      <div class="stat-num" id="stat-booked">—</div>
+      <div class="stat-label">Booked</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="stat-planned">—</div>
+      <div class="stat-label">Planned</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num" id="stat-total">13</div>
+      <div class="stat-label">Total</div>
+    </div>
+  </div>
+</header>
+
+<!-- CONFIG BANNER -->
+<div class="config-banner" id="config-banner">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+    <circle cx="8" cy="8" r="7" stroke="#C8A84B" stroke-width="1.5"/>
+    <path d="M8 7v4M8 5v1" stroke="#C8A84B" stroke-width="1.5" stroke-linecap="round"/>
+  </svg>
+  Dashboard not configured yet. <a onclick="showConfig()">Add your GitHub details to load trip data →</a>
+</div>
+
+<!-- CONFIG PANEL -->
+<div class="config-panel" id="config-panel">
+  <h3>GitHub Configuration</h3>
+  <div class="config-row">
+    <div class="config-field">
+      <label>GitHub Username</label>
+      <input type="text" id="cfg-user" placeholder="yourusername" />
+    </div>
+    <div class="config-field">
+      <label>Repository Name</label>
+      <input type="text" id="cfg-repo" placeholder="ArmyFootball26" />
+    </div>
+    <div class="config-field">
+      <label>Branch</label>
+      <input type="text" id="cfg-branch" placeholder="main" />
+    </div>
+  </div>
+  <div class="config-row" style="grid-template-columns: 1fr 1fr;">
+    <div class="config-field">
+      <label>Personal Access Token (read-only)</label>
+      <input type="password" id="cfg-token" placeholder="ghp_xxxxxxxxxxxx" />
+    </div>
+    <div class="config-field">
+      <label>Trips Folder Path</label>
+      <input type="text" id="cfg-path" placeholder="trips" />
+    </div>
+  </div>
+  <div class="config-actions">
+    <button class="btn btn-primary" onclick="saveConfig()">Save & Load</button>
+    <button class="btn btn-ghost" onclick="hideConfig()">Cancel</button>
+  </div>
+</div>
+
+<!-- SEASON PROGRESS -->
+<div class="season-progress" id="season-progress" style="display:none">
+  <div class="progress-label">
+    <span>SEASON PLANNING PROGRESS</span>
+    <span id="progress-pct">0%</span>
+  </div>
+  <div class="progress-track">
+    <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+  </div>
+</div>
+
+<!-- STATUS BAR -->
+<div class="status-bar">
+  <div class="status-item"><div class="dot dot-booked"></div> Booked</div>
+  <div class="status-item"><div class="dot" style="background:var(--partial)"></div> Partially booked</div>
+  <div class="status-item"><div class="dot dot-planned"></div> Planned</div>
+  <div class="status-item"><div class="dot dot-drive"></div> Drive trip</div>
+  <div class="status-item"><div class="dot dot-stub"></div> Bowl TBD</div>
+</div>
+
+<!-- MAIN -->
+<main>
+  <div id="loading-state" class="loading-state" style="display:none">
+    <div class="loading-spinner"></div>
+    <div>Loading trip data from GitHub…</div>
+  </div>
+
+  <div id="error-state" class="error-state" style="display:none">
+    <h3>Couldn't Load Trips</h3>
+    <p id="error-msg">Check your GitHub configuration and try again.</p>
+    <br>
+    <button class="btn btn-ghost" onclick="showConfig()">Update Configuration</button>
+  </div>
+
+  <div id="trips-container"></div>
+</main>
+
+<footer>
+  <div>Army Black Knights · 2026 Season</div>
+  <div class="last-updated" id="last-updated"></div>
+</footer>
+
+<script>
+// ─── CONFIG ───────────────────────────────────────────────────────
+const CONFIG_KEY = 'army_fb_config';
+
+function getConfig() {
+  try { return JSON.parse(localStorage.getItem(CONFIG_KEY)) || null; }
+  catch { return null; }
+}
+
+function saveConfig() {
+  const cfg = {
+    user:   document.getElementById('cfg-user').value.trim(),
+    repo:   document.getElementById('cfg-repo').value.trim(),
+    branch: document.getElementById('cfg-branch').value.trim() || 'main',
+    token:  document.getElementById('cfg-token').value.trim(),
+    path:   document.getElementById('cfg-path').value.trim() || 'trips',
+  };
+  if (!cfg.user || !cfg.repo || !cfg.token) {
+    alert('Please fill in Username, Repository, and Token.');
+    return;
+  }
+  localStorage.setItem(CONFIG_KEY, JSON.stringify(cfg));
+  hideConfig();
+  document.getElementById('config-banner').classList.add('hidden');
+  loadTrips();
+}
+
+function showConfig() {
+  const cfg = getConfig();
+  if (cfg) {
+    document.getElementById('cfg-user').value = cfg.user || '';
+    document.getElementById('cfg-repo').value = cfg.repo || '';
+    document.getElementById('cfg-branch').value = cfg.branch || 'main';
+    document.getElementById('cfg-token').value = cfg.token || '';
+    document.getElementById('cfg-path').value = cfg.path || 'trips';
+  }
+  document.getElementById('config-panel').classList.add('visible');
+}
+
+function hideConfig() {
+  document.getElementById('config-panel').classList.remove('visible');
+}
+
+// ─── GITHUB API ───────────────────────────────────────────────────
+async function fetchGitHub(path, cfg) {
+  const url = `https://api.github.com/repos/${cfg.user}/${cfg.repo}/contents/${path}?ref=${cfg.branch}`;
+  const res = await fetch(url, {
+    headers: {
+      'Authorization': `token ${cfg.token}`,
+      'Accept': 'application/vnd.github.v3+json'
+    }
+  });
+  if (!res.ok) throw new Error(`GitHub API error: ${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+async function fetchFileContent(fileObj, cfg) {
+  // Use download_url for raw content
+  const res = await fetch(fileObj.download_url, {
+    headers: { 'Authorization': `token ${cfg.token}` }
+  });
+  if (!res.ok) throw new Error(`Failed to fetch ${fileObj.name}`);
+  return res.text();
+}
+
+// ─── TRIP PARSING ─────────────────────────────────────────────────
+function parseTrip(filename, content) {
+  const lines = content.split('\n');
+
+  // Trip number from filename: trip-8-memphis.md → 8
+  const numMatch = filename.match(/trip-(\d+)-/);
+  const num = numMatch ? parseInt(numMatch[1]) : 99;
+
+  // Title line (# heading)
+  const titleLine = lines.find(l => l.startsWith('# '));
+  const title = titleLine ? titleLine.replace(/^#\s*/, '').trim() : filename;
+
+  // Status line (line 2 per spec: **Status: BOOKED/PLANNED/STUB...)
+  const statusLine = lines.find(l => /\*\*Status:/i.test(l));
+  let status = 'stub';
+  let statusDetail = '';
+  if (statusLine) {
+    const m = statusLine.match(/\*\*Status:\s*(BOOKED|PARTIALLY BOOKED|PARTIAL|PLANNED|STUB|DRIVE)/i);
+    if (m) {
+      const raw = m[1].toUpperCase();
+      if (raw === 'BOOKED') status = 'booked';
+      else if (raw === 'PARTIALLY BOOKED' || raw === 'PARTIAL') status = 'partial';
+      else status = raw.toLowerCase();
+    }
+    statusDetail = statusLine.replace(/\*\*/g, '').replace(/Status:\s*/i, '').trim();
+  }
+
+  // Game date
+  const dateLine = lines.find(l => /game date|date:/i.test(l));
+  let gameDate = '';
+  if (dateLine) {
+    const dm = dateLine.match(/:\s*(.+)/);
+    if (dm) gameDate = dm[1].replace(/\*\*/g, '').trim();
+  }
+
+  // Opponent from title or filename
+  const opponent = title.replace(/^Trip\s*\d+[:\-\s]*/i, '')
+                        .replace(/Army\s*(vs\.?|@|at)\s*/i, '')
+                        .replace(/\(.*\)/, '').trim();
+
+  // Location
+  const locLine = lines.find(l => /location:|venue:|stadium:/i.test(l));
+  let location = '';
+  if (locLine) {
+    const lm = locLine.match(/:\s*(.+)/);
+    if (lm) location = lm[1].replace(/\*\*/g, '').trim();
+  }
+
+  // Transport mode
+  const isDrive = /drive|driving|road trip/i.test(content.substring(0, 600));
+  if (isDrive && status === 'planned') status = 'drive';
+
+  // Quick flight snippet
+  const flightSection = content.match(/##\s*Flight[s]?[\s\S]*?(?=##|$)/i);
+  let flightSnippet = '';
+  if (flightSection) {
+    const fl = flightSection[0].split('\n').slice(1, 4).join(' ').replace(/\*\*/g, '').trim();
+    flightSnippet = fl.substring(0, 120);
+  }
+
+  // Hotel snippet
+  const hotelSection = content.match(/##\s*Hotel[s]?[\s\S]*?(?=##|$)/i);
+  let hotelSnippet = '';
+  if (hotelSection) {
+    const hl = hotelSection[0].split('\n').slice(1, 3).join(' ').replace(/\*\*/g, '').trim();
+    hotelSnippet = hl.substring(0, 100);
+  }
+
+  return { num, filename, title, opponent, status, statusDetail, gameDate, location,
+           flightSnippet, hotelSnippet, content };
+}
+
+function statusBadge(status) {
+  const map = {
+    booked:  ['badge-booked', '✓ BOOKED'],
+    partial: ['badge-partial', '🔶 PARTIAL'],
+    planned: ['badge-planned', '📋 PLANNED'],
+    stub:    ['badge-stub', '⚠ BOWL TBD'],
+    drive:   ['badge-drive', '🚗 DRIVE'],
+  };
+  const [cls, label] = map[status] || map.stub;
+  return `<span class="trip-badge ${cls}">${label}</span>`;
+}
+
+function renderCard(trip) {
+  const details = [];
+  if (trip.gameDate) details.push(`<div class="detail-row"><span class="detail-label">Date</span><span class="detail-val">${trip.gameDate}</span></div>`);
+  if (trip.location) details.push(`<div class="detail-row"><span class="detail-label">At</span><span class="detail-val">${trip.location}</span></div>`);
+  if (trip.flightSnippet) details.push(`<div class="detail-row"><span class="detail-label">Flight</span><span class="detail-val">${trip.flightSnippet}</span></div>`);
+  if (trip.hotelSnippet) details.push(`<div class="detail-row"><span class="detail-label">Hotel</span><span class="detail-val">${trip.hotelSnippet}</span></div>`);
+
+  return `
+    <div class="trip-card ${trip.status}" onclick="openModal(${trip.num})">
+      <div class="trip-card-top">
+        <span class="trip-num">TRIP ${trip.num}</span>
+        ${statusBadge(trip.status)}
+      </div>
+      <div class="trip-opponent">${trip.opponent || 'TBD'}</div>
+      <div class="trip-meta">
+        ${trip.gameDate ? `<span>📅 ${trip.gameDate}</span>` : ''}
+        ${trip.location ? `<span>📍 ${trip.location}</span>` : ''}
+      </div>
+      ${details.length ? `<div class="trip-details">${details.join('')}</div>` : ''}
+    </div>`;
+}
+
+// ─── MARKDOWN RENDERER (lightweight) ─────────────────────────────
+function renderMarkdown(md) {
+  let html = md
+    .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    // headings
+    .replace(/^#### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^### (.+)$/gm, '<h3>$1</h3>')
+    .replace(/^## (.+)$/gm, '<h2>$1</h2>')
+    .replace(/^# (.+)$/gm, '<h2>$1</h2>')
+    // bold/italic
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    // hr
+    .replace(/^---+$/gm, '<hr>')
+    // lists
+    .replace(/^[\-\*] (.+)$/gm, '<li>$1</li>')
+    // paragraphs (blank line = new para)
+    .split(/\n\n+/)
+    .map(block => {
+      block = block.trim();
+      if (!block) return '';
+      if (/^<(h[1-6]|ul|li|hr|pre)/.test(block)) return block;
+      // wrap li in ul
+      if (block.includes('<li>')) return `<ul>${block}</ul>`;
+      return `<p>${block.replace(/\n/g, '<br>')}</p>`;
+    })
+    .join('\n');
+  return html;
+}
+
+// ─── MODAL ────────────────────────────────────────────────────────
+let tripData = [];
+
+function openModal(num) {
+  const trip = tripData.find(t => t.num === num);
+  if (!trip) return;
+  document.getElementById('modal-title').textContent = trip.opponent || trip.title;
+  document.getElementById('modal-subtitle').textContent =
+    [trip.gameDate, trip.location].filter(Boolean).join(' · ') || 'Trip Details';
+  document.getElementById('modal-content').innerHTML = renderMarkdown(trip.content);
+  document.getElementById('modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal(e) {
+  if (e && e.target !== document.getElementById('modal')) return;
+  document.getElementById('modal').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+});
+
+// ─── LOAD & RENDER ────────────────────────────────────────────────
+async function loadTrips() {
+  const cfg = getConfig();
+  if (!cfg) { showNeedsConfig(); return; }
+
+  document.getElementById('loading-state').style.display = 'block';
+  document.getElementById('error-state').style.display = 'none';
+  document.getElementById('trips-container').innerHTML = '';
+  document.getElementById('season-progress').style.display = 'none';
+
+  try {
+    // Get directory listing
+    const files = await fetchGitHub(cfg.path, cfg);
+    const tripFiles = files
+      .filter(f => f.name.startsWith('trip-') && f.name.endsWith('.md'))
+      .sort((a, b) => {
+        const na = parseInt(a.name.match(/trip-(\d+)/)?.[1] || 99);
+        const nb = parseInt(b.name.match(/trip-(\d+)/)?.[1] || 99);
+        return na - nb;
+      });
+
+    if (!tripFiles.length) throw new Error('No trip files found in the specified folder.');
+
+    // Fetch all in parallel
+    const contents = await Promise.all(tripFiles.map(f => fetchFileContent(f, cfg)));
+    tripData = tripFiles.map((f, i) => parseTrip(f.name, contents[i]));
+
+    renderTrips();
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('last-updated').textContent =
+      'Last loaded: ' + new Date().toLocaleString();
+
+  } catch (err) {
+    document.getElementById('loading-state').style.display = 'none';
+    document.getElementById('error-state').style.display = 'block';
+    document.getElementById('error-msg').textContent = err.message;
+  }
+}
+
+function renderTrips() {
+  const booked  = tripData.filter(t => t.status === 'booked').length;
+  const partial = tripData.filter(t => t.status === 'partial').length;
+  const planned = tripData.filter(t => ['planned','drive'].includes(t.status)).length;
+  const total   = tripData.length;
+
+  document.getElementById('stat-booked').textContent = booked;
+  document.getElementById('stat-planned').textContent = planned + partial;
+  document.getElementById('stat-total').textContent = total;
+
+  // Progress (booked = done)
+  const pct = Math.round((booked / total) * 100);
+  document.getElementById('progress-pct').textContent = pct + '%';
+  document.getElementById('progress-fill').style.width = pct + '%';
+  document.getElementById('season-progress').style.display = 'block';
+
+  // Render cards grouped
+  const container = document.getElementById('trips-container');
+  container.innerHTML = '';
+
+  const bookedTrips  = tripData.filter(t => t.status === 'booked');
+  const partialTrips = tripData.filter(t => t.status === 'partial');
+  const pendingTrips = tripData.filter(t => !['booked','partial'].includes(t.status));
+
+  if (bookedTrips.length) {
+    container.innerHTML += `
+      <div class="section-header">
+        <div class="section-title">Booked</div>
+        <div class="section-line"></div>
+      </div>
+      <div class="trip-grid">${bookedTrips.map(renderCard).join('')}</div>`;
+  }
+
+  if (partialTrips.length) {
+    container.innerHTML += `
+      <div class="section-header">
+        <div class="section-title">Partially Booked</div>
+        <div class="section-line"></div>
+      </div>
+      <div class="trip-grid">${partialTrips.map(renderCard).join('')}</div>`;
+  }
+
+  if (pendingTrips.length) {
+    container.innerHTML += `
+      <div class="section-header">
+        <div class="section-title">Upcoming</div>
+        <div class="section-line"></div>
+      </div>
+      <div class="trip-grid">${pendingTrips.map(renderCard).join('')}</div>`;
+  }
+}
+
+function showNeedsConfig() {
+  document.getElementById('config-banner').classList.remove('hidden');
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────
+(function init() {
+  const cfg = getConfig();
+  if (cfg) {
+    document.getElementById('config-banner').classList.add('hidden');
+    loadTrips();
+  }
+  // Settings gear — double-click header to reconfigure
+  document.querySelector('h1').title = 'Double-click to reconfigure';
+  document.querySelector('h1').ondblclick = showConfig;
+})();
+</script>
+</body>
+</html>
