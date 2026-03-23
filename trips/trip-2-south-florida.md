@@ -26,7 +26,7 @@ OUTBOUND FLIGHT
   Carriers    : American Airlines | United Airlines (both nonstop)
   Flight Time : ~3h 33m nonstop DFW → any NYC-area airport
 
-  Option 1 (RECOMMENDED — American, morning)
+  Option 1 — American nonstop EWR (verify price vs. all airports)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~7:00–9:00 AM CT from DFW               │
@@ -35,7 +35,7 @@ OUTBOUND FLIGHT
   │  Est. Price  : ~$159–210/person                         │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (United)
+  Option 2 — United nonstop EWR (verify price vs. all airports)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : United Airlines                          │
   │  Departs     : ~8:00–10:00 AM CT from DFW               │
@@ -59,7 +59,7 @@ RETURN FLIGHT
   Travel Date : Sunday, September 13, 2026
   Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
 
-  Option 1 (RECOMMENDED)
+  Option 1 — nonstop return (verify cheapest airport/airline)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~11:00 AM–1:00 PM ET from EWR            │
@@ -86,7 +86,7 @@ HOTEL OPTIONS
   Check-out   : Sunday, September 13, 2026
   Nights      : 2
 
-  Option 1 (RECOMMENDED)
+  Option 1 — nonstop return (verify cheapest airport/airline)
   ┌─────────────────────────────────────────────────────────┐
   │  Name        : Comfort Suites Central Valley – Woodbury │
   │  Chain       : Choice Hotels                            │

@@ -12,7 +12,7 @@ These settings apply to every trip unless a trip explicitly overrides them.
 HOME BASE          : Dallas-Fort Worth, TX
 PRIMARY AIRPORT    : DFW (Dallas/Fort Worth International)
 BACKUP AIRPORT     : DAL (Dallas Love Field — Southwest only)
-NYC AREA AIRPORTS  : EWR | LGA | JFK — search all three for best price and schedule
+NYC AREA AIRPORTS  : EWR | LGA | JFK — search all three; nonstop only, lowest price wins
                      EWR: ~65 mi to Central Valley via NJ Tpke → I-87 N (~1h 15m)
                      LGA: ~55 mi to Central Valley via GWB → I-87 N (~1h–1h 30m)
                      JFK: ~65 mi to Central Valley via GWB → I-87 N (~1h 15m–1h 45m)
@@ -39,9 +39,9 @@ BUFFER TIME        : Arrive at destination ≥ 3 hours before kickoff
 
 ```
 [P1] Safety / schedule integrity — never compromise game attendance
-[P2] Price — lowest total cost within rules
-[P3] Loyalty points — prefer chains/airlines earning points
-[P4] Comfort — direct flights, better hotels when cost is equal
+[P2] Nonstop + lowest price — nonstop required when available; among nonstop options pick cheapest
+[P3] Loyalty points — prefer chains/airlines earning points when price is equal
+[P4] Comfort — better hotels, preferred airlines when cost is equal
 [P5] Flexibility — refundable fares when price difference is < $50
 ```
 
@@ -371,9 +371,9 @@ TRIP-SPECIFIC RULES
 All home games follow the same travel structure from DFW:
 
 ```
-FLIGHT          : DFW → EWR | LGA | JFK — search all three, pick best price
-                  American or United nonstop (~3h 33m); compare all three airports
-FLIGHT TIME     : ~3h 33m nonstop DFW → any NYC-area airport
+FLIGHT          : DFW → EWR | LGA | JFK — nonstop only; lowest price across all three
+                  American and United both fly nonstop DFW → all three airports (~3h 33m)
+FLIGHT TIME     : ~3h 33m nonstop
 OUTBOUND        : Friday before game
 RETURN          : Sunday after game
 GROUND          : Rent car at airport → drive to Central Valley or Suffern area
