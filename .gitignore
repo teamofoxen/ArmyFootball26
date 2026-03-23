@@ -1,0 +1,56 @@
+# ============================================================
+# .gitignore — West Point Travel System
+# ============================================================
+# Files and folders that should NEVER be committed to git.
+# ============================================================
+
+
+# ------------------------------------------------------------
+# Environment / Secrets
+# .env holds your real API key — never commit it
+# .env.example is safe to commit (it has no real values)
+# ------------------------------------------------------------
+.env
+*.env
+!.env.example
+
+# ------------------------------------------------------------
+# Python cache files (auto-generated, not needed in git)
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ------------------------------------------------------------
+# Virtual environment folders
+# Created when you run: python -m venv venv
+# ------------------------------------------------------------
+venv/
+env/
+.venv/
+.env/
+
+# ------------------------------------------------------------
+# OS-generated files
+# ------------------------------------------------------------
+.DS_Store           # macOS folder metadata
+Thumbs.db           # Windows thumbnail cache
+desktop.ini         # Windows folder settings
+
+# ------------------------------------------------------------
+# Editor / IDE files
+# ------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# Logs and temp files
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.temp

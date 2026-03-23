@@ -1,0 +1,5 @@
+# Army Football Travel System — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+requests       # HTTP client — used by flights.py to call SerpAPI
+python-dotenv  # Loads .env file so your API key stays out of the code
