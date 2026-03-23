@@ -23,62 +23,59 @@ GAME DETAILS
 OUTBOUND FLIGHT OPTIONS
 ────────────────────────────────────────────────────────────────
   Travel Date : Friday, December 11, 2026
-  Route       : DFW → EWR
-  Carriers    : American Airlines (24 weekly nonstops) |
-                United Airlines (40 weekly nonstops)
+  Route       : DFW → EWR | LGA | JFK (search all three — nonstop only, lowest price wins)
+  Carriers    : American Airlines | United Airlines (both fly nonstop to all three)
   Flight Time : ~3h 33m nonstop
 
-  Option 1 (RECOMMENDED — Morning, American)
+  Option 1 — Nonstop morning, cheapest airport (compare all three)
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
+  │  Airline     : American or United — whichever is cheaper│
   │  Departs     : ~7:00–9:00 AM CT from DFW               │
-  │  Arrives     : ~1:00–3:00 PM ET at EWR                  │
+  │  Arrives     : ~1:00–3:00 PM ET at EWR/LGA/JFK          │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$159–220/person                         │
-  │  Notes       : American preferred (DFW loyalty); full   │
-  │                afternoon to settle into hotel/NYC area  │
+  │  Notes       : Full afternoon to settle in; search all  │
+  │                three airports and pick lowest price     │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (United — more nonstop frequency)
+  Option 2 — Nonstop midday, alternate airport or airline
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : United Airlines                          │
-  │  Departs     : ~8:00–10:00 AM CT from DFW               │
-  │  Arrives     : ~2:00–4:00 PM ET at EWR                  │
+  │  Airline     : American or United                       │
+  │  Departs     : ~10:00 AM–12:00 PM CT from DFW           │
+  │  Arrives     : ~2:00–4:00 PM ET at EWR/LGA/JFK          │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$159–236/person                         │
-  │  Notes       : United has more DFW→EWR frequency;       │
-  │                good fallback if American is full        │
   └─────────────────────────────────────────────────────────┘
 
-  Option 3 (BUDGET)
+  Option 3 — Connecting (last resort only — [P1] game, avoid if possible)
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United — connecting          │
+  │  Airline     : American or United                       │
   │  Stops       : 1 stop                                   │
   │  Est. Price  : ~$100–159/person                         │
-  │  Notes       : Verify layover ≤ 2.5 hrs; [P1] applies —│
-  │                do NOT risk a missed connection for this │
-  │                game. Nonstop strongly recommended.      │
+  │  Notes       : Only book if NO nonstop available on     │
+  │                any of EWR/LGA/JFK; [P1] game — a missed │
+  │                connection is not acceptable             │
   └─────────────────────────────────────────────────────────┘
 
 
 RETURN FLIGHT OPTIONS
 ────────────────────────────────────────────────────────────────
   Travel Date : Sunday, December 13, 2026
-  Route       : EWR → DFW
+  Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
 
-  Option 1 (RECOMMENDED — Midday)
+  Option 1 — Nonstop midday return (verify price vs. Option 2)
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~11:00 AM–1:00 PM ET from EWR            │
+  │  Airline     : American or United — whichever is cheaper│
+  │  Departs     : ~11:00 AM–1:00 PM ET                     │
   │  Arrives     : ~2:30–4:30 PM CT at DFW                  │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$159–220/person                         │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (Afternoon — allows Sunday morning in NYC/NJ)
+  Option 2 — Nonstop afternoon return (allows Sunday morning in NJ/NYC)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American or United                       │
-  │  Departs     : ~3:00–5:00 PM ET from EWR                │
+  │  Departs     : ~3:00–5:00 PM ET                         │
   │  Arrives     : ~6:30–9:00 PM CT at DFW                  │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$150–200/person                         │
@@ -136,7 +133,7 @@ HOTEL OPTIONS
 
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
-  Airport → Hotel : Uber/Lyft EWR → Meadowlands (~15 min, ~$25–35)
+  Airport → Hotel : Uber/Lyft to Meadowlands (~15 min from EWR, ~35 min from LGA/JFK, ~$25–45)
   Game Day        : Short Uber from Meadowlands hotel (~$10–15)
                     OR walk if weather permits (Fairfield is 2 mi)
   Transit option  : NJ Transit game-day shuttle from Secaucus
@@ -167,7 +164,7 @@ RULES COMPLIANCE CHECK
   ✓  No red-eye flights
   ✓  Hotel within 10 miles of stadium (Option 1: 2 miles)
   ✓  $300/night premium override applied — justified for Army-Navy
-  ✓  American Airlines primary; United secondary on this route
+  ✓  Nonstop prioritized across EWR/LGA/JFK; cheapest nonstop selected
   ✓  Arrive EWR Friday afternoon — buffer exceeded
 
 
@@ -181,8 +178,8 @@ NOTES & RECOMMENDATIONS
     allocation — separate from this travel plan.
   - December in NJ: 30s–40s°F, wind chill at MetLife open-air
     stadium. Pack layers, gloves, hat.
-  - United Airlines has more DFW→EWR departures — check both
-    American and United for best availability on Dec 11.
+  - Search EWR, LGA, and JFK — all three have nonstop DFW service;
+    pick cheapest nonstop across all airlines and airports on Dec 11.
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026

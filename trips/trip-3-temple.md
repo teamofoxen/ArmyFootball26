@@ -26,7 +26,7 @@ OUTBOUND FLIGHT OPTIONS
   Carrier     : American Airlines (56 weekly nonstops — primary carrier)
   Flight Time : ~3h 9m nonstop
 
-  Option 1 (RECOMMENDED — Morning departure)
+  Option 1 — Nonstop morning (verify price vs. Option 2)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~8:00–9:00 AM CT from DFW               │
@@ -37,7 +37,7 @@ OUTBOUND FLIGHT OPTIONS
   │                to settle in and explore Philly          │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (Midday)
+  Option 2 — Nonstop midday (verify price vs. Option 1)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~11:00 AM–12:00 PM CT from DFW           │
@@ -46,12 +46,13 @@ OUTBOUND FLIGHT OPTIONS
   │  Est. Price  : ~$130–175/person                         │
   └─────────────────────────────────────────────────────────┘
 
-  Option 3 (BUDGET)
+  Option 3 — Connecting (last resort only — no nonstop available)
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines or connecting carrier  │
+  │  Airline     : American Airlines or other carrier       │
   │  Stops       : 1 stop (connection varies)               │
   │  Est. Price  : ~$77–123/person                          │
-  │  Notes       : Lowest cost — verify layover ≤ 2.5 hrs   │
+  │  Notes       : Only book if nonstop unavailable;        │
+  │                verify layover ≤ 2.5 hrs before booking  │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -60,7 +61,7 @@ RETURN FLIGHT OPTIONS
   Travel Date : Sunday, September 27, 2026
   Route       : PHL → DFW
 
-  Option 1 (RECOMMENDED — Midday)
+  Option 1 — Nonstop midday return (verify price vs. Option 2)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~11:00 AM–1:00 PM ET from PHL            │
@@ -69,7 +70,7 @@ RETURN FLIGHT OPTIONS
   │  Est. Price  : ~$150–200/person                         │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (Afternoon)
+  Option 2 — Nonstop afternoon return (verify price vs. Option 1)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~3:00–5:00 PM ET from PHL                │
@@ -85,7 +86,7 @@ HOTEL OPTIONS
   Check-out   : Sunday, September 27, 2026
   Nights      : 2
 
-  Option 1 (RECOMMENDED)
+  Option 1 (closest to stadium)
   ┌─────────────────────────────────────────────────────────┐
   │  Name        : Courtyard by Marriott Philadelphia South │
   │                at The Navy Yard                         │
@@ -153,7 +154,7 @@ RULES COMPLIANCE CHECK
   ✓  No red-eye flights
   ✓  Hotel within 10 miles of stadium (Option 1: 1.5 mi)
   ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  American Airlines used (primary DFW preference)
+  ✓  Nonstop prioritized; cheapest nonstop option selected
   ✓  Arrive PHL well before kickoff
 
 

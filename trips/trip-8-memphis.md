@@ -26,7 +26,7 @@ OUTBOUND FLIGHT OPTIONS
   Carrier     : American Airlines (only nonstop carrier; 40 weekly direct flights)
   Flight Time : ~1h 31m nonstop
 
-  Option 1 (RECOMMENDED — Morning)
+  Option 1 — Nonstop morning (verify price vs. Option 2)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~8:00–10:00 AM CT from DFW               │
@@ -37,7 +37,7 @@ OUTBOUND FLIGHT OPTIONS
   │                Beale Street, BBQ, etc.                  │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (Midday)
+  Option 2 — Nonstop midday (verify price vs. Option 1)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~12:00–2:00 PM CT from DFW               │
@@ -46,13 +46,13 @@ OUTBOUND FLIGHT OPTIONS
   │  Est. Price  : ~$85–120/person                          │
   └─────────────────────────────────────────────────────────┘
 
-  Option 3 (BUDGET — connecting)
+  Option 3 — Connecting (last resort only — no nonstop available)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : Delta or other carrier                   │
   │  Stops       : 1 stop (connection varies)               │
   │  Est. Price  : ~$75–100/person                          │
-  │  Notes       : Delta has no nonstop DFW→MEM; verify     │
-  │                layover ≤ 2.5 hrs before booking         │
+  │  Notes       : Only book if nonstop unavailable;        │
+  │                verify layover ≤ 2.5 hrs before booking  │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -61,7 +61,7 @@ RETURN FLIGHT OPTIONS
   Travel Date : Sunday, November 1, 2026
   Route       : MEM → DFW
 
-  Option 1 (RECOMMENDED — Late morning)
+  Option 1 — Nonstop late morning return (verify price vs. Option 2)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~10:00 AM–12:00 PM CT from MEM           │
@@ -70,7 +70,7 @@ RETURN FLIGHT OPTIONS
   │  Est. Price  : ~$100–140/person                         │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 (Afternoon)
+  Option 2 — Nonstop afternoon return (verify price vs. Option 1)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~2:00–4:00 PM CT from MEM                │
@@ -86,7 +86,7 @@ HOTEL OPTIONS
   Check-out   : Sunday, November 1, 2026
   Nights      : 2
 
-  Option 1 (RECOMMENDED)
+  Option 1 (closest Marriott to stadium)
   ┌─────────────────────────────────────────────────────────┐
   │  Name        : The Memphian, Tribute Portfolio Hotel    │
   │  Chain       : Marriott (Tribute Portfolio) ✓           │
@@ -153,7 +153,7 @@ RULES COMPLIANCE CHECK
   ✓  No red-eye flights
   ✓  Hotel within 10 miles of stadium
   ✓  Hotel rate within MASTER SETTINGS limits
-  ✓  American Airlines used (only nonstop carrier DFW→MEM)
+  ✓  Nonstop prioritized; cheapest nonstop option selected
   ✓  Arrive MEM day before game — buffer exceeded
 
 

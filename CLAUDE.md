@@ -106,11 +106,12 @@ Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned
 - Use the `get_flights` tool to search for flights
 - The tool returns search results (links + summaries), not structured bookings
 - Extract the best 2–3 realistic flight options from the results
-- **Selection priority (in order):**
-  1. Nonstop flights only — skip connecting options unless no nonstop exists
-  2. Lowest price among nonstop options — cheapest nonstop wins regardless of airline
+- **Selection priority (in order) — applies to ALL fly trips:**
+  1. Nonstop flights only — skip connecting options unless no nonstop exists on any routing
+  2. Lowest price among nonstop options — cheapest wins regardless of airline
   3. If price is equal — prefer American Airlines (DFW hub, loyalty points)
-- For home games: search all three NYC airports (EWR, LGA, JFK) and compare nonstop prices across all three — do not assume one airport is cheaper
+- For NYC-area trips (home games + Army-Navy): search EWR, LGA, and JFK — compare nonstop prices across all three airports, pick the cheapest
+- For single-destination trips (Temple/PHL, Memphis/MEM, etc.): same nonstop-first, lowest-price logic applies — search all available carriers on that route
 - Do not invent flights
 - Do not assume exact prices
 - Use results to infer good options
