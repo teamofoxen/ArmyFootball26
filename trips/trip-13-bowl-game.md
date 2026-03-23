@@ -1,4 +1,4 @@
-# Trip 7 — Bowl Game (TBD)
+# Trip 13 — Bowl Game (TBD)
 **Status: PENDING BOWL ASSIGNMENT — Update when announced (early December 2026)**
 
 ---

@@ -1,4 +1,4 @@
-# Trip 6 — vs Navy Midshipmen ★ ARMY-NAVY GAME
+# Trip 12 — vs Navy Midshipmen ★ ARMY-NAVY GAME
 **Status: PLANNED — March 23, 2026**
 
 ---

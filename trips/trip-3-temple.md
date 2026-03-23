@@ -1,4 +1,4 @@
-# Trip 1 — @ Temple Owls
+# Trip 3 — @ Temple Owls
 **Status: PLANNED — March 23, 2026**
 
 ---

@@ -1,4 +1,4 @@
-# Trip 4 — @ Memphis Tigers
+# Trip 8 — @ Memphis Tigers
 **Status: PLANNED — March 23, 2026**
 
 ---

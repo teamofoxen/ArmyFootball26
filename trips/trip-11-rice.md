@@ -1,4 +1,4 @@
-# Trip 5 — @ Rice Owls
+# Trip 11 — @ Rice Owls
 **Status: PLANNED — March 23, 2026**
 
 ---

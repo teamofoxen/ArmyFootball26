@@ -1,4 +1,4 @@
-# Trip 3 — @ Tulsa Golden Hurricane ⚡ FRIDAY NIGHT
+# Trip 7 — @ Tulsa Golden Hurricane ⚡ FRIDAY NIGHT
 **Status: PLANNED — March 23, 2026**
 
 ---

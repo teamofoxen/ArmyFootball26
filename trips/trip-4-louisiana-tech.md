@@ -1,4 +1,4 @@
-# Trip 2 — @ Louisiana Tech Bulldogs
+# Trip 4 — @ Louisiana Tech Bulldogs
 **Status: PLANNED — March 23, 2026**
 
 ---

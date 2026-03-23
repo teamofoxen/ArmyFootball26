@@ -17,16 +17,17 @@ NYC AREA AIRPORTS  : EWR | LGA | JFK — search all three; nonstop only, lowest 
                      LGA: ~55 mi to Central Valley via GWB → I-87 N (~1h–1h 30m)
                      JFK: ~65 mi to Central Valley via GWB → I-87 N (~1h 15m–1h 45m)
 TRAVEL PARTY SIZE  : 2 adults
-AIRLINE PREFERENCE : American > Delta > United (American hubs at DFW)
+AIRLINE PREFERENCE : Nonstop first, lowest price second; American preferred as tiebreaker only (DFW hub)
 SEAT CLASS         : Economy (upgrades only if ≤ $75 more per person)
 MAX FLIGHT PRICE   : $600/person one-way (domestic)
 MAX LAYOVER TIME   : 2 hours 30 minutes
 AVOID              : Red-eye flights (depart after 10 PM or arrive before 6 AM)
-HOTEL CHAIN PREF   : Marriott > Hilton > Hyatt (loyalty points priority)
+HOTEL CHAIN PREF   : Choice Hotels (Choice Privileges) — Comfort Suites, Crowne Plaza, Comfort Inn
+                     Fallback: Marriott | Hilton | Hyatt when Choice Hotels unavailable
 MAX NIGHTLY RATE   : $200/night (game weekend premium: $275/night)
 HOTEL PROXIMITY    : Within 10 miles of stadium
 HOTEL PARKING      : Required if renting a car
-RENTAL CAR         : Only when public transit/Uber is insufficient
+RENTAL CAR         : Hertz (preferred vendor) — only when public transit/Uber is insufficient
 OUTBOUND TRAVEL    : Day before the game (Friday for Saturday games)
 RETURN TRAVEL      : Day after the game (Sunday for Saturday games)
 BUFFER TIME        : Arrive at destination ≥ 3 hours before kickoff
