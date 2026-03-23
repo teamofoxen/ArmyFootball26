@@ -30,6 +30,8 @@ HOTEL PARKING      : Required if renting a car
 RENTAL CAR         : Hertz (preferred vendor) — only when public transit/Uber is insufficient
 OUTBOUND TRAVEL    : Day before the game (Friday for Saturday games)
 RETURN TRAVEL      : Day after the game (Sunday for Saturday games)
+DEPART TIME PREF   : Early morning from DFW (first available flights preferred)
+DEPART TIME MAX    : No departures after 3:00 PM CT from DFW (default — user may override)
 BUFFER TIME        : Arrive at destination ≥ 3 hours before kickoff
                      (fly trips: at destination airport; drive trips: at hotel/stadium city)
 ```
