@@ -26,6 +26,7 @@ OUTBOUND FLIGHT
 ────────────────────────────────────────────────────────────────
   Date        : Friday, September 4, 2026
   Route       : DFW → EWR or LGA | All nonstop | Sorted cheapest first
+  Note        : Options are paired by airline — book same number outbound + return
 
   Option 1 — Delta DL 551  [$224/person] ★ RECOMMENDED
   ┌─────────────────────────────────────────────────────────┐
@@ -62,19 +63,19 @@ RETURN FLIGHT
 ────────────────────────────────────────────────────────────────
   Date        : Sunday, September 6, 2026
   Rule        : No departures before 2:00 PM ET | Sorted cheapest first
-  Note        : Return from whichever airport you flew into outbound
+  Note        : Options paired by airline — book same number outbound + return
 
-  Option 1 — American AA 1056  [$224/person] ★ RECOMMENDED  (from LGA)
+  Option 1 — Delta DL 352  [$224/person] ★ RECOMMENDED  (from LGA — pairs with outbound Option 1)
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American                                 │
-  │  Flight #    : AA 1056                                  │
-  │  Departs     : 2:00 PM ET from LGA                      │
-  │  Arrives     : 4:58 PM CT at DFW                        │
-  │  Stops       : Nonstop (3h 58m)                         │
+  │  Airline     : Delta                                    │
+  │  Flight #    : DL 352                                   │
+  │  Departs     : 6:45 PM ET from LGA                      │
+  │  Arrives     : 9:41 PM CT at DFW                        │
+  │  Stops       : Nonstop (3h 56m)                         │
   │  Price       : $224/person                              │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 — United UA 1590  [$245/person]  (from EWR)
+  Option 2 — United UA 1590  [$245/person]  (from EWR — pairs with outbound Option 2)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : United                                   │
   │  Flight #    : UA 1590                                  │
@@ -84,7 +85,7 @@ RETURN FLIGHT
   │  Price       : $245/person                              │
   └─────────────────────────────────────────────────────────┘
 
-  Option 3 — American AA 813  [$245/person]  (from EWR)
+  Option 3 — American AA 813  [$245/person]  (from EWR — pairs with outbound Option 3)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American                                 │
   │  Flight #    : AA 813                                   │
