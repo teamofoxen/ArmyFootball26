@@ -196,18 +196,19 @@ immediately and without being asked:
 3. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
 
 ### Session logging
-At the end of every session, without being asked:
+After every meaningful action — do not wait for the session to end:
 1. Open `logs/` and either append to today's dated file or create a new one:
    `logs/session-YYYY-MM-DD.md`
-2. Write a session entry covering:
-   - What was discussed or changed
-   - Any new bookings confirmed
-   - Updated system state (trip status table)
-   - Open items for next session
-3. Commit the log with message `Log session — YYYY-MM-DD`
+2. Write a log entry for what just happened:
+   - What changed and why
+   - Any booking confirmed (trip, what was booked, price)
+   - Any setting or rule updated
+   - Any open items surfaced
+3. Commit the log immediately with message `Log: [one-line description of what happened]`
 
-A session ends when the user says goodbye, closes out, or clearly indicates they are done.
-If unsure, write the log anyway — it can always be amended.
+**Why incremental, not end-of-session:** Claude cannot detect when a session ends.
+If the user closes the window without warning, an end-of-session log never gets written.
+Writing after each action ensures the log is always current regardless of how the session ends.
 
 ---
 
