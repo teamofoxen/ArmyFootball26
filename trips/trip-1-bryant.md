@@ -24,54 +24,140 @@ GAME DETAILS
 
 OUTBOUND FLIGHT
 ────────────────────────────────────────────────────────────────
-  Travel Date : Friday, September 4, 2026
-  Route       : DFW → EWR | LGA | JFK (search all three — compare price)
-  Carriers    : American Airlines | United Airlines (both nonstop)
-  Flight Time : ~3h 33m nonstop DFW → any NYC-area airport
+  Date        : Friday, September 4, 2026
+  Route       : DFW → EWR or LGA | All nonstop | Sorted cheapest first
+  Note        : Options 1–2 are ultra-low-cost carriers — carry-on bag
+                fees (~$35–60/person) may close the price gap with Option 3+
 
-  Option 1 — American nonstop (verify price vs. Options 2 & 3)
+  Option 1 — Frontier F9 2472  [$154/person]
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~7:00–9:00 AM CT from DFW               │
-  │  Arrives     : ~12:00–2:00 PM ET at EWR                 │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–220/person                         │
-  │  Notes       : Morning arrival — full afternoon to      │
-  │                drive to Central Valley and settle in    │
+  │  Airline     : Frontier                                 │
+  │  Flight #    : F9 2472                                  │
+  │  Departs     : 7:50 AM CT from DFW                      │
+  │  Arrives     : 12:30 PM ET at EWR                       │
+  │  Stops       : Nonstop (3h 40m)                         │
+  │  Price       : $154/person                              │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2 — United nonstop (verify price vs. Options 1 & 3)
+  Option 2 — Spirit NK 2700  [$200/person]
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : United Airlines                          │
-  │  Departs     : ~8:00–10:00 AM CT from DFW               │
-  │  Arrives     : ~1:00–3:00 PM ET at EWR                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–236/person                         │
+  │  Airline     : Spirit                                   │
+  │  Flight #    : NK 2700                                  │
+  │  Departs     : 10:52 AM CT from DFW                     │
+  │  Arrives     : 2:59 PM ET at EWR                        │
+  │  Stops       : Nonstop (3h 7m)                          │
+  │  Price       : $200/person                              │
   └─────────────────────────────────────────────────────────┘
 
-  Option 3 (LGA or JFK)
+  Option 3 — Delta DL 551  [$224/person] ★ BEST VALUE — RECOMMENDED
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United                       │
-  │  Destination : LGA or JFK                               │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$130–200/person                         │
-  │  Notes       : Add ~15–30 min to drive vs. EWR route;   │
-  │                choose whichever airport is cheapest     │
+  │  Airline     : Delta                                    │
+  │  Flight #    : DL 551                                   │
+  │  Departs     : 7:00 AM CT from DFW                      │
+  │  Arrives     : 11:32 AM ET at LGA                       │
+  │  Stops       : Nonstop (3h 32m)                         │
+  │  Price       : $224/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 4 — Delta DL 873  [$224/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : Delta                                    │
+  │  Flight #    : DL 873                                   │
+  │  Departs     : 10:45 AM CT from DFW                     │
+  │  Arrives     : 3:25 PM ET at LGA                        │
+  │  Stops       : Nonstop (3h 40m)                         │
+  │  Price       : $224/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 5 — United UA 1574  [$293/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : United                                   │
+  │  Flight #    : UA 1574                                  │
+  │  Departs     : 1:00 PM CT from DFW                      │
+  │  Arrives     : 5:31 PM ET at EWR                        │
+  │  Stops       : Nonstop (3h 31m)                         │
+  │  Price       : $293/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 6 — American AA 1796  [$299/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American                                 │
+  │  Flight #    : AA 1796                                  │
+  │  Departs     : 7:00 AM CT from DFW                      │
+  │  Arrives     : 11:38 AM ET at EWR                       │
+  │  Stops       : Nonstop (3h 38m)                         │
+  │  Price       : $299/person                              │
   └─────────────────────────────────────────────────────────┘
 
 
 RETURN FLIGHT
 ────────────────────────────────────────────────────────────────
-  Travel Date : Sunday, September 6, 2026
-  Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
+  Date        : Sunday, September 6, 2026
+  Rule        : No departures before 2:00 PM ET | Sorted cheapest first
+  Note        : Return from whichever airport you flew into outbound
 
-  Option 1 — nonstop return (verify cheapest airport/airline)
+  — FROM LGA (if outbound was Options 3 or 4) —
+
+  Option 1 — American AA 1056  [$224/person] ★ BEST VALUE — RECOMMENDED
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~11:00 AM–1:00 PM ET from EWR            │
-  │  Arrives     : ~2:30–4:30 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–220/person                         │
+  │  Airline     : American                                 │
+  │  Flight #    : AA 1056                                  │
+  │  Departs     : 2:00 PM ET from LGA                      │
+  │  Arrives     : 4:58 PM CT at DFW                        │
+  │  Stops       : Nonstop (3h 58m)                         │
+  │  Price       : $224/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 2 — Delta DL 352  [$224/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : Delta                                    │
+  │  Flight #    : DL 352                                   │
+  │  Departs     : 6:45 PM ET from LGA                      │
+  │  Arrives     : 9:49 PM CT at DFW                        │
+  │  Stops       : Nonstop (4h 4m)                          │
+  │  Price       : $224/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 3 — American AA 2238  [$224/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American                                 │
+  │  Flight #    : AA 2238                                  │
+  │  Departs     : 6:55 PM ET from LGA                      │
+  │  Arrives     : 9:50 PM CT at DFW                        │
+  │  Stops       : Nonstop (3h 55m)                         │
+  │  Price       : $224/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  — FROM EWR (if outbound was Options 1, 2, 5, or 6) —
+
+  Option 4 — United UA 1590  [$245/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : United                                   │
+  │  Flight #    : UA 1590                                  │
+  │  Departs     : 3:38 PM ET from EWR                      │
+  │  Arrives     : 6:27 PM CT at DFW                        │
+  │  Stops       : Nonstop (3h 49m)                         │
+  │  Price       : $245/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 5 — American AA 813  [$245/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American                                 │
+  │  Flight #    : AA 813                                   │
+  │  Departs     : 5:28 PM ET from EWR                      │
+  │  Arrives     : 8:28 PM CT at DFW                        │
+  │  Stops       : Nonstop (4h 0m)                          │
+  │  Price       : $245/person                              │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 6 — United UA 1202  [$245/person]
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : United                                   │
+  │  Flight #    : UA 1202                                  │
+  │  Departs     : 5:55 PM ET from EWR                      │
+  │  Arrives     : 8:45 PM CT at DFW                        │
+  │  Stops       : Nonstop (3h 50m)                         │
+  │  Price       : $245/person                              │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -105,14 +191,14 @@ HOTEL — ✅ ALREADY BOOKED
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Based on Option 1 recommendations, 2 adults)
+  (Best value: DL 551 out + AA 1056 return, 2 adults | hotel booked)
 
-  Flights (RT)    : ~$320–440/person × 2 = ~$640–880
-  Hotel           : BOOKED
+  Flights (RT)    : $224 out + $224 return = $448/person × 2 = $896
+  Hotel           : BOOKED ✅
   Rental Car      : ~$95 weekend
   Gas/Tolls       : ~$40 (NJ Tpke + NY Thruway)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$775–1,015 (excl. hotel)
+  ESTIMATED TOTAL : ~$1,031 (flights + car + tolls)
 
   Budget Status   : ✅ WITHIN BUDGET
 
@@ -127,7 +213,8 @@ NOTES & RECOMMENDATIONS
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
-  Data source : SerpAPI web search + hotel web search
-  Prices are estimates — verify current rates before booking.
+  Flights     : Live SerpAPI Google Flights data (queried March 23, 2026)
+  Hotel       : Web search (booked)
+  Prices subject to change — verify before booking.
 ═══════════════════════════════════════════════════════════════
 ```

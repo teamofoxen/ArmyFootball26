@@ -170,6 +170,7 @@ Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned
   3. If price is equal — prefer American Airlines (DFW hub, loyalty points)
 - **Departure date:** Day before the game by default (Friday for Saturday games) — user may override
 - **Departure time:** Early morning from DFW preferred (first available nonstop); no departures after 3:00 PM CT — user may override
+- **Return time:** No return flights before 2:00 PM local time at the departure airport — user may override
 - For NYC-area trips (home games + Army-Navy): search EWR, LGA, and JFK — compare nonstop prices across all three airports, pick the cheapest
 - For single-destination trips (Temple/PHL, Memphis/MEM, etc.): same nonstop-first, lowest-price logic applies — search all available carriers on that route
 - Do not invent flights
