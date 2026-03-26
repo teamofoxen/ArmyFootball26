@@ -69,15 +69,14 @@ RETURN FLIGHT
   └─────────────────────────────────────────────────────────┘
 
 
-GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY / SUFFERN
+GROUND TRANSPORT — NYC AIRPORT TO WEST POINT
 ────────────────────────────────────────────────────────────────
   Mode          : Rental car from whichever NYC airport you fly into
-  From EWR → CS : NJ Tpke N → I-287 E → I-87 N → Exit 16
-                  (~65 miles, ~1h 15m to Comfort Suites)
-  From EWR → CP : NJ Tpke N → I-287 N → NY-17 N → Suffern
-                  (~55 miles, ~1h to Crowne Plaza)
-  From LGA/JFK  : GWB → I-87 N → Exit 16 (~55–65 mi, ~1h–1h 30m)
-  Hotel → Stadium: ~15–25 min to Michie Stadium
+  From EWR      : NJ Tpke N → I-287 E → I-87 N → US-9W N → West Point
+                  (~70 miles, ~1h 20m)
+  From LGA/JFK  : GWB → I-87 N → US-9W N → West Point
+                  (~65 miles, ~1h 15m)
+  Hotel → Stadium: On post — walking distance to Michie Stadium ✓
   Rental return : Return to same airport on departure day
   Est. cost     : ~$80–110 for weekend rental
 
