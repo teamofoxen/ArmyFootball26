@@ -204,7 +204,12 @@ immediately and without being asked:
    - Use `PARTIALLY BOOKED — [what is confirmed] | [what remains]` when one or more
      applicable components are confirmed but others are not yet booked
 2. Update the booking details section inside the trip file
-3. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
+3. **Remove the corresponding options section** from the trip file:
+   - Hotel booked → delete the HOTEL OPTIONS section entirely
+   - Flights booked → delete the OUTBOUND FLIGHT OPTIONS and RETURN FLIGHT OPTIONS sections entirely
+   - Rental car booked → delete any rental car options section entirely
+   - The confirmed booking details stay; only the "shopping" options are removed
+4. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
 
 ### Session logging
 After every meaningful action — do not wait for the session to end:

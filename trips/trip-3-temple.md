@@ -95,49 +95,6 @@ CONFIRMED BOOKING
   └─────────────────────────────────────────────────────────┘
 
 
-HOTEL OPTIONS
-────────────────────────────────────────────────────────────────
-  Check-in    : Friday, September 25, 2026
-  Check-out   : Sunday, September 27, 2026
-  Nights      : 2
-
-  Option 1 (closest to stadium)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Courtyard by Marriott Philadelphia South │
-  │                at The Navy Yard                         │
-  │  Chain       : Marriott ✓                               │
-  │  Area        : South Philadelphia — closest Marriott    │
-  │  Distance    : ~1.5 miles from Lincoln Financial Field  │
-  │  Est. Rate   : ~$160–185/night | Total: ~$320–370       │
-  │  Parking     : On-site available                        │
-  │  Notes       : Best proximity to stadium; easy Uber     │
-  │                or short drive to Lincoln Financial      │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Philadelphia Marriott Old City           │
-  │  Chain       : Marriott ✓                               │
-  │  Area        : Old City / Center City Philadelphia      │
-  │  Distance    : ~3.1 miles from Lincoln Financial Field  │
-  │  Est. Rate   : ~$175–210/night | Total: ~$350–420       │
-  │  Parking     : Paid garage (~$35/night)                 │
-  │  Notes       : Great walkable neighborhood; more        │
-  │                dining and nightlife options nearby      │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 (BUDGET)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : DoubleTree by Hilton Philadelphia        │
-  │                Center City                              │
-  │  Chain       : Hilton ✓                                 │
-  │  Distance    : ~4.6 miles from Lincoln Financial Field  │
-  │  Est. Rate   : ~$130–160/night | Total: ~$260–320       │
-  │  Parking     : Paid garage nearby                       │
-  │  Notes       : Good value; earns Hilton points          │
-  └─────────────────────────────────────────────────────────┘
-
-
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
   Airport → Hotel : ⭐ Hotel complimentary shuttle available
