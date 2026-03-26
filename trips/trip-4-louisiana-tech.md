@@ -1,5 +1,5 @@
 # Trip 4 — @ Louisiana Tech Bulldogs
-**Status: PLANNED — March 23, 2026**
+**Status: PARTIALLY BOOKED — Saturday hotel confirmed | Friday night TBD (pending kickoff time + team hotel info)**
 
 ---
 
@@ -42,45 +42,29 @@ DRIVE PLAN
   └─────────────────────────────────────────────────────────┘
 
 
-HOTEL OPTIONS
+HOTEL — CONFIRMED (Saturday Night)
 ────────────────────────────────────────────────────────────────
-  Check-in    : Friday, October 2, 2026
-  Check-out   : Sunday, October 4, 2026
-  Nights      : 2
-
-  Option 1 (RECOMMENDED)
+  ✅ BOOKED
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Hampton Inn by Hilton Ruston             │
-  │  Chain       : Hilton ✓ (top Hilton option in Ruston)   │
-  │  Address     : 1315 North Trenton Street, Ruston, LA    │
-  │  Distance    : 1.9 miles from Joe Aillet Stadium        │
-  │  Est. Rate   : ~$94–124/night | Total: ~$188–248        │
-  │  Parking     : Free on-site ✓                           │
-  │  Notes       : Free breakfast included; outdoor pool;   │
-  │                best-reviewed hotel in Ruston            │
+  │  Name        : Courtyard by Marriott                    │
+  │                Shreveport-Bossier City/Louisiana        │
+  │                Boardwalk                                │
+  │  Chain       : Marriott                                 │
+  │  Address     : 100 Boardwalk Boulevard                  │
+  │                Bossier City, LA                         │
+  │  Phone       : +1 (318) 742-8300                        │
+  │  Website     : marriott.com/SHVSB                       │
+  │  Check-in    : Saturday, October 3, 2026 @ 3:00 PM      │
+  │  Check-out   : Sunday, October 4, 2026 @ 12:00 PM       │
+  │  Nights      : 1                                        │
   └─────────────────────────────────────────────────────────┘
 
-  Option 2
+  ⚠️  FRIDAY NIGHT — PENDING DECISION
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Holiday Inn Express Ruston               │
-  │  Chain       : IHG                                      │
-  │  Area        : Ruston, LA                               │
-  │  Distance    : ~2–3 miles from Joe Aillet Stadium       │
-  │  Est. Rate   : ~$90–110/night | Total: ~$180–220        │
-  │  Parking     : Free on-site ✓                           │
-  │  Notes       : Solid backup if Hampton fills — Ruston   │
-  │                has very limited inventory, book early   │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 (OVERFLOW — if Ruston is sold out)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Hilton Garden Inn Shreveport              │
-  │  Chain       : Hilton ✓                                 │
-  │  Area        : Shreveport, LA (~70 miles from stadium)  │
-  │  Est. Rate   : ~$110–140/night | Total: ~$220–280       │
-  │  Parking     : Free on-site ✓                           │
-  │  Notes       : Use only if Ruston hotels are full;      │
-  │                adds 70-mile drive each way to stadium   │
+  │  Waiting on:  Team hotel location (Friday night)        │
+  │               Kickoff time (affects drive-in timing)    │
+  │  Options:     Stay near team hotel Friday night, OR     │
+  │               drive in Saturday morning                 │
   └─────────────────────────────────────────────────────────┘
 
 
