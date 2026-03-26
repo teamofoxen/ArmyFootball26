@@ -1,5 +1,5 @@
 # Trip 2 — vs South Florida Bulls (HOME)
-**Status: PARTIALLY BOOKED — Hotel ✅ | Flights and rental car not yet booked**
+**Status: PARTIALLY BOOKED — Nights 1–2 hotel ✅ (West Point) | Night 3 hotel TBD (NYC) | Flights and rental car not yet booked**
 
 ---
 
@@ -56,37 +56,47 @@ OUTBOUND FLIGHT
 
 RETURN FLIGHT
 ────────────────────────────────────────────────────────────────
-  Travel Date : Sunday, September 13, 2026
+  Travel Date : Monday, September 14, 2026
   Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
+  Rule        : No departures before 2:00 PM ET
 
   Option 1 — nonstop return (verify cheapest airport/airline)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
-  │  Departs     : ~2:00–4:00 PM ET from EWR/LGA/JFK        │
-  │  Arrives     : ~5:30–7:30 PM CT at DFW                  │
+  │  Departs     : ~2:00–5:00 PM ET from EWR/LGA/JFK        │
+  │  Arrives     : ~5:30–8:30 PM CT at DFW                  │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$159–210/person                         │
   └─────────────────────────────────────────────────────────┘
 
 
-GROUND TRANSPORT — NYC AIRPORT TO WEST POINT
+GROUND TRANSPORT
 ────────────────────────────────────────────────────────────────
   Mode          : Rental car from whichever NYC airport you fly into
+
+  FRIDAY — Airport → West Point
   From EWR      : NJ Tpke N → I-287 E → I-87 N → US-9W N → West Point
                   (~70 miles, ~1h 20m)
   From LGA/JFK  : GWB → I-87 N → US-9W N → West Point
                   (~65 miles, ~1h 15m)
   Hotel → Stadium: On post — walking distance to Michie Stadium ✓
-  Rental return : Return to same airport on departure day
-  Est. cost     : ~$80–110 for weekend rental
+
+  SUNDAY — West Point → NYC hotel
+  West Point → NYC: US-9W S → I-87 S → NYC (~65 miles, ~1h–1h 30m)
+  Hotel area    : Near whichever airport you flew into (EWR/LGA/JFK)
+
+  MONDAY — NYC hotel → Airport → DFW
+  Rental return : Return car to same airport before 2:00 PM flight
+
+  Est. cost     : ~$110–150 (3-day rental, Fri–Mon)
 
 
-HOTEL — ✅ BOOKED
+HOTEL
 ────────────────────────────────────────────────────────────────
-  Check-in    : Friday, September 11, 2026
-  Check-out   : Sunday, September 13, 2026
-  Nights      : 2
+  Total Nights  : 3 (Fri Sep 11 + Sat Sep 12 at West Point | Sun Sep 13 in NYC)
 
+  NIGHT 1 — Friday, September 11 — ✅ BOOKED
+  NIGHT 2 — Saturday, September 12 — ✅ BOOKED
   ┌─────────────────────────────────────────────────────────┐
   │  Name          : IHG Army Hotels Five Star Inn          │
   │  Chain         : IHG                                   │
@@ -101,17 +111,27 @@ HOTEL — ✅ BOOKED
   │  Parking       : On-site                                │
   └─────────────────────────────────────────────────────────┘
 
+  NIGHT 3 — Sunday, September 13 — ⚠️ PENDING — NYC AREA HOTEL NEEDED
+  ┌─────────────────────────────────────────────────────────┐
+  │  Location    : Near whichever airport you fly into      │
+  │                (EWR, LGA, or JFK area)                  │
+  │  Chain pref  : Choice Hotels first; IHG/Marriott/Hilton │
+  │  Est. Rate   : ~$120–180/night                          │
+  │  Note        : Book near airport for easy Mon. checkout │
+  └─────────────────────────────────────────────────────────┘
+
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   (Option 1 flights + Option 1 hotel, 3 passengers)
 
   Flights (RT)    : ~$320–420/person × 3 = ~$960–1,260 (not yet booked)
-  Hotel           : $260/night × 2 nights = $520 ✅ BOOKED
-  Rental Car      : ~$95 weekend (not yet booked)
-  Gas/Tolls       : ~$40 (on-post hotel — may reduce driving)
+  Hotel Nts 1–2   : $260/night × 2 nights = $520 ✅ BOOKED (Five Star Inn)
+  Hotel Night 3   : ~$120–180/night (NYC area — not yet booked)
+  Rental Car      : ~$110–150 (3-day Fri–Mon, not yet booked)
+  Gas/Tolls       : ~$40
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,615–1,915
+  ESTIMATED TOTAL : ~$1,750–2,150
 
   Budget Status   : ✅ WITHIN BUDGET
 
