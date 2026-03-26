@@ -140,7 +140,12 @@ HOTEL OPTIONS
 
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
-  Airport → Hotel : Uber/Lyft from PHL (~20–30 min, ~$25–35)
+  Airport → Hotel : ⭐ Hotel complimentary shuttle available
+                    (call to arrange: 732-778-9237)
+                    Alt: Uber/Lyft from PHL (~20–30 min, ~$25–35)
+  Rental Car      : NOT BOOKED — shuttle may eliminate need;
+                    confirm shuttle availability/hours before
+                    deciding whether to book Hertz
   Game Day        : Uber/Lyft from hotel to Lincoln Financial
                     (~$15 from South Philly; ~$20 from Center City)
   Backup          : SEPTA Broad Street Line to AT&T Station
