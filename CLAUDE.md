@@ -214,6 +214,14 @@ immediately and without being asked:
    - Rental car booked → delete any rental car options section entirely
    - The confirmed booking details stay; only the "shopping" options for resolved components are removed
 4. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
+5. **Run a targeted consistency check on that trip file immediately after committing:**
+   - Status line matches actual content (BOOKED only if all applicable components confirmed)
+   - Options sections removed for every confirmed component; still present for every unresolved component
+   - CONFIRMED BOOKING box exists with all required fields (Name, Confirmation, Rate, Distance for hotels; Airline, Flight #, dates, price for flights)
+   - Cost summary reflects confirmed prices, not stale estimates
+   - No stale data left over (e.g., hotel distance in options doesn't contradict confirmed hotel)
+   - If any issue is found, fix it immediately and commit with message `Fix: post-booking consistency check Trip X`
+   - If everything is clean, no action needed — do not report a clean check unless the user asks
 
 ### Multi-night hotel tracking
 Some trips may have hotel bookings across multiple nights booked at different times
