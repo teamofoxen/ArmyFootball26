@@ -42,64 +42,90 @@ DRIVE PLAN
   └─────────────────────────────────────────────────────────┘
 
 
-HOTEL — CONFIRMED (Saturday Night)
+HOTEL
 ────────────────────────────────────────────────────────────────
-  ✅ BOOKED
+
+  NIGHT 1 — Friday, October 2, 2026 — ⚠️ PENDING DECISION
+  ┌─────────────────────────────────────────────────────────┐
+  │  Status      : Not booked                               │
+  │  Waiting on  : Team hotel location (Friday night)       │
+  │                Kickoff time (affects drive-in timing)   │
+  │  Options     : Stay near team hotel Friday night, OR    │
+  │                drive in Saturday morning (no hotel)     │
+  └─────────────────────────────────────────────────────────┘
+
+  NIGHT 1 OPTIONS (if staying Friday near Ruston)
+  ┌─────────────────────────────────────────────────────────┐
+  │  Option 1 (RECOMMENDED)                                 │
+  │  Name        : Hampton Inn by Hilton Ruston             │
+  │  Chain       : Hilton                                   │
+  │  Address     : 1315 North Trenton Street, Ruston, LA    │
+  │  Distance    : 1.9 miles from Joe Aillet Stadium        │
+  │  Est. Rate   : ~$94–124/night                           │
+  │  Parking     : Free on-site                             │
+  │  Notes       : Free breakfast; best-reviewed in Ruston  │
+  └─────────────────────────────────────────────────────────┘
+  ┌─────────────────────────────────────────────────────────┐
+  │  Option 2                                               │
+  │  Name        : Holiday Inn Express Ruston               │
+  │  Chain       : IHG                                      │
+  │  Distance    : ~2–3 miles from Joe Aillet Stadium       │
+  │  Est. Rate   : ~$90–110/night                           │
+  │  Parking     : Free on-site                             │
+  │  Notes       : Backup if Hampton fills — book early     │
+  └─────────────────────────────────────────────────────────┘
+
+  NIGHT 2 — Saturday, October 3, 2026 — ✅ BOOKED
   ┌─────────────────────────────────────────────────────────┐
   │  Name        : Courtyard by Marriott                    │
   │                Shreveport-Bossier City/Louisiana        │
   │                Boardwalk                                │
   │  Chain       : Marriott                                 │
-  │  Address     : 100 Boardwalk Boulevard                  │
-  │                Bossier City, LA                         │
+  │  Address     : 100 Boardwalk Boulevard, Bossier City, LA│
   │  Phone       : +1 (318) 742-8300                        │
   │  Website     : marriott.com/SHVSB                       │
   │  Check-in    : Saturday, October 3, 2026 @ 3:00 PM      │
   │  Check-out   : Sunday, October 4, 2026 @ 12:00 PM       │
-  │  Nights      : 1                                        │
-  └─────────────────────────────────────────────────────────┘
-
-  ⚠️  FRIDAY NIGHT — PENDING DECISION
-  ┌─────────────────────────────────────────────────────────┐
-  │  Waiting on:  Team hotel location (Friday night)        │
-  │               Kickoff time (affects drive-in timing)    │
-  │  Options:     Stay near team hotel Friday night, OR     │
-  │               drive in Saturday morning                 │
+  │  Distance    : ~70 miles from Joe Aillet Stadium        │
   └─────────────────────────────────────────────────────────┘
 
 
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
-  Mode          : Personal vehicle (drove from DFW)
-  Hotel → Stadium: ~5-min drive or 10-min walk (1.9 miles)
-  Parking       : Stadium lot or street parking in Ruston
-  Note          : No rideshare available in Ruston —
-                  personal vehicle is essential for this trip
+  Mode              : Personal vehicle (drove from DFW)
+  Game day parking  : Stadium lot or street parking in Ruston
+  Saturday hotel    : Courtyard Bossier City — ~70 miles /
+                      ~1 hr drive from Joe Aillet Stadium
+  Note              : No rideshare available in Ruston —
+                      personal vehicle is essential for this trip
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Drive + Option 1 hotel, 3 passengers)
+  (Drive + confirmed Saturday hotel, 3 passengers)
+  Note: Friday night cost TBD pending decision
 
-  Flights         : $0 — driving
-  Gas (RT ~420 mi): ~$55–65 (est. at ~$3/gal, ~25 mpg)
-  Hotel           : ~$110/night × 2 nights = ~$220
-  Ground Transit  : ~$15 (parking at stadium)
+  Flights              : $0 — driving
+  Gas (RT ~420 mi)     : ~$55–65 (est. at ~$3/gal, ~25 mpg)
+  Saturday hotel       : Courtyard Bossier City — confirmed
+  Friday hotel (TBD)   : ~$94–124 if staying in Ruston
+  Ground Transit       : ~$15 (parking at stadium)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$290–300
+  ESTIMATED TOTAL      : ~$165–230 + Friday hotel if needed
 
-  Budget Status   : ✅ WELL WITHIN BUDGET (lowest cost trip of season)
+  Budget Status   : ✅ WELL WITHIN BUDGET
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - ⚠️ BOOK HAMPTON INN EARLY — Ruston has very limited hotel
-    inventory and fills fast on Louisiana Tech game weekends
+  - ⚠️ FRIDAY DECISION PENDING — confirm team hotel location
+    and kickoff time before booking Friday night
+  - If staying Friday in Ruston, book Hampton Inn early —
+    very limited inventory on Louisiana Tech game weekends
+  - Saturday hotel (Bossier City) is ~70 miles from stadium;
+    plan for ~1 hr drive to Ruston on game day
   - I-20 E is a straight, easy drive — flat, minimal traffic
-    on a Friday afternoon
   - October weather in Ruston: 70s°F, mild and pleasant
-  - Ruston is a small college town — dining limited; Hampton
-    Inn breakfast is a good option
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026

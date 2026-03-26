@@ -373,6 +373,25 @@
 
   .detail-val { color: var(--white); font-size: 12px; }
 
+  .detail-needed {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid var(--dark3);
+    font-size: 11px;
+    color: var(--partial);
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 0.05em;
+  }
+
+  .detail-needed-label {
+    color: var(--gray);
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    display: block;
+    margin-bottom: 3px;
+  }
+
   /* MODAL */
   .modal-overlay {
     position: fixed;
@@ -917,8 +936,9 @@ function parseTrip(filename, content) {
     .replace(/\s*[★⚡].*$/, '')                    // "★ ARMY-NAVY GAME", "⚡ FRIDAY NIGHT"
     .trim();
 
-  // Location
-  const locLine = lines.find(l => /location:|venue:|stadium:/i.test(l));
+  // Location — require the key word to be immediately before the colon (with optional spaces)
+  // This prevents matching "Hotel → Stadium:" in the ground transport section
+  const locLine = lines.find(l => /^\s*(location|venue|stadium)\s*:/i.test(l));
   let location = '';
   if (locLine) {
     const lm = locLine.match(/:\s*(.+)/);
@@ -945,8 +965,23 @@ function parseTrip(filename, content) {
     hotelSnippet = hl.substring(0, 100);
   }
 
+  // What still needs to be booked — shown on card face
+  let needsBooking = [];
+  if (status === 'partial') {
+    // Parse text after the first " | " in the status detail
+    const pipeIdx = statusDetail.indexOf(' | ');
+    if (pipeIdx >= 0) {
+      const remaining = statusDetail.slice(pipeIdx + 3).trim();
+      if (remaining) needsBooking = [remaining];
+    }
+  } else if (status === 'planned') {
+    needsBooking = isDrive ? ['Hotel'] : ['Flights', 'Hotel', 'Rental car'];
+  } else if (status === 'drive') {
+    needsBooking = ['Hotel'];
+  }
+
   return { num, filename, title, opponent, status, statusDetail, gameDate, location,
-           flightSnippet, hotelSnippet, content };
+           flightSnippet, hotelSnippet, needsBooking, content };
 }
 
 function statusBadge(status) {
@@ -968,6 +1003,11 @@ function renderCard(trip) {
   if (trip.flightSnippet) details.push(`<div class="detail-row"><span class="detail-label">Flight</span><span class="detail-val">${trip.flightSnippet}</span></div>`);
   if (trip.hotelSnippet) details.push(`<div class="detail-row"><span class="detail-label">Hotel</span><span class="detail-val">${trip.hotelSnippet}</span></div>`);
 
+  let neededHtml = '';
+  if (trip.needsBooking && trip.needsBooking.length > 0) {
+    neededHtml = `<div class="detail-needed"><span class="detail-needed-label">Still needed</span>${trip.needsBooking.join(' · ')}</div>`;
+  }
+
   return `
     <div class="trip-card ${trip.status}" onclick="openModal(${trip.num})">
       <div class="trip-card-top">
@@ -980,6 +1020,7 @@ function renderCard(trip) {
         ${trip.location ? `<span>📍 ${trip.location}</span>` : ''}
       </div>
       ${details.length ? `<div class="trip-details">${details.join('')}</div>` : ''}
+      ${neededHtml}
     </div>`;
 }
 

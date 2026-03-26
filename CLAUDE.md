@@ -200,16 +200,29 @@ immediately and without being asked:
 1. Update line 2 of the relevant trip file:
    - Use `BOOKED — [details]` **only when ALL applicable components are confirmed**:
      - Fly trips: flight ✅ + hotel ✅ + rental car ✅
-     - Drive trips: hotel ✅ (no flight or rental car required)
+     - Drive trips: all hotel nights ✅ (no flight or rental car required)
    - Use `PARTIALLY BOOKED — [what is confirmed] | [what remains]` when one or more
      applicable components are confirmed but others are not yet booked
 2. Update the booking details section inside the trip file
-3. **Remove the corresponding options section** from the trip file:
-   - Hotel booked → delete the HOTEL OPTIONS section entirely
+3. **Remove options sections only when fully resolved:**
+   - Hotel options → remove **only when every night of the trip is booked**
+     (if even one night is still undecided, keep all hotel options)
    - Flights booked → delete the OUTBOUND FLIGHT OPTIONS and RETURN FLIGHT OPTIONS sections entirely
    - Rental car booked → delete any rental car options section entirely
-   - The confirmed booking details stay; only the "shopping" options are removed
+   - The confirmed booking details stay; only the "shopping" options for resolved components are removed
 4. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
+
+### Multi-night hotel tracking
+Some trips may have hotel bookings across multiple nights booked at different times
+(e.g., Friday night undecided, Saturday night already booked). When this applies:
+- Structure the HOTEL section with a separate entry per night:
+  `NIGHT 1 — [Date] — ✅ BOOKED` or `⚠️ PENDING DECISION` or `❌ Not staying (driving in)`
+- Each confirmed night shows the booking details in a box beneath it
+- Each pending night shows what decision is waiting (kickoff time, team hotel info, etc.)
+- Keep options sections for any night that is not yet resolved
+- The status line should reflect the multi-night split:
+  `PARTIALLY BOOKED — Night 2 hotel ✅ | Night 1 hotel TBD`
+- Only mark a trip's hotel as fully booked when every night is resolved
 
 ### Session logging
 After every meaningful action — do not wait for the session to end:
