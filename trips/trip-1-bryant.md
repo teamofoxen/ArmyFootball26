@@ -114,28 +114,32 @@ HOTEL — ✅ ALREADY BOOKED
   Nights      : 2
 
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Comfort Suites Central Valley – Woodbury │
-  │  Chain       : Choice Hotels                            │
-  │  Address     : 100 Estrada Rd, Woodbury, NY 10917       │
-  │  Distance    : ~15 miles from Michie Stadium            │
-  │  Drive time  : ~20 min via US-9W N                      │
-  │  Parking     : Free on-site ✓                           │
-  │  Status      : ✅ ALREADY BOOKED                        │
+  │  Name          : Comfort Suites Central Valley – Woodbury│
+  │  Chain         : Choice Hotels                          │
+  │  Address       : 100 Estrada Rd, Woodbury, NY 10917     │
+  │  Confirmation  : ⚠️ Not on file — locate and record    │
+  │  Check-in      : Friday, September 4, 2026              │
+  │  Check-out     : Sunday, September 6, 2026              │
+  │  Nights        : 2                                      │
+  │  Rate          : ⚠️ Not recorded — confirm at check-in │
+  │  Distance      : ~15 miles from Michie Stadium          │
+  │  Drive time    : ~20 min via US-9W N                    │
+  │  Parking       : Free on-site ✓                         │
   └─────────────────────────────────────────────────────────┘
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights, booked hotel, 3 passengers)
+  (Based on Option 1 flight estimates — flights not yet booked; 3 passengers)
 
-  Flights (RT)    : $224 out + $224 return = $448/person × 3 = $1,344
-  Hotel           : BOOKED ✅
-  Rental Car      : ~$95 weekend
+  Flights (RT)    : $224 out + $224 return = $448/person × 3 = $1,344 (est.)
+  Hotel           : BOOKED ✅ (rate not on file — add when confirmed)
+  Rental Car      : ~$95 weekend (est.)
   Gas/Tolls       : ~$40 (NJ Tpke + NY Thruway)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,479 (flights + car + tolls)
+  ESTIMATED TOTAL : ~$1,479 + hotel rate (flights not yet booked)
 
-  Budget Status   : ✅ WITHIN BUDGET
+  Budget Status   : ✅ WITHIN BUDGET (est.)
 
 
 NOTES & RECOMMENDATIONS

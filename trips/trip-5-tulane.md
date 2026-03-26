@@ -62,8 +62,8 @@ RETURN FLIGHT
   Option 1 — nonstop return (verify cheapest airport/airline)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
-  │  Departs     : ~11:00 AM–1:00 PM ET from EWR            │
-  │  Arrives     : ~2:30–4:30 PM CT at DFW                  │
+  │  Departs     : ~2:00–4:00 PM ET from EWR/LGA/JFK        │
+  │  Arrives     : ~5:30–7:30 PM CT at DFW                  │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$159–210/person                         │
   └─────────────────────────────────────────────────────────┘

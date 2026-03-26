@@ -113,6 +113,9 @@ COST SUMMARY
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
+  - No Choice Hotels (Comfort Suites/Comfort Inn) available
+    within 3 miles of Chapman Stadium — Marriott options listed
+    instead per fallback priority
   - ⚡ FRIDAY NIGHT GAME — confirm ESPN kickoff time as soon
     as announced; adjust departure if kickoff is 7 PM vs 8 PM
   - Get a PikePass/SoonPass transponder or use the

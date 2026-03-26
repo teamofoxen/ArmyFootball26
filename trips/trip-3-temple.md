@@ -92,6 +92,8 @@ CONFIRMED BOOKING
   │  Check-in      : September 25, 2026                     │
   │  Check-out     : September 27, 2026                     │
   │  Nights        : 2                                      │
+  │  Rate          : ⚠️ Not recorded — confirm at check-in │
+  │  Distance      : ~1.5 miles from Lincoln Financial Field│
   └─────────────────────────────────────────────────────────┘
 
 
@@ -116,10 +118,10 @@ COST SUMMARY
   (Option 1 flights + Option 1 hotel, 3 passengers)
 
   Flights (RT)    : ~$300–400/person × 3 = ~$900–1,200
-  Hotel           : ~$175/night × 2 nights = ~$350
+  Hotel           : BOOKED ✅ (rate not on file — confirm and update)
   Ground Transit  : ~$100 (airport Ubers + game day)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,350–1,650
+  ESTIMATED TOTAL : ~$1,000–1,300 + hotel rate TBD
 
   Budget Status   : ✅ WITHIN BUDGET
 

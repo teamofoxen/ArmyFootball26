@@ -61,22 +61,22 @@ RETURN FLIGHT OPTIONS
   Travel Date : Sunday, November 1, 2026
   Route       : MEM → DFW
 
-  Option 1 — Nonstop late morning return (verify price vs. Option 2)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~10:00 AM–12:00 PM CT from MEM           │
-  │  Arrives     : ~11:30 AM–1:30 PM CT at DFW              │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$100–140/person                         │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 — Nonstop afternoon return (verify price vs. Option 1)
+  Option 1 — Nonstop afternoon return ★ RECOMMENDED (2 PM min compliant)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American Airlines                        │
   │  Departs     : ~2:00–4:00 PM CT from MEM                │
   │  Arrives     : ~3:30–5:30 PM CT at DFW                  │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$85–120/person                          │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 2 — Nonstop late morning (⚠️ before 2 PM min — do not book without override)
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American Airlines                        │
+  │  Departs     : ~10:00 AM–12:00 PM CT from MEM           │
+  │  Arrives     : ~11:30 AM–1:30 PM CT at DFW              │
+  │  Stops       : Nonstop                                  │
+  │  Est. Price  : ~$100–140/person                         │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -148,6 +148,9 @@ COST SUMMARY
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
+  - No Choice Hotels (Comfort Suites/Comfort Inn) close to
+    Simmons Bank Liberty Stadium — Marriott/Hilton/Hyatt options
+    listed per fallback priority
   - Halloween weekend — verify hotel rates aren't inflated;
     book 6+ weeks in advance
   - American Airlines is the ONLY nonstop option DFW→MEM;

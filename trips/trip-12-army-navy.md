@@ -63,22 +63,22 @@ RETURN FLIGHT OPTIONS
   Travel Date : Sunday, December 13, 2026
   Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
 
-  Option 1 — Nonstop midday return (verify price vs. Option 2)
+  Option 1 — Nonstop afternoon return ★ RECOMMENDED (2 PM min compliant)
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : American or United — whichever is cheaper│
-  │  Departs     : ~11:00 AM–1:00 PM ET                     │
-  │  Arrives     : ~2:30–4:30 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–220/person                         │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 — Nonstop afternoon return (allows Sunday morning in NJ/NYC)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United                       │
   │  Departs     : ~3:00–5:00 PM ET                         │
   │  Arrives     : ~6:30–9:00 PM CT at DFW                  │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$150–200/person                         │
+  └─────────────────────────────────────────────────────────┘
+
+  Option 2 — Nonstop midday (⚠️ before 2 PM min — do not book without override)
+  ┌─────────────────────────────────────────────────────────┐
+  │  Airline     : American or United                       │
+  │  Departs     : ~11:00 AM–1:00 PM ET                     │
+  │  Arrives     : ~2:30–4:30 PM CT at DFW                  │
+  │  Stops       : Nonstop                                  │
+  │  Est. Price  : ~$159–220/person                         │
   └─────────────────────────────────────────────────────────┘
 
 

@@ -22,7 +22,7 @@ SEAT CLASS         : Economy (upgrades only if ≤ $75 more per person)
 MAX FLIGHT PRICE   : $600/person one-way (domestic)
 MAX LAYOVER TIME   : 2 hours 30 minutes
 AVOID              : Red-eye flights (depart after 10 PM or arrive before 6 AM)
-HOTEL CHAIN PREF   : Choice Hotels (Choice Privileges) — Comfort Suites, Comfort Inn
+HOTEL CHAIN PREF   : Choice Hotels (Choice Privileges) — Comfort Suites, Comfort Inn, Quality Inn
                      IHG (Crowne Plaza) — acceptable backup; Crowne Plaza is NOT a Choice Hotels brand
                      Fallback: Marriott | Hilton | Hyatt when Choice Hotels unavailable
 MAX NIGHTLY RATE   : $200/night (game weekend premium: $275/night)

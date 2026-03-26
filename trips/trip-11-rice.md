@@ -117,6 +117,9 @@ COST SUMMARY
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
+  - No Choice Hotels (Comfort Suites/Comfort Inn) within walking
+    distance of Rice Stadium — Marriott/Hilton options listed per
+    fallback priority; Museum District inventory is Westin/Marriott
   - Best drive timing of the season — Thanksgiving Day I-45
     southbound is extremely light; makes this an easy trip
   - 3-night stay allows a true Thanksgiving weekend experience

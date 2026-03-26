@@ -106,7 +106,7 @@ COST SUMMARY
   Note: Friday night cost TBD pending decision
 
   Flights              : $0 — driving
-  Gas (RT ~420 mi)     : ~$55–65 (est. at ~$3/gal, ~25 mpg)
+  Gas (RT ~500 mi)     : ~$60–72 (est. at ~$3/gal, ~25 mpg)
   Saturday hotel       : Courtyard Bossier City — confirmed
   Friday hotel (TBD)   : ~$94–124 if staying in Ruston
   Ground Transit       : ~$15 (parking at stadium)
@@ -122,8 +122,10 @@ NOTES & RECOMMENDATIONS
     and kickoff time before booking Friday night
   - If staying Friday in Ruston, book Hampton Inn early —
     very limited inventory on Louisiana Tech game weekends
-  - Saturday hotel (Bossier City) is ~70 miles from stadium;
-    plan for ~1 hr drive to Ruston on game day
+  - Saturday hotel (Bossier City) is ~70 miles from stadium —
+    intentional override of 10-mile proximity rule; chosen to
+    follow team hotel location / post-game convenience heading
+    back toward DFW. Plan for ~1 hr drive to Ruston on game day.
   - I-20 E is a straight, easy drive — flat, minimal traffic
   - October weather in Ruston: 70s°F, mild and pleasant
 

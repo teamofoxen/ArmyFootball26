@@ -92,7 +92,7 @@ NOTES & ACTIONS REQUIRED
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
-  Status      : PENDING — requires update when bowl assigned
+  Status      : STUB — requires update when bowl assigned
   Data source : Will update with SerpAPI + web search on
                 bowl announcement date.
 ═══════════════════════════════════════════════════════════════

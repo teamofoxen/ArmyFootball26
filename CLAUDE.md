@@ -102,7 +102,7 @@ results = get_flights(origin="DFW", destination="MEM", date="2026-10-31")
 Use web search to find hotels matching the trip's hotel criteria. Filter results using:
 - MASTER SETTINGS (chain preferences, max nightly rate, proximity rules)
 - Trip-specific hotel notes
-- **Choice Hotels (Choice Privileges) chains preferred first — Comfort Suites, Comfort Inn**
+- **Choice Hotels (Choice Privileges) chains preferred first — Comfort Suites, Comfort Inn, Quality Inn**
   *(Note: Crowne Plaza is IHG, not Choice Hotels — acceptable as backup especially for home games)*
 
 Search query format: `"[City] hotel near [Stadium Name] [Month] [Year] [chain preference]"`
@@ -200,6 +200,9 @@ immediately and without being asked:
 1. Update line 2 of the relevant trip file:
    - Use `BOOKED — [details]` **only when ALL applicable components are confirmed**:
      - Fly trips: flight ✅ + hotel ✅ + rental car ✅
+       **Exception**: if a rental car is genuinely not needed (confirmed complimentary
+       shuttle or sufficient public transit), mark as `BOOKED` and note in the status
+       line detail: e.g., `Rental car N/A (hotel shuttle confirmed)`
      - Drive trips: all hotel nights ✅ (no flight or rental car required)
    - Use `PARTIALLY BOOKED — [what is confirmed] | [what remains]` when one or more
      applicable components are confirmed but others are not yet booked
