@@ -81,14 +81,19 @@ GROUND TRANSPORT
                   (~65 miles, ~1h 15m)
   Hotel → Stadium: On post — walking distance to Michie Stadium ✓
 
-  SUNDAY — West Point → NYC hotel
-  West Point → NYC: US-9W S → I-87 S → NYC (~65 miles, ~1h–1h 30m)
-  Hotel area    : Near whichever airport you flew into (EWR/LGA/JFK)
+  SUNDAY — West Point → Airport → Times Square
+  West Point → Airport: US-9W S → I-87 S (same reverse route as Friday)
+  Drop rental car at airport on Sunday upon arrival
+  Airport → Times Square: Car service, taxi, or transit (~30–60 min depending on airport)
+    From EWR: NJ Transit to Penn Station (~35 min, ~$17) or Uber (~$50–70)
+    From LGA: Taxi/Uber to Midtown (~30 min, ~$40–60)
+    From JFK: AirTrain + subway to Midtown (~60 min, ~$10) or Uber (~$55–75)
 
-  MONDAY — NYC hotel → Airport → DFW
-  Rental return : Return car to same airport before 2:00 PM flight
+  MONDAY — Times Square hotel → Airport → DFW
+  Times Square → Airport: Reverse of above (taxi/Uber/transit)
+  Allow 2–3 hours before departure for transit + security
 
-  Est. cost     : ~$110–150 (3-day rental, Fri–Mon)
+  Est. rental cost : ~$80–110 (2-day Fri–Sun, drop Sunday at airport)
 
 
 HOTEL
@@ -111,13 +116,14 @@ HOTEL
   │  Parking       : On-site                                │
   └─────────────────────────────────────────────────────────┘
 
-  NIGHT 3 — Sunday, September 13 — ⚠️ PENDING — NYC AREA HOTEL NEEDED
+  NIGHT 3 — Sunday, September 13 — ⚠️ PENDING — TIMES SQUARE HOTEL NEEDED
   ┌─────────────────────────────────────────────────────────┐
-  │  Location    : Near whichever airport you fly into      │
-  │                (EWR, LGA, or JFK area)                  │
+  │  Location    : Times Square / Midtown Manhattan         │
+  │                (walking distance to Times Square)       │
   │  Chain pref  : Choice Hotels first; IHG/Marriott/Hilton │
-  │  Est. Rate   : ~$120–180/night                          │
-  │  Note        : Book near airport for easy Mon. checkout │
+  │  Est. Rate   : ~$200–350/night (Midtown NYC rates)      │
+  │  Note        : No rental car in Manhattan — drop car at │
+  │                airport Sunday, taxi/transit to hotel    │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -127,11 +133,13 @@ COST SUMMARY
 
   Flights (RT)    : ~$320–420/person × 3 = ~$960–1,260 (not yet booked)
   Hotel Nts 1–2   : $260/night × 2 nights = $520 ✅ BOOKED (Five Star Inn)
-  Hotel Night 3   : ~$120–180/night (NYC area — not yet booked)
-  Rental Car      : ~$110–150 (3-day Fri–Mon, not yet booked)
+  Hotel Night 3   : ~$200–350/night (Times Square — not yet booked)
+  Rental Car      : ~$80–110 (2-day Fri–Sun, drop at airport Sunday)
+  Airport → Times Sq: ~$10–75 depending on airport/transit choice (Sunday)
+  Times Sq → Airport: ~$10–75 depending on airport/transit choice (Monday)
   Gas/Tolls       : ~$40
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,750–2,150
+  ESTIMATED TOTAL : ~$1,870–2,350
 
   Budget Status   : ✅ WITHIN BUDGET
 
