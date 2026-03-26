@@ -1,5 +1,5 @@
 # Trip 3 — @ Temple Owls
-**Status: PLANNED — March 23, 2026**
+**Status: PARTIALLY BOOKED — Hotel ✅ | Flights ⬜**
 
 ---
 
@@ -77,6 +77,21 @@ RETURN FLIGHT OPTIONS
   │  Arrives     : ~6:00–8:00 PM CT at DFW                  │
   │  Stops       : Nonstop                                  │
   │  Est. Price  : ~$130–175/person                         │
+  └─────────────────────────────────────────────────────────┘
+
+
+CONFIRMED BOOKING
+────────────────────────────────────────────────────────────────
+  HOTEL ✅
+  ┌─────────────────────────────────────────────────────────┐
+  │  Name          : Holiday Inn Philadelphia Arpt-Stadium  │
+  │                  Area                                   │
+  │  Address       : 2033 Penrose Avenue, Philadelphia,     │
+  │                  PA 19145                               │
+  │  Confirmation  : #24880388                              │
+  │  Check-in      : September 25, 2026                     │
+  │  Check-out     : September 27, 2026                     │
+  │  Nights        : 2                                      │
   └─────────────────────────────────────────────────────────┘
 
 
