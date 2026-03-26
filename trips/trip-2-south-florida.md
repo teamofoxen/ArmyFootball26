@@ -1,5 +1,5 @@
 # Trip 2 — vs South Florida Bulls (HOME)
-**Status: PLANNED — March 23, 2026**
+**Status: PARTIALLY BOOKED — Hotel ✅ | Flights and rental car not yet booked**
 
 ---
 
@@ -82,30 +82,24 @@ GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY / SUFFERN
   Est. cost     : ~$80–110 for weekend rental
 
 
-HOTEL OPTIONS
+HOTEL — ✅ BOOKED
 ────────────────────────────────────────────────────────────────
   Check-in    : Friday, September 11, 2026
   Check-out   : Sunday, September 13, 2026
   Nights      : 2
 
-  Option 1 (RECOMMENDED)
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Comfort Suites Central Valley – Woodbury │
-  │  Chain       : Choice Hotels                            │
-  │  Address     : 100 Estrada Rd, Woodbury, NY 10917       │
-  │  Distance    : ~15 miles from Michie Stadium (~20 min)  │
-  │  Est. Rate   : ~$120–155/night | Total: ~$240–310       │
-  │  Parking     : Free on-site ✓                           │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Crowne Plaza Suffern-Mahwah              │
-  │  Chain       : IHG (Crowne Plaza)                       │
-  │  Address     : Three Executive Blvd, Suffern, NY 10901  │
-  │  Distance    : ~25 miles from Michie Stadium (~35 min)  │
-  │  Est. Rate   : ~$140–175/night | Total: ~$280–350       │
-  │  Parking     : On-site available                        │
+  │  Name          : IHG Army Hotels Five Star Inn          │
+  │  Chain         : IHG                                   │
+  │  Address       : 2113 New South Post Road,              │
+  │                  West Point, NY 10996                   │
+  │  Confirmation  : 84492373                               │
+  │  Check-in      : Friday, September 11, 2026             │
+  │  Check-out     : Sunday, September 13, 2026             │
+  │  Nights        : 2                                      │
+  │  Rate          : $260/night | Total: $520               │
+  │  Distance      : On post — walking distance to Michie   │
+  │  Parking       : On-site                                │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -113,12 +107,12 @@ COST SUMMARY
 ────────────────────────────────────────────────────────────────
   (Option 1 flights + Option 1 hotel, 3 passengers)
 
-  Flights (RT)    : ~$320–420/person × 3 = ~$960–1,260
-  Hotel           : ~$138/night × 2 nights = ~$275
-  Rental Car      : ~$95 weekend
-  Gas/Tolls       : ~$40
+  Flights (RT)    : ~$320–420/person × 3 = ~$960–1,260 (not yet booked)
+  Hotel           : $260/night × 2 nights = $520 ✅ BOOKED
+  Rental Car      : ~$95 weekend (not yet booked)
+  Gas/Tolls       : ~$40 (on-post hotel — may reduce driving)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,370–1,670
+  ESTIMATED TOTAL : ~$1,615–1,915
 
   Budget Status   : ✅ WITHIN BUDGET
 
