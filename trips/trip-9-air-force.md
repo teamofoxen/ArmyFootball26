@@ -4,10 +4,6 @@
 ---
 
 ```
-═══════════════════════════════════════════════════════════════
-  ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 9 — vs Air Force Falcons | HOME at Michie Stadium
-═══════════════════════════════════════════════════════════════
 
 GAME DETAILS
 ────────────────────────────────────────────────────────────────
@@ -16,13 +12,11 @@ GAME DETAILS
   Kickoff     : TBD
   Stadium     : Michie Stadium, West Point, NY
   Location    : West Point, New York
-  Game Type   : Commander-in-Chief's Trophy | HIGH PRIORITY
+
 
 
 FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 6  ·  Ret: Sun Nov 8
 ────────────────────────────────────────────────────────────────
-  Carriers : American Airlines | United Airlines (both nonstop ~3h 33m)
-  Rule     : Search EWR, LGA, and JFK — book cheapest nonstop across all airports
 
   OUTBOUND (DFW → EWR | LGA | JFK)
     1 ★  AA    ~7–9 AM CT    → ~12–2 PM ET at EWR    Nonstop  ~$159–210/pp
@@ -34,14 +28,6 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 6  ·  Ret: Sun Nov
 
   ★ recommended · No return before 2:00 PM ET
 
-
-GROUND TRANSPORT
-────────────────────────────────────────────────────────────────
-  Mode          : Rental car from whichever NYC airport you fly into
-  Airport→Hotel : ~55–65mi · ~1h–1h 15m
-  Hotel→Stadium : ~15–25 min to Michie Stadium
-  Return        : Return rental to same airport on departure day
-  Est. cost     : ~$80–110 weekend rental
 
 
 HOTEL OPTIONS — Check-in Fri Nov 6  ·  Check-out Sun Nov 8  ·  2 nights
@@ -56,10 +42,5 @@ COST SUMMARY
   Flights ~$960–1,260 · Hotel ~$290 · Rental ~$95 · Food ~$300 · Tolls ~$40
 
 
-NOTES & RECOMMENDATIONS
-────────────────────────────────────────────────────────────────
-  - CIC Trophy game — book hotel early, demand will be higher
-  - November in West Point: 40s–50s°F, pack warm layers
-  - Army currently holds the CIC Trophy — high stakes game
 
 ```

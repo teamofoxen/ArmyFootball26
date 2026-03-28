@@ -4,10 +4,6 @@
 ---
 
 ```
-═══════════════════════════════════════════════════════════════
-  ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 4 — @ Louisiana Tech Bulldogs
-═══════════════════════════════════════════════════════════════
 
 GAME DETAILS
 ────────────────────────────────────────────────────────────────
@@ -16,7 +12,7 @@ GAME DETAILS
   Kickoff     : TBD
   Stadium     : Joe Aillet Stadium, Ruston, LA
   Location    : Ruston, Louisiana
-  Game Type   : Non-conference
+
 
 
 DRIVE PLAN
@@ -58,13 +54,6 @@ HOTEL
     Phone: (318) 742-8300 · marriott.com/SHVSB
 
 
-GROUND TRANSPORTATION
-────────────────────────────────────────────────────────────────
-  Mode           : Personal vehicle (drove from Denton)
-  Game day       : Stadium lot or street parking in Ruston
-  Post-game      : Drive ~70 mi / ~1 hr to Courtyard Bossier City
-  Note           : No rideshare in Ruston — personal vehicle essential
-
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
@@ -72,17 +61,5 @@ COST SUMMARY
   Gas ~$60–75 · Sat hotel ✅ booked (rate TBD) · Fri hotel ~$94–124 if needed · Parking ~$15 · Food ~$300
 
 
-NOTES & RECOMMENDATIONS
-────────────────────────────────────────────────────────────────
-  - ⚠️ FRIDAY DECISION PENDING — confirm team hotel location
-    and kickoff time before booking Friday night
-  - If staying Friday in Ruston, book Hampton Inn early —
-    very limited inventory on Louisiana Tech game weekends
-  - Saturday hotel (Bossier City) is ~70 miles from stadium —
-    intentional override of 10-mile proximity rule; chosen to
-    follow team hotel location / post-game convenience heading
-    back toward DFW. Plan for ~1 hr drive to Ruston on game day.
-  - I-20 E is a straight, easy drive — flat, minimal traffic
-  - October weather in Ruston: 70s°F, mild and pleasant
 
 ```

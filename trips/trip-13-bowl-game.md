@@ -4,10 +4,6 @@
 ---
 
 ```
-═══════════════════════════════════════════════════════════════
-  ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 13 — Bowl Game
-═══════════════════════════════════════════════════════════════
 
 GAME DETAILS
 ────────────────────────────────────────────────────────────────
@@ -16,7 +12,7 @@ GAME DETAILS
   Kickoff     : TBD
   Stadium     : TBD
   Location    : TBD
-  Game Type   : Bowl Game | HIGH PRIORITY
+
 
 
 TRANSPORT — TBD

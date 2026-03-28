@@ -4,10 +4,6 @@
 ---
 
 ```
-═══════════════════════════════════════════════════════════════
-  ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 10 — vs East Carolina Pirates | HOME at Michie Stadium
-═══════════════════════════════════════════════════════════════
 
 GAME DETAILS
 ────────────────────────────────────────────────────────────────
@@ -16,13 +12,11 @@ GAME DETAILS
   Kickoff     : TBD
   Stadium     : Michie Stadium, West Point, NY
   Location    : West Point, New York
-  Game Type   : AAC Conference | Final home game of the season
+
 
 
 FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 20  ·  Ret: Sun Nov 22
 ────────────────────────────────────────────────────────────────
-  Carriers : American Airlines | United Airlines (both nonstop ~3h 33m)
-  Rule     : Search EWR, LGA, and JFK — book cheapest nonstop across all airports
   ⚠️ Ret Sun Nov 22 — pre-Thanksgiving peaks Tue Nov 24 / Wed Nov 25; Sunday is clean
 
   OUTBOUND (DFW → EWR | LGA | JFK)
@@ -35,14 +29,6 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 20  ·  Ret: Sun No
 
   ★ recommended · No return before 2:00 PM ET
 
-
-GROUND TRANSPORT
-────────────────────────────────────────────────────────────────
-  Mode          : Rental car from whichever NYC airport you fly into
-  Airport→Hotel : ~55–65mi · ~1h–1h 15m
-  Hotel→Stadium : ~15–25 min to Michie Stadium
-  Return        : Return rental to same airport on departure day
-  Est. cost     : ~$80–110 weekend rental
 
 
 HOTEL OPTIONS — Check-in Fri Nov 20  ·  Check-out Sun Nov 22  ·  2 nights
@@ -57,11 +43,5 @@ COST SUMMARY
   Flights ~$960–1,260 · Hotel ~$270 · Rental ~$95 · Food ~$300 · Tolls ~$40
 
 
-NOTES & RECOMMENDATIONS
-────────────────────────────────────────────────────────────────
-  - Fly home Sunday Nov 22 to avoid pre-Thanksgiving rush
-  - Final home game before Army-Navy (3 weeks later Dec 12)
-  - November in West Point: 35–45°F; cold and possibly wet
-  - Senior Day ceremonies — arrive early for pre-game events
 
 ```

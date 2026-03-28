@@ -4,10 +4,6 @@
 ---
 
 ```
-═══════════════════════════════════════════════════════════════
-  ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip 7 — @ Tulsa Golden Hurricane
-═══════════════════════════════════════════════════════════════
 
 GAME DETAILS
 ────────────────────────────────────────────────────────────────
@@ -16,7 +12,7 @@ GAME DETAILS
   Kickoff     : TBD — likely 7:00 or 8:00 PM CT on ESPN
   Stadium     : Skelly Field at H.A. Chapman Stadium, Tulsa, OK
   Location    : Tulsa, Oklahoma
-  Game Type   : AAC Conference | Friday night ESPN | 3rd straight vs Tulsa
+
 
 
 DRIVE PLAN
@@ -47,13 +43,6 @@ HOTEL OPTIONS — Check-in Fri Oct 23  ·  Check-out Sat Oct 24  ·  1 night
   3    The Campbell Hotel        Indep     0.5mi  ~$120–160/nt  On-site pkg
 
 
-GROUND TRANSPORTATION
-────────────────────────────────────────────────────────────────
-  Mode           : Personal vehicle (drove from Denton)
-  Hotel→Stadium  : Uber/Lyft ~$10–15 · OR drive and park ~$10–20
-  Note           : Friday night game — Uber available in Tulsa on event nights
-  Return         : Drive back to Denton Saturday morning
-
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
@@ -61,16 +50,5 @@ COST SUMMARY
   Gas ~$60–75 · Tolls ~$20–25 · Hotel ~$155 · Transit ~$30 · Food ~$300
 
 
-NOTES & RECOMMENDATIONS
-────────────────────────────────────────────────────────────────
-  - No Choice Hotels (Comfort Suites/Comfort Inn) available
-    within 3 miles of Chapman Stadium — Marriott options listed
-    instead per fallback priority
-  - ⚡ FRIDAY NIGHT GAME — confirm ESPN kickoff time as soon
-    as announced; adjust departure if kickoff is 7 PM vs 8 PM
-  - Get a PikePass/SoonPass transponder or use the
-    PlatePass option to cover Oklahoma Turnpike tolls
-  - October in Tulsa: 60s°F at night — light jacket for game
-  - 3rd consecutive Army-Tulsa game; familiar crowd dynamic
 
 ```
