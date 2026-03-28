@@ -972,9 +972,17 @@
 // ─── CONFIG ───────────────────────────────────────────────────────
 const CONFIG_KEY = 'army_fb_config';
 
+const DEFAULT_CONFIG = {
+  user:   'teamofoxen',
+  repo:   'ArmyFootball26',
+  branch: 'main',
+  token:  '',
+  path:   'trips',
+};
+
 function getConfig() {
-  try { return JSON.parse(localStorage.getItem(CONFIG_KEY)) || null; }
-  catch { return null; }
+  try { return JSON.parse(localStorage.getItem(CONFIG_KEY)) || DEFAULT_CONFIG; }
+  catch { return DEFAULT_CONFIG; }
 }
 
 function saveConfig() {
@@ -985,8 +993,8 @@ function saveConfig() {
     token:  document.getElementById('cfg-token').value.trim(),
     path:   document.getElementById('cfg-path').value.trim() || 'trips',
   };
-  if (!cfg.user || !cfg.repo || !cfg.token) {
-    alert('Please fill in Username, Repository, and Token.');
+  if (!cfg.user || !cfg.repo) {
+    alert('Please fill in Username and Repository.');
     return;
   }
   localStorage.setItem(CONFIG_KEY, JSON.stringify(cfg));
