@@ -1,5 +1,5 @@
 # Trip 8 — @ Memphis Tigers
-**Status: PLANNED — March 23, 2026**
+**Status: PARTIALLY BOOKED — Hotel ✅ (Hotel Napoleon, Downtown Memphis) | Flights ⬜**
 
 ---
 
@@ -80,46 +80,27 @@ RETURN FLIGHT OPTIONS
   └─────────────────────────────────────────────────────────┘
 
 
-HOTEL OPTIONS
+HOTEL — ✅ BOOKED
 ────────────────────────────────────────────────────────────────
-  Check-in    : Friday, October 30, 2026
-  Check-out   : Sunday, November 1, 2026
+  Check-in    : Friday, October 30, 2026 at 3:00 PM
+  Check-out   : Sunday, November 1, 2026 at 11:00 AM
   Nights      : 2
 
-  Option 1 (closest Marriott to stadium)
   ┌─────────────────────────────────────────────────────────┐
-  │  Name        : The Memphian, Tribute Portfolio Hotel    │
-  │  Chain       : Marriott (Tribute Portfolio) ✓           │
-  │  Area        : Midtown Memphis                          │
-  │  Distance    : ~3.5 miles from Simmons Bank Liberty     │
-  │  Est. Rate   : ~$160–200/night | Total: ~$320–400       │
-  │  Parking     : On-site available                        │
-  │  Notes       : Best Marriott option in Memphis;         │
-  │                Midtown is vibrant on Halloween weekend   │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : DoubleTree by Hilton Memphis Downtown    │
-  │  Chain       : Hilton ✓                                 │
-  │  Area        : Downtown Memphis                         │
-  │  Distance    : ~4 miles from Simmons Bank Liberty       │
-  │  Est. Rate   : ~$140–175/night | Total: ~$280–350       │
-  │  Parking     : Paid garage on-site                      │
-  │  Notes       : Walking distance to Beale Street;        │
-  │                ideal for post-game entertainment        │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 (BUDGET)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Hyatt Centric Beale Street Memphis       │
-  │  Chain       : Hyatt ✓                                  │
-  │  Area        : Downtown / Beale Street                  │
-  │  Distance    : ~4–5 miles from Simmons Bank Liberty     │
-  │  Est. Rate   : ~$130–160/night | Total: ~$260–320       │
-  │  Parking     : Paid nearby                              │
-  │  Notes       : Excellent Beale Street location;         │
-  │                good value for Halloween weekend         │
+  │  ✅ CONFIRMED BOOKING                                   │
+  │  Name          : Hotel Napoleon Memphis                 │
+  │  Address       : 179 Madison Avenue, Memphis, TN 38103  │
+  │  Confirmation  : 26120472                               │
+  │  Check-in      : Friday, October 30, 2026 at 3:00 PM   │
+  │  Check-out     : Sunday, November 1, 2026 at 11:00 AM  │
+  │  Nights        : 2                                      │
+  │  Room          : 1 King Standard                        │
+  │  Rate          : Reward Nights — 58,000 pts ($0 cash)   │
+  │  Distance      : ~4.5 miles from Simmons Bank Liberty   │
+  │  Area          : Downtown Memphis                       │
+  │  Front Desk    : (901) 526-0002                         │
+  │  Email         : guestservices@hotelnapoleonmemphis.com │
+  │  Primary Guest : Heather Appleton                       │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -135,24 +116,19 @@ GROUND TRANSPORTATION
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Option 1 hotel, 3 passengers)
-
-  Flights (RT)    : ~$200–280/person × 3 = ~$600–840
-  Hotel           : ~$180/night × 2 nights = ~$360
-  Ground Transit  : ~$90 (airport Ubers + game day)
+  Hotel           : $0 cash ✅ CONFIRMED (58,000 pts — Hotel Napoleon #26120472)
+  Flights (RT)    : ~$200–280/person × 3 = ~$600–840 (est. — not yet booked)
+  Ground Transit  : ~$90 (airport Ubers + game day, est.)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,050–1,290
+  ESTIMATED TOTAL : ~$690–930 cash + 58,000 points (hotel confirmed; flights est.)
 
-  Budget Status   : ✅ WITHIN BUDGET
+  Budget Status   : ✅ WITHIN BUDGET (hotel at $0 cash is a significant saving)
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - No Choice Hotels (Comfort Suites/Comfort Inn) close to
-    Simmons Bank Liberty Stadium — Marriott/Hilton/Hyatt options
-    listed per fallback priority
-  - Halloween weekend — verify hotel rates aren't inflated;
-    book 6+ weeks in advance
+  - Hotel Napoleon ✅ booked on reward nights — book flights next (American DFW→MEM)
+  - Hotel is Downtown Memphis (~4.5 mi from stadium); Uber to/from game recommended
   - American Airlines is the ONLY nonstop option DFW→MEM;
     Delta connects only
   - Drive backup (~7 hrs via I-30 E) — only if flights are
@@ -162,7 +138,8 @@ NOTES & RECOMMENDATIONS
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
+  Updated     : March 27, 2026 — hotel confirmed (Hotel Napoleon #26120472, reward nights)
   Data source : SerpAPI web search + hotel web search
-  Prices are estimates — verify current rates before booking.
+  Flights are estimates — verify current rates before booking.
 ═══════════════════════════════════════════════════════════════
 ```
