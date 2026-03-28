@@ -62,7 +62,7 @@ GROUND TRANSPORT — ✅ BOOKED
   │                  SUV/Crossover — PRESTIGE)              │
   │  Pickup        : LGA — Friday, Sep 4 at 12:00 PM ET     │
   │  Return        : LGA — Sunday, Sep 6 at 4:00 PM ET      │
-  │  Rate          : ⚠️ Not recorded — add when confirmed   │
+  │  Rate          : $314.38 total (prepaid) ✅              │
   │  ⚠️ NOTE: Flight arrives LGA 11:32 AM — only 28 min    │
   │    before 12:00 PM pickup. Proceed directly to Hertz    │
   │    counter on arrival; do not check bags if possible.   │
@@ -100,10 +100,10 @@ COST SUMMARY
   Outbound flight : $224/person × 3 = $672 ✅ CONFIRMED (DL551, GV8589)
   Return flight   : $224/person × 3 = $672 ✅ CONFIRMED (DL352, GV8589)
   Hotel           : $132/night × 2 = $264 ✅ CONFIRMED (#21654587)
-  Rental Car      : ✅ CONFIRMED (Hertz L5403844789 — rate not on file)
+  Rental Car      : $314.38 prepaid ✅ CONFIRMED (Hertz L5403844789)
   Tolls           : ~$25 (NY Thruway)
   ─────────────────────────────────────────────────
-  CONFIRMED TOTAL : $1,608 confirmed + rental car rate + ~$25 tolls
+  CONFIRMED TOTAL : ~$1,947 ($1,344 flights + $264 hotel + $314.38 car + ~$25 tolls)
 
   Budget Status   : ✅ WITHIN BUDGET (est.)
 
