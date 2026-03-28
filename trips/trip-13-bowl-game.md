@@ -90,10 +90,4 @@ NOTES & ACTIONS REQUIRED
   3. Army bowl eligibility: needs 6+ wins in regular season
   4. Holiday travel window — every day of delay = higher prices
 
-═══════════════════════════════════════════════════════════════
-  Generated   : March 23, 2026
-  Status      : STUB — requires update when bowl assigned
-  Data source : Will update with SerpAPI + web search on
-                bowl announcement date.
-═══════════════════════════════════════════════════════════════
 ```

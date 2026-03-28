@@ -37,79 +37,28 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Dec 11  ·  Ret: Sun De
   ★ recommended · ↓ absolute last resort · ⚠️ before 2 PM minimum — do not book without override
 
 
-HOTEL OPTIONS
+HOTEL OPTIONS — Check-in Fri Dec 11  ·  Check-out Sun Dec 13  ·  2 nights
 ────────────────────────────────────────────────────────────────
-  Check-in    : Friday, December 11, 2026
-  Check-out   : Sunday, December 13, 2026
-  Nights      : 2
-
   ⚠️ BOOK IMMEDIATELY — Army-Navy at MetLife sells out fast
 
-  Option 1 (RECOMMENDED — Closest to MetLife)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Fairfield Inn by Marriott East Rutherford│
-  │                Meadowlands                              │
-  │  Chain       : Marriott ✓                               │
-  │  Area        : East Rutherford — Meadowlands complex    │
-  │  Distance    : ~2 miles from MetLife Stadium            │
-  │  Est. Rate   : ~$200–260/night | Total: ~$400–520       │
-  │  Parking     : Free on-site ✓                           │
-  │  Breakfast   : Complimentary hot/cold buffet            │
-  │  Notes       : Walking distance/short Uber to MetLife;  │
-  │                closest Marriott to stadium              │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 (Suite option — more space)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Residence Inn by Marriott East Rutherford│
-  │                Meadowlands                              │
-  │  Chain       : Marriott ✓                               │
-  │  Area        : East Rutherford / Meadowlands            │
-  │  Distance    : ~2 miles from MetLife Stadium            │
-  │  Est. Rate   : ~$220–280/night | Total: ~$440–560       │
-  │  Parking     : On-site available                        │
-  │  Breakfast   : Free breakfast buffet included           │
-  │  Notes       : Suite-style rooms; more space for a      │
-  │                big-game weekend                         │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 (Hyatt backup)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Hyatt Place Secaucus / Meadowlands       │
-  │  Chain       : Hyatt ✓                                  │
-  │  Area        : Secaucus, NJ — near MetLife              │
-  │  Distance    : ~3 miles from MetLife Stadium            │
-  │  Est. Rate   : ~$180–240/night | Total: ~$360–480       │
-  │  Parking     : On-site available                        │
-  │  Notes       : NJ Transit Secaucus Junction nearby for  │
-  │                game day shuttle access                  │
-  └─────────────────────────────────────────────────────────┘
+  1 ★  Fairfield Inn Marriott E. Rutherford   Marriott  ~2mi  ~$200–260/nt  $400–520 tot  Free pkg + brkfst
+  2    Residence Inn Marriott E. Rutherford   Marriott  ~2mi  ~$220–280/nt  $440–560 tot  Suites + brkfst
+  3    Hyatt Place Secaucus/Meadowlands       Hyatt     ~3mi  ~$180–240/nt  $360–480 tot  NJ Transit nearby
 
 
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
-  Airport → Hotel : Uber/Lyft to Meadowlands (~15 min from EWR, ~35 min from LGA/JFK, ~$25–45)
-  Game Day        : Short Uber from Meadowlands hotel (~$10–15)
-                    OR walk if weather permits (Fairfield is 2 mi)
-  Transit option  : NJ Transit game-day shuttle from Secaucus
-                    Junction → MetLife (runs on game days)
-  Return post-game: Pre-book Uber; NJ Transit shuttle back
-                    to Secaucus then hotel
-  Game Day Note   : 3:00 PM ET kickoff — depart hotel by 12:30 PM;
-                    aim to be in seats by 2:00 PM
+  Airport→Hotel  : Uber/Lyft ~15 min from EWR · ~35 min from LGA/JFK · ~$25–45
+  Game Day       : Uber from hotel ~$10–15 · OR walk (Fairfield ~2 mi)
+  Transit        : NJ Transit game-day shuttle Secaucus Junction → MetLife (runs game days)
+  Return         : Pre-book Uber or NJ Transit shuttle back to Secaucus
+  Note           : 3:00 PM kickoff — depart hotel by 12:30 PM; seats by 2:00 PM
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Option 1 hotel, 3 passengers)
-
-  Flights (RT)    : ~$320–440/person × 3 = ~$960–1,320
-  Hotel           : ~$230/night × 2 nights = ~$460
-  Ground Transit  : ~$80 (airport Uber + game day Ubers)
-  ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,500–1,860
-
-  Budget Status   : ✅ WITHIN BUDGET (premium rate override applies)
+  ESTIMATED TOTAL : ~$1,800–2,160  ·  ✅ WITHIN BUDGET (premium rate override applies)
+  Flights ~$960–1,320 · Hotel ~$460 · Transit ~$80 · Food ~$300
 
 
 NOTES & RECOMMENDATIONS
@@ -125,9 +74,4 @@ NOTES & RECOMMENDATIONS
   - Search EWR, LGA, and JFK — all three have nonstop DFW service;
     pick cheapest nonstop across all airlines and airports on Dec 11.
 
-═══════════════════════════════════════════════════════════════
-  Generated   : March 23, 2026
-  Data source : SerpAPI web search + hotel web search
-  Prices are estimates — verify current rates before booking.
-═══════════════════════════════════════════════════════════════
 ```

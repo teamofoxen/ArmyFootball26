@@ -35,58 +35,25 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 6  ·  Ret: Sun Nov
   ★ recommended · No return before 2:00 PM ET
 
 
-GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY / SUFFERN
+GROUND TRANSPORT
 ────────────────────────────────────────────────────────────────
   Mode          : Rental car from whichever NYC airport you fly into
-  From EWR → CS : NJ Tpke N → I-287 E → I-87 N → Exit 16
-                  (~65 miles, ~1h 15m to Comfort Suites)
-  From EWR → CP : NJ Tpke N → I-287 N → NY-17 N → Suffern
-                  (~55 miles, ~1h to Crowne Plaza)
-  From LGA/JFK  : GWB → I-87 N → Exit 16 (~55–65 mi, ~1h–1h 30m)
-  Hotel → Stadium: ~15–25 min to Michie Stadium
-  Rental return : Return to same airport on departure day
-  Est. cost     : ~$80–110 for weekend rental
+  Airport→Hotel : ~55–65mi · ~1h–1h 15m
+  Hotel→Stadium : ~15–25 min to Michie Stadium
+  Return        : Return rental to same airport on departure day
+  Est. cost     : ~$80–110 weekend rental
 
 
-HOTEL OPTIONS
+HOTEL OPTIONS — Check-in Fri Nov 6  ·  Check-out Sun Nov 8  ·  2 nights
 ────────────────────────────────────────────────────────────────
-  Check-in    : Friday, November 6, 2026
-  Check-out   : Sunday, November 8, 2026
-  Nights      : 2
-
-  Option 1 (RECOMMENDED)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Comfort Suites Central Valley – Woodbury │
-  │  Chain       : Choice Hotels                            │
-  │  Address     : 100 Estrada Rd, Woodbury, NY 10917       │
-  │  Distance    : ~15 miles from Michie Stadium (~20 min)  │
-  │  Est. Rate   : ~$130–160/night | Total: ~$260–320       │
-  │  Parking     : Free on-site ✓                           │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Crowne Plaza Suffern-Mahwah              │
-  │  Chain       : IHG (Crowne Plaza)                       │
-  │  Address     : Three Executive Blvd, Suffern, NY 10901  │
-  │  Distance    : ~25 miles from Michie Stadium (~35 min)  │
-  │  Est. Rate   : ~$145–180/night | Total: ~$290–360       │
-  │  Parking     : On-site available                        │
-  └─────────────────────────────────────────────────────────┘
+  1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$130–160/nt  $260–320 tot  Free pkg
+  2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$145–180/nt  $290–360 tot  On-site pkg
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Option 1 hotel, 3 passengers)
-
-  Flights (RT)    : ~$320–420/person × 3 = ~$960–1,260
-  Hotel           : ~$145/night × 2 nights = ~$290
-  Rental Car      : ~$95 weekend
-  Gas/Tolls       : ~$40
-  ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,385–1,685
-
-  Budget Status   : ✅ WITHIN BUDGET
+  ESTIMATED TOTAL : ~$1,685–1,985  ·  ✅ WITHIN BUDGET
+  Flights ~$960–1,260 · Hotel ~$290 · Rental ~$95 · Food ~$300 · Tolls ~$40
 
 
 NOTES & RECOMMENDATIONS
@@ -95,9 +62,4 @@ NOTES & RECOMMENDATIONS
   - November in West Point: 40s–50s°F, pack warm layers
   - Army currently holds the CIC Trophy — high stakes game
 
-═══════════════════════════════════════════════════════════════
-  Generated   : March 23, 2026
-  Data source : SerpAPI web search + hotel web search
-  Prices are estimates — verify current rates before booking.
-═══════════════════════════════════════════════════════════════
 ```

@@ -28,91 +28,38 @@ DRIVE PLAN
 
   Outbound — Thursday, November 26, 2026 (Thanksgiving Day)
   ┌─────────────────────────────────────────────────────────┐
-  │  Depart DFW   : ~1:00–2:00 PM CT (after Thanksgiving    │
-  │                 lunch if desired)                       │
+  │  Depart Denton : ~1:00–2:00 PM CT (after Thanksgiving   │
+  │                  lunch if desired)                      │
   │  Arrive Houston: ~4:30–6:00 PM CT                       │
-  │  Route        : I-45 S — straight shot, minimal exits   │
-  │  Traffic      : Thanksgiving Day = lightest I-45        │
-  │                 traffic of the entire year ✓            │
-  │  Tolls        : ~$3–5 (SH-45/Hardy Tollway optional)    │
   └─────────────────────────────────────────────────────────┘
 
   Return — Sunday, November 29, 2026
   ┌─────────────────────────────────────────────────────────┐
   │  Depart Houston: ~9:00–10:00 AM CT                      │
-  │  Arrive DFW   : ~1:00–2:00 PM CT                        │
-  │  ⚠️ Avoid     : Sunday afternoon return — heavy I-45    │
-  │                  post-holiday traffic after 2:00 PM     │
+  │  Arrive Denton : ~1:00–2:00 PM CT                       │
+  │  ⚠️ Depart before noon — post-holiday I-45 builds fast  │
   └─────────────────────────────────────────────────────────┘
 
 
-HOTEL OPTIONS
+HOTEL OPTIONS — Check-in Thu Nov 26  ·  Check-out Sun Nov 29  ·  3 nights
 ────────────────────────────────────────────────────────────────
-  Check-in    : Thursday, November 26, 2026
-  Check-out   : Sunday, November 29, 2026
-  Nights      : 3
-
-  Option 1 (RECOMMENDED)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : The Westin Houston Medical Center /      │
-  │                Museum District                          │
-  │  Chain       : Marriott (Westin) ✓                      │
-  │  Area        : Museum District — adjacent to Rice Univ  │
-  │  Distance    : ~0.5–1 mile from Rice Stadium            │
-  │  Est. Rate   : ~$150–180/night | Total: ~$450–540       │
-  │  Parking     : On-site valet or self-park               │
-  │  Notes       : Best location — walkable to stadium;     │
-  │                Museum District is a great area          │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Houston Marriott Medical Center /        │
-  │                Museum District                          │
-  │  Chain       : Marriott ✓                               │
-  │  Area        : Medical Center / Museum District         │
-  │  Distance    : ~1–2 miles from Rice Stadium             │
-  │  Est. Rate   : ~$140–170/night | Total: ~$420–510       │
-  │  Parking     : On-site available                        │
-  │  Notes       : Solid Marriott option; close to stadium  │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 (BUDGET)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : DoubleTree by Hilton Houston Medical     │
-  │                Center Hotel & Suites                    │
-  │  Chain       : Hilton ✓                                 │
-  │  Area        : Medical Center                           │
-  │  Distance    : ~1–2 miles from Rice Stadium             │
-  │  Est. Rate   : ~$120–150/night | Total: ~$360–450       │
-  │  Parking     : On-site available                        │
-  │  Notes       : Walking distance to Rice University;     │
-  │                campus travel partner property           │
-  └─────────────────────────────────────────────────────────┘
+  1 ★  Westin Houston Med Center/Museum District  Marriott  ~0.5–1mi  ~$150–180/nt  $450–540 tot
+  2    Houston Marriott Med Center/Museum District  Marriott  ~1–2mi  ~$140–170/nt  $420–510 tot
+  3    DoubleTree Houston Med Center                Hilton    ~1–2mi  ~$120–150/nt  $360–450 tot
 
 
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
-  Mode          : Personal vehicle (drove from DFW)
-  Hotel → Stadium: Walk (~10–15 min from Westin) or
-                   Uber/Lyft (~$10, 5 min)
-  Parking       : Park at hotel all weekend — Uber to stadium
-  Game Day Note : Thanksgiving weekend Houston traffic is light;
-                  parking near Rice Stadium available
+  Mode           : Personal vehicle (drove from Denton)
+  Hotel→Stadium  : Walk ~10–15 min from Westin · OR Uber ~$10
+  Parking        : Park at hotel all weekend — Uber to stadium
+  Note           : Thanksgiving weekend traffic light; stadium parking available
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Drive + Option 1 hotel, 3 passengers)
-
-  Flights         : $0 — driving
-  Gas (RT ~480 mi): ~$60–70 (est. at ~$3/gal, ~25 mpg)
-  Hotel           : ~$165/night × 3 nights = ~$495
-  Ground Transit  : ~$20 (Uber to/from stadium game day)
-  ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$575–585
-
-  Budget Status   : ✅ WITHIN BUDGET (3-night stay; rate reasonable)
+  ESTIMATED TOTAL : ~$825–930  ·  ✅ WITHIN BUDGET (3-night stay)
+  Gas ~$55–70 · Hotel ~$450–540 · Transit ~$20 · Food ~$300
 
 
 NOTES & RECOMMENDATIONS
@@ -128,9 +75,4 @@ NOTES & RECOMMENDATIONS
   - If flying becomes necessary: DFW→HOU (Hobby) is preferred
     over IAH — Hobby is closer to Rice Stadium
 
-═══════════════════════════════════════════════════════════════
-  Generated   : March 23, 2026
-  Data source : SerpAPI web search + hotel web search
-  Prices are estimates — verify current rates before booking.
-═══════════════════════════════════════════════════════════════
 ```

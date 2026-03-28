@@ -28,17 +28,14 @@ DRIVE PLAN
 
   Outbound — Friday, October 2, 2026
   ┌─────────────────────────────────────────────────────────┐
-  │  Depart DFW   : ~2:00–3:00 PM CT                        │
+  │  Depart Denton: ~2:00–3:00 PM CT                        │
   │  Arrive Ruston: ~5:30–6:30 PM CT                        │
-  │  Route        : I-635 E → I-20 E → US-80 E to Ruston    │
-  │  Fuel stops   : ~1 stop recommended (~Shreveport area)  │
-  │  Tolls        : Minimal (I-20 is largely toll-free)     │
   └─────────────────────────────────────────────────────────┘
 
   Return — Sunday, October 4, 2026
   ┌─────────────────────────────────────────────────────────┐
   │  Depart Ruston: ~10:00–11:00 AM CT                      │
-  │  Arrive DFW   : ~1:30–2:30 PM CT                        │
+  │  Arrive Denton: ~1:30–2:30 PM CT                        │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -46,74 +43,33 @@ HOTEL
 ────────────────────────────────────────────────────────────────
 
   NIGHT 1 — Friday, October 2, 2026 — ⚠️ PENDING DECISION
-  ┌─────────────────────────────────────────────────────────┐
-  │  Status      : Not booked                               │
-  │  Waiting on  : Team hotel location (Friday night)       │
-  │                Kickoff time (affects drive-in timing)   │
-  │  Options     : Stay near team hotel Friday night, OR    │
-  │                drive in Saturday morning (no hotel)     │
-  └─────────────────────────────────────────────────────────┘
+  Waiting on kickoff time + team hotel location · Options: stay near team hotel OR drive in Sat morning
 
   NIGHT 1 OPTIONS (if staying Friday near Ruston)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Option 1 (RECOMMENDED)                                 │
-  │  Name        : Hampton Inn by Hilton Ruston             │
-  │  Chain       : Hilton                                   │
-  │  Address     : 1315 North Trenton Street, Ruston, LA    │
-  │  Distance    : 1.9 miles from Joe Aillet Stadium        │
-  │  Est. Rate   : ~$94–124/night                           │
-  │  Parking     : Free on-site                             │
-  │  Notes       : Free breakfast; best-reviewed in Ruston  │
-  └─────────────────────────────────────────────────────────┘
-  ┌─────────────────────────────────────────────────────────┐
-  │  Option 2                                               │
-  │  Name        : Holiday Inn Express Ruston               │
-  │  Chain       : IHG                                      │
-  │  Distance    : ~2–3 miles from Joe Aillet Stadium       │
-  │  Est. Rate   : ~$90–110/night                           │
-  │  Parking     : Free on-site                             │
-  │  Notes       : Backup if Hampton fills — book early     │
-  └─────────────────────────────────────────────────────────┘
+  ────────────────────────────────────────────────────────────────
+  1 ★  Hampton Inn Ruston          Hilton  ~1.9mi  ~$94–124/nt   Free brkfst
+  2    Holiday Inn Express Ruston  IHG     ~2–3mi  ~$90–110/nt   Free pkg
 
   NIGHT 2 — Saturday, October 3, 2026 — ✅ BOOKED
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Courtyard by Marriott                    │
-  │                Shreveport-Bossier City/Louisiana        │
-  │                Boardwalk                                │
-  │  Chain       : Marriott                                 │
-  │  Address     : 100 Boardwalk Boulevard, Bossier City, LA│
-  │  Phone       : +1 (318) 742-8300                        │
-  │  Website     : marriott.com/SHVSB                       │
-  │  Check-in    : Saturday, October 3, 2026 @ 3:00 PM      │
-  │  Check-out   : Sunday, October 4, 2026 @ 12:00 PM       │
-  │  Distance    : ~70 miles from Joe Aillet Stadium        │
-  └─────────────────────────────────────────────────────────┘
+  HOTEL ✅ CONFIRMED — Courtyard by Marriott Shreveport-Bossier City
+  ────────────────────────────────────────────────────────────────
+    Check-in Sat Oct 3 3:00 PM  →  Check-out Sun Oct 4 12:00 PM  ·  1 night
+    Marriott · 100 Boardwalk Blvd, Bossier City, LA · ~70mi from Joe Aillet Stadium
+    Phone: (318) 742-8300 · marriott.com/SHVSB
 
 
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
-  Mode              : Personal vehicle (drove from DFW)
-  Game day parking  : Stadium lot or street parking in Ruston
-  Saturday hotel    : Courtyard Bossier City — ~70 miles /
-                      ~1 hr drive from Joe Aillet Stadium
-  Note              : No rideshare available in Ruston —
-                      personal vehicle is essential for this trip
+  Mode           : Personal vehicle (drove from Denton)
+  Game day       : Stadium lot or street parking in Ruston
+  Post-game      : Drive ~70 mi / ~1 hr to Courtyard Bossier City
+  Note           : No rideshare in Ruston — personal vehicle essential
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Drive + confirmed Saturday hotel, 3 passengers)
-  Note: Friday night cost TBD pending decision
-
-  Flights              : $0 — driving
-  Gas (RT ~500 mi)     : ~$60–72 (est. at ~$3/gal, ~25 mpg)
-  Saturday hotel       : Courtyard Bossier City — confirmed
-  Friday hotel (TBD)   : ~$94–124 if staying in Ruston
-  Ground Transit       : ~$15 (parking at stadium)
-  ─────────────────────────────────────────────────
-  ESTIMATED TOTAL      : ~$165–230 + Friday hotel if needed
-
-  Budget Status   : ✅ WELL WITHIN BUDGET
+  ESTIMATED TOTAL : ~$675–800 + Sat hotel rate  ·  ✅ WELL WITHIN BUDGET
+  Gas ~$60–75 · Sat hotel ✅ booked (rate TBD) · Fri hotel ~$94–124 if needed · Parking ~$15 · Food ~$300
 
 
 NOTES & RECOMMENDATIONS
@@ -129,9 +85,4 @@ NOTES & RECOMMENDATIONS
   - I-20 E is a straight, easy drive — flat, minimal traffic
   - October weather in Ruston: 70s°F, mild and pleasant
 
-═══════════════════════════════════════════════════════════════
-  Generated   : March 23, 2026
-  Data source : SerpAPI web search + hotel web search
-  Prices are estimates — verify current rates before booking.
-═══════════════════════════════════════════════════════════════
 ```

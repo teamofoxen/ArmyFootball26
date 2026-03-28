@@ -28,87 +28,37 @@ DRIVE PLAN
 
   Outbound — Friday, October 23, 2026
   ┌─────────────────────────────────────────────────────────┐
-  │  Depart DFW   : ~11:30 AM–12:00 PM CT                   │
+  │  Depart Denton: ~11:30 AM–12:00 PM CT                   │
   │  Arrive Tulsa : ~4:30–5:00 PM CT                        │
-  │  Route        : US-75 N through Sherman, McAlester       │
-  │                 to Tulsa — mostly 4-lane highway         │
-  │  Buffer       : 3+ hours before ~8 PM kickoff ✓         │
-  │  Tolls        : Oklahoma Turnpike system ~$8–12 OW       │
-  │                 (SoonPass/PikePass recommended)          │
+  │  Tolls        : Oklahoma Turnpike ~$8–12 OW             │
   └─────────────────────────────────────────────────────────┘
 
   Return — Saturday, October 24, 2026
   ┌─────────────────────────────────────────────────────────┐
   │  Depart Tulsa : ~10:00–11:00 AM CT                      │
-  │  Arrive DFW   : ~2:30–3:30 PM CT                        │
+  │  Arrive Denton: ~2:30–3:30 PM CT                        │
   └─────────────────────────────────────────────────────────┘
 
 
-HOTEL OPTIONS
+HOTEL OPTIONS — Check-in Fri Oct 23  ·  Check-out Sat Oct 24  ·  1 night
 ────────────────────────────────────────────────────────────────
-  Check-in    : Friday, October 23, 2026
-  Check-out   : Saturday, October 24, 2026
-  Nights      : 1
-
-  Option 1 (RECOMMENDED)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Courtyard by Marriott Tulsa Downtown     │
-  │  Chain       : Marriott ✓                               │
-  │  Address     : Historic Atlas Life Building, Tulsa, OK  │
-  │  Distance    : 2.6 miles from H.A. Chapman Stadium      │
-  │  Est. Rate   : ~$140–170/night | Total: ~$140–170       │
-  │  Parking     : On-site or nearby garage                 │
-  │  Notes       : Downtown location; easy Uber to stadium; │
-  │                walkable to Tulsa dining and bars        │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : Courtyard by Marriott Tulsa Central      │
-  │  Chain       : Marriott ✓                               │
-  │  Distance    : 3.7 miles from H.A. Chapman Stadium      │
-  │  Est. Rate   : ~$120–150/night | Total: ~$120–150       │
-  │  Parking     : Free on-site ✓                           │
-  │  Notes       : Slightly farther but often cheaper;      │
-  │                free parking a plus                      │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 (CLOSEST TO STADIUM)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name        : The Campbell Hotel                       │
-  │  Chain       : Independent (Route 66 historic property) │
-  │  Distance    : 0.5 miles from H.A. Chapman Stadium      │
-  │  Est. Rate   : ~$120–160/night | Total: ~$120–160       │
-  │  Parking     : On-site available                        │
-  │  Notes       : Closest hotel to stadium; unique         │
-  │                Route 66 boutique property; no chain     │
-  │                loyalty points                           │
-  └─────────────────────────────────────────────────────────┘
+  1 ★  Courtyard Tulsa Downtown  Marriott  2.6mi  ~$140–170/nt  On-site pkg
+  2    Courtyard Tulsa Central   Marriott  3.7mi  ~$120–150/nt  Free pkg
+  3    The Campbell Hotel        Indep     0.5mi  ~$120–160/nt  On-site pkg
 
 
 GROUND TRANSPORTATION
 ────────────────────────────────────────────────────────────────
-  Mode          : Personal vehicle (drove from DFW)
-  Hotel → Stadium: Uber/Lyft (~$10–15 from Downtown Courtyard)
-                   OR drive and park at stadium (~$10–20)
-  Game Day Note : Friday night game — Uber availability good
-                  in Tulsa on event nights
-  Return        : Drive back to DFW Saturday morning
+  Mode           : Personal vehicle (drove from Denton)
+  Hotel→Stadium  : Uber/Lyft ~$10–15 · OR drive and park ~$10–20
+  Note           : Friday night game — Uber available in Tulsa on event nights
+  Return         : Drive back to Denton Saturday morning
 
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Drive + Option 1 hotel, 3 passengers)
-
-  Flights         : $0 — driving
-  Gas (RT ~520 mi): ~$65–75 (est. at ~$3/gal, ~25 mpg)
-  Tolls (RT)      : ~$20–25 (Oklahoma Turnpike)
-  Hotel           : ~$155/night × 1 night = ~$155
-  Ground Transit  : ~$30 (Uber to/from stadium)
-  ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$270–285
-
-  Budget Status   : ✅ WELL WITHIN BUDGET
+  ESTIMATED TOTAL : ~$565–585  ·  ✅ WELL WITHIN BUDGET
+  Gas ~$60–75 · Tolls ~$20–25 · Hotel ~$155 · Transit ~$30 · Food ~$300
 
 
 NOTES & RECOMMENDATIONS
@@ -123,9 +73,4 @@ NOTES & RECOMMENDATIONS
   - October in Tulsa: 60s°F at night — light jacket for game
   - 3rd consecutive Army-Tulsa game; familiar crowd dynamic
 
-═══════════════════════════════════════════════════════════════
-  Generated   : March 23, 2026
-  Data source : SerpAPI web search + hotel web search
-  Prices are estimates — verify current rates before booking.
-═══════════════════════════════════════════════════════════════
 ```
