@@ -21,34 +21,11 @@ GAME DETAILS
   Note        : First-ever meeting vs Bryant (FCS)
 
 
-OUTBOUND FLIGHT — ✅ BOOKED
+FLIGHTS ✅ CONFIRMED — Delta · Confirmation: GV8589 · $224/pp × 3 = $1,344 total
 ────────────────────────────────────────────────────────────────
-  ┌─────────────────────────────────────────────────────────┐
-  │  ✅ CONFIRMED BOOKING                                   │
-  │  Airline       : Delta                                  │
-  │  Flight #      : DL 551                                 │
-  │  Confirmation  : GV8589                                 │
-  │  Date          : Friday, September 4, 2026              │
-  │  Departs       : 7:00 AM CT from DFW                    │
-  │  Arrives       : 11:32 AM ET at LGA                     │
-  │  Stops         : Nonstop (3h 32m)                       │
-  │  Price         : $224/person × 3 = $672 total           │
-  └─────────────────────────────────────────────────────────┘
-
-
-RETURN FLIGHT — ✅ BOOKED
-────────────────────────────────────────────────────────────────
-  ┌─────────────────────────────────────────────────────────┐
-  │  ✅ CONFIRMED BOOKING                                   │
-  │  Airline       : Delta                                  │
-  │  Flight #      : DL 352                                 │
-  │  Confirmation  : GV8589                                 │
-  │  Date          : Sunday, September 6, 2026              │
-  │  Departs       : 6:45 PM ET from LGA                    │
-  │  Arrives       : 9:49 PM CT at DFW                      │
-  │  Stops         : Nonstop (3h 56m)                       │
-  │  Price         : $224/person × 3 = $672 total           │
-  └─────────────────────────────────────────────────────────┘
+  Out  Fri Sep 4   DL551  DFW  7:00 AM CT → LGA 11:32 AM ET  Nonstop 3h 32m
+  Ret  Sun Sep 6   DL352  LGA  6:45 PM ET → DFW  9:49 PM CT  Nonstop 3h 56m
+  ⚠️ 28-min window to Hertz counter on arrival — go straight there
 
 
 GROUND TRANSPORT — ✅ BOOKED

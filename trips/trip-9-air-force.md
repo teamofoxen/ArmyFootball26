@@ -19,54 +19,20 @@ GAME DETAILS
   Game Type   : Commander-in-Chief's Trophy | HIGH PRIORITY
 
 
-OUTBOUND FLIGHT
+FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 6  ·  Ret: Sun Nov 8
 ────────────────────────────────────────────────────────────────
-  Travel Date : Friday, November 6, 2026
-  Route       : DFW → EWR | LGA | JFK (search all three — compare price)
-  Carriers    : American Airlines | United Airlines (both nonstop)
-  Flight Time : ~3h 33m nonstop DFW → any NYC-area airport
+  Carriers : American Airlines | United Airlines (both nonstop ~3h 33m)
+  Rule     : Search EWR, LGA, and JFK — book cheapest nonstop across all airports
 
-  Option 1 — American nonstop (verify price vs. all airports)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~7:00–9:00 AM CT from DFW               │
-  │  Arrives     : ~12:00–2:00 PM ET at EWR                 │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–210/person                         │
-  └─────────────────────────────────────────────────────────┘
+  OUTBOUND (DFW → EWR | LGA | JFK)
+    1 ★  AA    ~7–9 AM CT    → ~12–2 PM ET at EWR    Nonstop  ~$159–210/pp
+    2    UA    ~8–10 AM CT   → ~1–3 PM ET at EWR     Nonstop  ~$159–220/pp
+    3    AA/UA  LGA or JFK — pick cheapest · add ~15–30 min to drive  ~$130–200/pp
 
-  Option 2 — United nonstop (verify price vs. all airports)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : United Airlines                          │
-  │  Departs     : ~8:00–10:00 AM CT from DFW               │
-  │  Arrives     : ~1:00–3:00 PM ET at EWR                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–220/person                         │
-  └─────────────────────────────────────────────────────────┘
+  RETURN (EWR | LGA | JFK → DFW)
+    1 ★  AA    ~2–4 PM ET    → ~5:30–7:30 PM CT      Nonstop  ~$159–210/pp
 
-  Option 3 (LGA or JFK)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United                       │
-  │  Destination : LGA or JFK                               │
-  │  Est. Price  : ~$130–200/person                         │
-  │  Notes       : Add ~15–30 min to drive vs. EWR route;   │
-  │                choose whichever airport is cheapest     │
-  └─────────────────────────────────────────────────────────┘
-
-
-RETURN FLIGHT
-────────────────────────────────────────────────────────────────
-  Travel Date : Sunday, November 8, 2026
-  Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
-
-  Option 1 — nonstop return (verify cheapest airport/airline)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~2:00–4:00 PM ET from EWR/LGA/JFK        │
-  │  Arrives     : ~5:30–7:30 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–210/person                         │
-  └─────────────────────────────────────────────────────────┘
+  ★ recommended · No return before 2:00 PM ET
 
 
 GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY / SUFFERN

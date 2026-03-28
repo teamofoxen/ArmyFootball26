@@ -19,65 +19,20 @@ GAME DETAILS
   Game Type   : AAC Conference | First-ever meeting vs Memphis as AAC member
 
 
-OUTBOUND FLIGHT OPTIONS
+FLIGHT OPTIONS — DFW ↔ MEM  ·  Out: Fri Oct 30  ·  Ret: Sun Nov 1
 ────────────────────────────────────────────────────────────────
-  Travel Date : Friday, October 30, 2026
-  Route       : DFW → MEM
-  Carrier     : American Airlines (only nonstop carrier; 40 weekly direct flights)
-  Flight Time : ~1h 31m nonstop
+  Carrier  : American Airlines (only nonstop; ~1h 31m)
 
-  Option 1 — Nonstop morning (verify price vs. Option 2)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~8:00–10:00 AM CT from DFW               │
-  │  Arrives     : ~10:00 AM–12:00 PM CT at MEM             │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$100–140/person                         │
-  │  Notes       : Full day in Memphis on Friday —          │
-  │                Beale Street, BBQ, etc.                  │
-  └─────────────────────────────────────────────────────────┘
+  OUTBOUND (DFW → MEM)
+    1 ★  AA  ~8–10 AM CT    → ~10 AM–12 PM CT   Nonstop  ~$100–140/pp
+    2    AA  ~12–2 PM CT    → ~2–4 PM CT         Nonstop  ~$85–120/pp
+    3 ↓  Delta/other  1-stop (last resort)                 ~$75–100/pp
 
-  Option 2 — Nonstop midday (verify price vs. Option 1)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~12:00–2:00 PM CT from DFW               │
-  │  Arrives     : ~2:00–4:00 PM CT at MEM                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$85–120/person                          │
-  └─────────────────────────────────────────────────────────┘
+  RETURN (MEM → DFW)
+    1 ★  AA  ~2–4 PM CT     → ~3:30–5:30 PM CT   Nonstop  ~$85–120/pp
+    2 ⚠️  AA  ~10 AM–12 PM  → ~11:30 AM–1:30 PM  Nonstop  ~$100–140/pp
 
-  Option 3 — Connecting (last resort only — no nonstop available)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : Delta or other carrier                   │
-  │  Stops       : 1 stop (connection varies)               │
-  │  Est. Price  : ~$75–100/person                          │
-  │  Notes       : Only book if nonstop unavailable;        │
-  │                verify layover ≤ 2.5 hrs before booking  │
-  └─────────────────────────────────────────────────────────┘
-
-
-RETURN FLIGHT OPTIONS
-────────────────────────────────────────────────────────────────
-  Travel Date : Sunday, November 1, 2026
-  Route       : MEM → DFW
-
-  Option 1 — Nonstop afternoon return ★ RECOMMENDED (2 PM min compliant)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~2:00–4:00 PM CT from MEM                │
-  │  Arrives     : ~3:30–5:30 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$85–120/person                          │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 — Nonstop late morning (⚠️ before 2 PM min — do not book without override)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~10:00 AM–12:00 PM CT from MEM           │
-  │  Arrives     : ~11:30 AM–1:30 PM CT at DFW              │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$100–140/person                         │
-  └─────────────────────────────────────────────────────────┘
+  ★ recommended · ↓ last resort, verify layover ≤2.5h · ⚠️ before 2 PM minimum — do not book without override
 
 
 HOTEL — ✅ BOOKED

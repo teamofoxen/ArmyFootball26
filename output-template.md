@@ -44,66 +44,41 @@ GAME DETAILS
   Location    : [City, State]
 
 
-OUTBOUND FLIGHT OPTIONS  (rename to DRIVE PLAN for drive trips)
+FLIGHT OPTIONS — [Origin] ↔ [Destination]  ·  Out: [Day Mon DD]  ·  Ret: [Day Mon DD]
 ────────────────────────────────────────────────────────────────
-  Travel Date : [Outbound Date]
-  Route       : [Origin Airport Code] → [Destination Airport Code]
-                (Drive trips: [City] → [City] via [Highway], [X hrs / X miles])
+  (Drive trips: rename this section to DRIVE PLAN — see drive format below)
+  Carrier  : [Airline(s)] · [flight time]
+  Rule     : [Any trip-specific routing rule — e.g., search EWR/LGA/JFK, nonstop only]
 
-  Option 1 (RECOMMENDED)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : [Airline Name]                           │
-  │  Flight #    : [Flight Number or N/A]                   │
-  │  Departs     : [HH:MM AM/PM TZ] from [Airport Code]     │
-  │  Arrives     : [HH:MM AM/PM TZ] at [Airport Code]       │
-  │  Stops       : [Nonstop / 1 stop: via XXX (Xh Xm lay)]  │
-  │  Price       : $[XXX] per person                        │
-  └─────────────────────────────────────────────────────────┘
+  OUTBOUND ([Origin] → [Destination])
+    1 ★  [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
+    2    [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
+    3 ↓  [AL]  1-stop (last resort)                      ~$[XXX]/pp
 
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : [Airline Name]                           │
-  │  Flight #    : [Flight Number or N/A]                   │
-  │  Departs     : [HH:MM AM/PM TZ] from [Airport Code]     │
-  │  Arrives     : [HH:MM AM/PM TZ] at [Airport Code]       │
-  │  Stops       : [Nonstop / 1 stop: via XXX (Xh Xm lay)]  │
-  │  Price       : $[XXX] per person                        │
-  └─────────────────────────────────────────────────────────┘
+  RETURN ([Destination] → [Origin])
+    1 ★  [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
+    2 ⚠️  [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
 
-  Option 3 (BUDGET)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : [Airline Name]                           │
-  │  Flight #    : [Flight Number or N/A]                   │
-  │  Departs     : [HH:MM AM/PM TZ] from [Airport Code]     │
-  │  Arrives     : [HH:MM AM/PM TZ] at [Airport Code]       │
-  │  Stops       : [Nonstop / 1 stop: via XXX (Xh Xm lay)]  │
-  │  Price       : $[XXX] per person                        │
-  └─────────────────────────────────────────────────────────┘
+  ★ recommended · ↓ last resort, verify layover ≤2.5h · ⚠️ before 2 PM minimum — do not book without override
 
+  (Drive trips — use this format instead of the table above)
+  DRIVE PLAN  (rename section header to DRIVE PLAN)
+  ────────────────────────────────────────────────────────────────
+    Mode        : Personal vehicle — DRIVE (primary)
+    Route       : [City] → [City] via [Highway], [X hrs / X miles]
 
-RETURN FLIGHT OPTIONS
-────────────────────────────────────────────────────────────────
-  Travel Date : [Return Date]
-  Route       : [Destination Airport Code] → [Origin Airport Code]
+    Outbound — [Day, Date]
+    ┌─────────────────────────────────────────────────────────┐
+    │  Depart [Origin] : [HH:MM AM/PM TZ]                     │
+    │  Arrive [Dest]   : [HH:MM AM/PM TZ]                     │
+    │  Route           : [Highway details]                    │
+    └─────────────────────────────────────────────────────────┘
 
-  Option 1 (RECOMMENDED)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : [Airline Name]                           │
-  │  Flight #    : [Flight Number or N/A]                   │
-  │  Departs     : [HH:MM AM/PM TZ] from [Airport Code]     │
-  │  Arrives     : [HH:MM AM/PM TZ] at [Airport Code]       │
-  │  Stops       : [Nonstop / 1 stop: via XXX (Xh Xm lay)]  │
-  │  Price       : $[XXX] per person                        │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : [Airline Name]                           │
-  │  Departs     : [HH:MM AM/PM TZ] from [Airport Code]     │
-  │  Arrives     : [HH:MM AM/PM TZ] at [Airport Code]       │
-  │  Stops       : [Nonstop / 1 stop: via XXX (Xh Xm lay)]  │
-  │  Price       : $[XXX] per person                        │
-  └─────────────────────────────────────────────────────────┘
+    Return — [Day, Date]
+    ┌─────────────────────────────────────────────────────────┐
+    │  Depart [Dest]   : [HH:MM AM/PM TZ]                     │
+    │  Arrive [Origin] : [HH:MM AM/PM TZ]                     │
+    └─────────────────────────────────────────────────────────┘
 
 
 HOTEL OPTIONS  (up to 10 options, sorted closest to stadium first)
@@ -146,15 +121,11 @@ HOTEL OPTIONS  (up to 10 options, sorted closest to stadium first)
 
 CONFIRMED BOOKING  (replace OPTIONS section when a component is booked)
 ────────────────────────────────────────────────────────────────
-  FLIGHTS ✅  (or HOTEL ✅ / RENTAL CAR ✅ — one block per confirmed component)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline       : [Airline Name]                         │
-  │  Flight #      : [Outbound flight] / [Return flight]    │
-  │  Outbound      : [Date] — [Departure time] → [Arrival]  │
-  │  Return        : [Date] — [Departure time] → [Arrival]  │
-  │  Confirmation  : [Confirmation code or N/A]             │
-  │  Price paid    : $[XXX]/person × 3 = $[XXXX] total      │
-  └─────────────────────────────────────────────────────────┘
+  FLIGHTS ✅ CONFIRMED — [Airline] · Confirmation: [Code] · $[XXX]/pp × 3 = $[XXXX] total
+  ────────────────────────────────────────────────────────────────
+    Out  [Day Mon DD]  [FL#]  [Orig]  [Dep TZ] → [Dest] [Arr TZ]  Nonstop [Xh Xm]
+    Ret  [Day Mon DD]  [FL#]  [Dest]  [Dep TZ] → [Orig] [Arr TZ]  Nonstop [Xh Xm]
+    [⚠️ Any time-sensitive note — e.g., tight connection to rental car counter]
 
   HOTEL ✅
   ┌─────────────────────────────────────────────────────────┐

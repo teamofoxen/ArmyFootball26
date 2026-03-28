@@ -19,65 +19,20 @@ GAME DETAILS
   Game Type   : AAC Conference | 3rd consecutive season vs Temple
 
 
-OUTBOUND FLIGHT OPTIONS
+FLIGHT OPTIONS — DFW ↔ PHL  ·  Out: Fri Sep 25  ·  Ret: Sun Sep 27
 ────────────────────────────────────────────────────────────────
-  Travel Date : Friday, September 25, 2026
-  Route       : DFW → PHL
-  Carrier     : American Airlines (56 weekly nonstops — primary carrier)
-  Flight Time : ~3h 9m nonstop
+  Carrier  : American Airlines (56 weekly nonstops — primary) · ~3h 9m
 
-  Option 1 — Nonstop morning (verify price vs. Option 2)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~8:00–9:00 AM CT from DFW               │
-  │  Arrives     : ~2:00–3:00 PM ET at PHL                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$150–200/person                         │
-  │  Notes       : Arrives mid-afternoon — full evening     │
-  │                to settle in and explore Philly          │
-  └─────────────────────────────────────────────────────────┘
+  OUTBOUND (DFW → PHL)
+    1 ★  AA  ~8–9 AM CT       → ~2–3 PM ET     Nonstop  ~$150–200/pp
+    2    AA  ~11 AM–12 PM CT  → ~5–6 PM ET     Nonstop  ~$130–175/pp
+    3 ↓  AA/other  1-stop (last resort)                  ~$77–123/pp
 
-  Option 2 — Nonstop midday (verify price vs. Option 1)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~11:00 AM–12:00 PM CT from DFW           │
-  │  Arrives     : ~5:00–6:00 PM ET at PHL                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$130–175/person                         │
-  └─────────────────────────────────────────────────────────┘
+  RETURN (PHL → DFW)
+    1 ⚠️  AA  ~11 AM–1 PM ET  → ~2–4 PM CT    Nonstop  ~$150–200/pp
+    2 ★  AA  ~3–5 PM ET       → ~6–8 PM CT    Nonstop  ~$130–175/pp
 
-  Option 3 — Connecting (last resort only — no nonstop available)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines or other carrier       │
-  │  Stops       : 1 stop (connection varies)               │
-  │  Est. Price  : ~$77–123/person                          │
-  │  Notes       : Only book if nonstop unavailable;        │
-  │                verify layover ≤ 2.5 hrs before booking  │
-  └─────────────────────────────────────────────────────────┘
-
-
-RETURN FLIGHT OPTIONS
-────────────────────────────────────────────────────────────────
-  Travel Date : Sunday, September 27, 2026
-  Route       : PHL → DFW
-
-  Option 1 — Nonstop midday return (verify price vs. Option 2)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~11:00 AM–1:00 PM ET from PHL            │
-  │  Arrives     : ~2:00–4:00 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$150–200/person                         │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 — Nonstop afternoon return (verify price vs. Option 1)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American Airlines                        │
-  │  Departs     : ~3:00–5:00 PM ET from PHL                │
-  │  Arrives     : ~6:00–8:00 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$130–175/person                         │
-  └─────────────────────────────────────────────────────────┘
+  ★ recommended · ↓ last resort, verify layover ≤2.5h · ⚠️ before 2 PM minimum — do not book without override
 
 
 CONFIRMED BOOKING

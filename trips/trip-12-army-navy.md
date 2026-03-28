@@ -20,66 +20,21 @@ GAME DETAILS
   Note        : 2nd time at MetLife Stadium (first: 2021)
 
 
-OUTBOUND FLIGHT OPTIONS
+FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Dec 11  ·  Ret: Sun Dec 13
 ────────────────────────────────────────────────────────────────
-  Travel Date : Friday, December 11, 2026
-  Route       : DFW → EWR | LGA | JFK (search all three — nonstop only, lowest price wins)
-  Carriers    : American Airlines | United Airlines (both fly nonstop to all three)
-  Flight Time : ~3h 33m nonstop
+  Carriers : American Airlines | United Airlines (both nonstop ~3h 33m)
+  Rule     : [P1] Game — nonstop only. Search EWR, LGA, JFK — cheapest nonstop wins.
 
-  Option 1 — Nonstop morning, cheapest airport (compare all three)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United — whichever is cheaper│
-  │  Departs     : ~7:00–9:00 AM CT from DFW               │
-  │  Arrives     : ~1:00–3:00 PM ET at EWR/LGA/JFK          │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–220/person                         │
-  │  Notes       : Full afternoon to settle in; search all  │
-  │                three airports and pick lowest price     │
-  └─────────────────────────────────────────────────────────┘
+  OUTBOUND (DFW → EWR | LGA | JFK)
+    1 ★  AA/UA  ~7–9 AM CT       → ~1–3 PM ET     Nonstop  ~$159–220/pp
+    2    AA/UA  ~10 AM–12 PM CT  → ~2–4 PM ET     Nonstop  ~$159–236/pp
+    3 ↓  AA/UA  1-stop — absolute last resort ([P1]: missed connection unacceptable)  ~$100–159/pp
 
-  Option 2 — Nonstop midday, alternate airport or airline
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United                       │
-  │  Departs     : ~10:00 AM–12:00 PM CT from DFW           │
-  │  Arrives     : ~2:00–4:00 PM ET at EWR/LGA/JFK          │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–236/person                         │
-  └─────────────────────────────────────────────────────────┘
+  RETURN (EWR | LGA | JFK → DFW)
+    1 ★  AA/UA  ~3–5 PM ET       → ~6:30–9 PM CT  Nonstop  ~$150–200/pp
+    2 ⚠️  AA/UA  ~11 AM–1 PM ET  → ~2:30–4:30 CT  Nonstop  ~$159–220/pp
 
-  Option 3 — Connecting (last resort only — [P1] game, avoid if possible)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United                       │
-  │  Stops       : 1 stop                                   │
-  │  Est. Price  : ~$100–159/person                         │
-  │  Notes       : Only book if NO nonstop available on     │
-  │                any of EWR/LGA/JFK; [P1] game — a missed │
-  │                connection is not acceptable             │
-  └─────────────────────────────────────────────────────────┘
-
-
-RETURN FLIGHT OPTIONS
-────────────────────────────────────────────────────────────────
-  Travel Date : Sunday, December 13, 2026
-  Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
-
-  Option 1 — Nonstop afternoon return ★ RECOMMENDED (2 PM min compliant)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United — whichever is cheaper│
-  │  Departs     : ~3:00–5:00 PM ET                         │
-  │  Arrives     : ~6:30–9:00 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$150–200/person                         │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 — Nonstop midday (⚠️ before 2 PM min — do not book without override)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American or United                       │
-  │  Departs     : ~11:00 AM–1:00 PM ET                     │
-  │  Arrives     : ~2:30–4:30 PM CT at DFW                  │
-  │  Stops       : Nonstop                                  │
-  │  Est. Price  : ~$159–220/person                         │
-  └─────────────────────────────────────────────────────────┘
+  ★ recommended · ↓ absolute last resort · ⚠️ before 2 PM minimum — do not book without override
 
 
 HOTEL OPTIONS
