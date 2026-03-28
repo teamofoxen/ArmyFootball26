@@ -1,5 +1,5 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
-**Status: PARTIALLY BOOKED — Hotel confirmed (Comfort Suites Central Valley, Woodbury NY) | Flights and rental car not yet booked**
+**Status: PARTIALLY BOOKED — Hotel ✅ | Outbound flight ✅ (DL551, DFW→LGA Sep 4) | Return flight ⬜ | Rental car ⬜**
 **Hotel: ✅ ALREADY BOOKED — Comfort Suites Central Valley – Woodbury**
 
 ---
@@ -22,88 +22,44 @@ GAME DETAILS
   Note        : First-ever meeting vs Bryant (FCS)
 
 
-OUTBOUND FLIGHT
+OUTBOUND FLIGHT — ✅ BOOKED
 ────────────────────────────────────────────────────────────────
-  Date        : Friday, September 4, 2026
-  Route       : DFW → EWR or LGA | All nonstop | Sorted cheapest first
-  Note        : Options are paired by airline — book same number outbound + return
-
-  Option 1 — Delta DL 551  [$224/person] ★ RECOMMENDED
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : Delta                                    │
-  │  Flight #    : DL 551                                   │
-  │  Departs     : 7:00 AM CT from DFW                      │
-  │  Arrives     : 11:32 AM ET at LGA                       │
-  │  Stops       : Nonstop (3h 32m)                         │
-  │  Price       : $224/person                              │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 — United UA 1574  [$293/person]
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : United                                   │
-  │  Flight #    : UA 1574                                  │
-  │  Departs     : 1:00 PM CT from DFW                      │
-  │  Arrives     : 5:31 PM ET at EWR                        │
-  │  Stops       : Nonstop (3h 31m)                         │
-  │  Price       : $293/person                              │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 — American AA 1796  [$299/person]
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American                                 │
-  │  Flight #    : AA 1796                                  │
-  │  Departs     : 7:00 AM CT from DFW                      │
-  │  Arrives     : 11:38 AM ET at EWR                       │
-  │  Stops       : Nonstop (3h 38m)                         │
-  │  Price       : $299/person                              │
+  │  ✅ CONFIRMED BOOKING                                   │
+  │  Airline       : Delta                                  │
+  │  Flight #      : DL 551                                 │
+  │  Confirmation  : GV8589                                 │
+  │  Date          : Friday, September 4, 2026              │
+  │  Departs       : 7:00 AM CT from DFW                    │
+  │  Arrives       : 11:32 AM ET at LGA                     │
+  │  Stops         : Nonstop (3h 32m)                       │
+  │  Price         : $224/person × 3 = $672 total           │
   └─────────────────────────────────────────────────────────┘
 
 
-RETURN FLIGHT
+RETURN FLIGHT — ⬜ NOT YET BOOKED
 ────────────────────────────────────────────────────────────────
   Date        : Sunday, September 6, 2026
-  Rule        : No departures before 2:00 PM ET | Sorted cheapest first
-  Note        : Options paired by airline — book same number outbound + return
+  Rule        : No departures before 2:00 PM ET | Must be Delta from LGA (same airline)
 
-  Option 1 — Delta DL 352  [$224/person] ★ RECOMMENDED  (from LGA — pairs with outbound Option 1)
+  Option 1 — Delta DL 352  [$224/person] ★ BOOK THIS
   ┌─────────────────────────────────────────────────────────┐
   │  Airline     : Delta                                    │
   │  Flight #    : DL 352                                   │
   │  Departs     : 6:45 PM ET from LGA                      │
-  │  Arrives     : 9:41 PM CT at DFW                        │
+  │  Arrives     : 9:49 PM CT at DFW                        │
   │  Stops       : Nonstop (3h 56m)                         │
   │  Price       : $224/person                              │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 2 — United UA 1590  [$245/person]  (from EWR — pairs with outbound Option 2)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : United                                   │
-  │  Flight #    : UA 1590                                  │
-  │  Departs     : 3:38 PM ET from EWR                      │
-  │  Arrives     : 6:27 PM CT at DFW                        │
-  │  Stops       : Nonstop (3h 49m)                         │
-  │  Price       : $245/person                              │
-  └─────────────────────────────────────────────────────────┘
-
-  Option 3 — American AA 813  [$245/person]  (from EWR — pairs with outbound Option 3)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : American                                 │
-  │  Flight #    : AA 813                                   │
-  │  Departs     : 5:28 PM ET from EWR                      │
-  │  Arrives     : 8:28 PM CT at DFW                        │
-  │  Stops       : Nonstop (4h 0m)                          │
-  │  Price       : $245/person                              │
   └─────────────────────────────────────────────────────────┘
 
 
 GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY
 ────────────────────────────────────────────────────────────────
-  Mode          : Rental car from whichever NYC airport you fly into
+  Mode          : Rental car from LGA (outbound airport confirmed)
   Destination   : Comfort Suites Central Valley – Woodbury
-  From EWR      : NJ Tpke N → I-287 E → I-87 N → Exit 16 (~65 mi, ~1h 15m)
-  From LGA/JFK  : GWB → I-87 N → Exit 16 (~55–65 mi, ~1h–1h 30m)
+  From LGA      : GWB → I-87 N → Exit 16 (~55 mi, ~1h–1h 30m)
   Hotel → Stadium: ~15 miles / ~20 min via US-9W N to West Point
-  Rental return : Return to same airport on Sunday before departure
+  Rental return : Return to LGA on Sunday before 6:45 PM departure
   Est. cost     : ~$80–110 for weekend rental
 
 
@@ -130,21 +86,20 @@ HOTEL — ✅ ALREADY BOOKED
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Based on Option 1 flight estimates — flights not yet booked; 3 passengers)
-
-  Flights (RT)    : $224 out + $224 return = $448/person × 3 = $1,344 (est.)
+  Outbound flight : $224/person × 3 = $672 ✅ CONFIRMED (DL551, GV8589)
+  Return flight   : $224/person × 3 = $672 (est. — not yet booked)
   Hotel           : BOOKED ✅ (rate not on file — add when confirmed)
-  Rental Car      : ~$95 weekend (est.)
-  Gas/Tolls       : ~$40 (NJ Tpke + NY Thruway)
+  Rental Car      : ~$95 weekend (est. — from LGA, not yet booked)
+  Tolls           : ~$25 (NY Thruway)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,479 + hotel rate (flights not yet booked)
+  ESTIMATED TOTAL : ~$1,464 + hotel rate
 
   Budget Status   : ✅ WITHIN BUDGET (est.)
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - Hotel already booked ✅ — book flights next
+  - Hotel ✅ booked | Outbound flight ✅ booked (DL551 GV8589) — book return flight next (DL352, $224/person)
   - Labor Day weekend — I-87 N will be busy Friday afternoon;
     aim to leave EWR by 2:00 PM at latest
   - Historic occasion: Michie Stadium renovation grand opening
@@ -152,7 +107,8 @@ NOTES & RECOMMENDATIONS
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
-  Flights     : Live SerpAPI Google Flights data (queried March 23, 2026)
+  Updated     : March 27, 2026 — outbound flight confirmed (DL551 GV8589)
+  Flights     : Live SerpAPI Google Flights data (queried March 27, 2026)
   Hotel       : Web search (booked)
   Prices subject to change — verify before booking.
 ═══════════════════════════════════════════════════════════════
