@@ -18,14 +18,13 @@ FLIGHTS ✅ CONFIRMED — Delta · Confirmation: GV8589 · $224/pp × 3 = $1,344
 ────────────────────────────────────────────────────────────────
   Out  Fri Sep 4   DL551  DFW  7:00 AM CT → LGA 11:32 AM ET  Nonstop 3h 32m
   Ret  Sun Sep 6   DL352  LGA  6:45 PM ET → DFW  9:49 PM CT  Nonstop 3h 56m
-  ⚠️ 28-min window to Hertz counter on arrival — go straight there
+  Hertz pickup 12:30 PM — 58 min from arrival
 
 
 RENTAL CAR ✅ CONFIRMED — Hertz · L5403844789 · $314.38 prepaid
 ────────────────────────────────────────────────────────────────
-  Volvo XC90 Hybrid · Pickup LGA Fri Sep 4 12:00 PM · Return LGA Sun Sep 6 4:00 PM
+  Volvo XC90 Hybrid · Pickup LGA Fri Sep 4 12:30 PM · Return LGA Sun Sep 6 4:00 PM
   Airport→Hotel ~55mi ~1h 30m · Hotel→Stadium ~15mi ~20min · Return car by 4:00 PM Sun
-  ⚠️ Flight arrives 11:32 AM — 28-min window to 12:00 PM pickup; go straight to Hertz counter
 
 
 HOTEL ✅ CONFIRMED — Comfort Suites Central Valley · Confirmation: 21654587
