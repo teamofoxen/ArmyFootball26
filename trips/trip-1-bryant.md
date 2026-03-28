@@ -1,5 +1,5 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
-**Status: PARTIALLY BOOKED — Hotel ✅ | Flights ✅ (Delta GV8589, DFW↔LGA) | Rental car ⬜**
+**Status: BOOKED — Flights ✅ (Delta GV8589, DFW↔LGA) | Hotel ✅ (Comfort Suites Central Valley) | Rental car ✅ (Hertz L5403844789, LGA)**
 **Hotel: ✅ ALREADY BOOKED — Comfort Suites Central Valley – Woodbury**
 
 ---
@@ -52,14 +52,26 @@ RETURN FLIGHT — ✅ BOOKED
   └─────────────────────────────────────────────────────────┘
 
 
-GROUND TRANSPORT — NYC AIRPORT TO CENTRAL VALLEY
+GROUND TRANSPORT — ✅ BOOKED
 ────────────────────────────────────────────────────────────────
-  Mode          : Rental car from LGA (outbound airport confirmed)
+  ┌─────────────────────────────────────────────────────────┐
+  │  ✅ CONFIRMED BOOKING                                   │
+  │  Vendor        : Hertz                                  │
+  │  Confirmation  : L5403844789                            │
+  │  Vehicle       : Volvo XC90 Hybrid (Standard Elite      │
+  │                  SUV/Crossover — PRESTIGE)              │
+  │  Pickup        : LGA — Friday, Sep 4 at 12:00 PM ET     │
+  │  Return        : LGA — Sunday, Sep 6 at 4:00 PM ET      │
+  │  Rate          : ⚠️ Not recorded — add when confirmed   │
+  │  ⚠️ NOTE: Flight arrives LGA 11:32 AM — only 28 min    │
+  │    before 12:00 PM pickup. Proceed directly to Hertz    │
+  │    counter on arrival; do not check bags if possible.   │
+  └─────────────────────────────────────────────────────────┘
+
+  Route         : LGA → GWB → I-87 N → Exit 16 (~55 mi, ~1h–1h 30m)
   Destination   : Comfort Suites Central Valley – Woodbury
-  From LGA      : GWB → I-87 N → Exit 16 (~55 mi, ~1h–1h 30m)
   Hotel → Stadium: ~15 miles / ~20 min via US-9W N to West Point
-  Rental return : Return to LGA on Sunday before 6:45 PM departure
-  Est. cost     : ~$80–110 for weekend rental
+  Return logistics: Drop car at LGA by 4:00 PM Sunday; flight departs 6:45 PM (2h 45m buffer ✓)
 
 
 HOTEL — ✅ ALREADY BOOKED
@@ -88,25 +100,26 @@ COST SUMMARY
   Outbound flight : $224/person × 3 = $672 ✅ CONFIRMED (DL551, GV8589)
   Return flight   : $224/person × 3 = $672 ✅ CONFIRMED (DL352, GV8589)
   Hotel           : BOOKED ✅ (rate not on file — add when confirmed)
-  Rental Car      : ~$95 weekend (est. — from LGA, not yet booked)
+  Rental Car      : ✅ CONFIRMED (Hertz L5403844789 — rate not on file)
   Tolls           : ~$25 (NY Thruway)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,461 + hotel rate (flights confirmed at $1,344)
+  CONFIRMED TOTAL : $1,344 flights + hotel rate + rental car rate + ~$25 tolls
 
   Budget Status   : ✅ WITHIN BUDGET (est.)
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - Hotel ✅ booked | Flights ✅ booked (Delta GV8589) — book Hertz rental car from LGA next
+  - ✅ ALL COMPONENTS BOOKED — flights, hotel, and rental car confirmed
+  - ⚠️ Flight arrives LGA 11:32 AM; car pickup is noon — go straight to Hertz counter
   - Labor Day weekend — I-87 N will be busy Friday afternoon;
-    aim to leave LGA by 2:00 PM at latest
+    aim to leave LGA by 1:00 PM to arrive Central Valley before 3:00 PM
   - Historic occasion: Michie Stadium renovation grand opening
   - September in West Point: 70s°F, beautiful Hudson Valley fall
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
-  Updated     : March 27, 2026 — both flights confirmed (DL551 + DL352, GV8589)
+  Updated     : March 27, 2026 — fully booked (flights DL551+DL352 GV8589, hotel, Hertz L5403844789)
   Flights     : Live SerpAPI Google Flights data (queried March 27, 2026)
   Hotel       : Web search (booked)
   Prices subject to change — verify before booking.
