@@ -1,5 +1,5 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
-**Status: PARTIALLY BOOKED — Hotel ✅ | Outbound flight ✅ (DL551, DFW→LGA Sep 4) | Return flight ⬜ | Rental car ⬜**
+**Status: PARTIALLY BOOKED — Hotel ✅ | Flights ✅ (Delta GV8589, DFW↔LGA) | Rental car ⬜**
 **Hotel: ✅ ALREADY BOOKED — Comfort Suites Central Valley – Woodbury**
 
 ---
@@ -37,19 +37,18 @@ OUTBOUND FLIGHT — ✅ BOOKED
   └─────────────────────────────────────────────────────────┘
 
 
-RETURN FLIGHT — ⬜ NOT YET BOOKED
+RETURN FLIGHT — ✅ BOOKED
 ────────────────────────────────────────────────────────────────
-  Date        : Sunday, September 6, 2026
-  Rule        : No departures before 2:00 PM ET | Must be Delta from LGA (same airline)
-
-  Option 1 — Delta DL 352  [$224/person] ★ BOOK THIS
   ┌─────────────────────────────────────────────────────────┐
-  │  Airline     : Delta                                    │
-  │  Flight #    : DL 352                                   │
-  │  Departs     : 6:45 PM ET from LGA                      │
-  │  Arrives     : 9:49 PM CT at DFW                        │
-  │  Stops       : Nonstop (3h 56m)                         │
-  │  Price       : $224/person                              │
+  │  ✅ CONFIRMED BOOKING                                   │
+  │  Airline       : Delta                                  │
+  │  Flight #      : DL 352                                 │
+  │  Confirmation  : GV8589                                 │
+  │  Date          : Sunday, September 6, 2026              │
+  │  Departs       : 6:45 PM ET from LGA                    │
+  │  Arrives       : 9:49 PM CT at DFW                      │
+  │  Stops         : Nonstop (3h 56m)                       │
+  │  Price         : $224/person × 3 = $672 total           │
   └─────────────────────────────────────────────────────────┘
 
 
@@ -87,27 +86,27 @@ HOTEL — ✅ ALREADY BOOKED
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   Outbound flight : $224/person × 3 = $672 ✅ CONFIRMED (DL551, GV8589)
-  Return flight   : $224/person × 3 = $672 (est. — not yet booked)
+  Return flight   : $224/person × 3 = $672 ✅ CONFIRMED (DL352, GV8589)
   Hotel           : BOOKED ✅ (rate not on file — add when confirmed)
   Rental Car      : ~$95 weekend (est. — from LGA, not yet booked)
   Tolls           : ~$25 (NY Thruway)
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,464 + hotel rate
+  ESTIMATED TOTAL : ~$1,461 + hotel rate (flights confirmed at $1,344)
 
   Budget Status   : ✅ WITHIN BUDGET (est.)
 
 
 NOTES & RECOMMENDATIONS
 ────────────────────────────────────────────────────────────────
-  - Hotel ✅ booked | Outbound flight ✅ booked (DL551 GV8589) — book return flight next (DL352, $224/person)
+  - Hotel ✅ booked | Flights ✅ booked (Delta GV8589) — book Hertz rental car from LGA next
   - Labor Day weekend — I-87 N will be busy Friday afternoon;
-    aim to leave EWR by 2:00 PM at latest
+    aim to leave LGA by 2:00 PM at latest
   - Historic occasion: Michie Stadium renovation grand opening
   - September in West Point: 70s°F, beautiful Hudson Valley fall
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
-  Updated     : March 27, 2026 — outbound flight confirmed (DL551 GV8589)
+  Updated     : March 27, 2026 — both flights confirmed (DL551 + DL352, GV8589)
   Flights     : Live SerpAPI Google Flights data (queried March 27, 2026)
   Hotel       : Web search (booked)
   Prices subject to change — verify before booking.
