@@ -618,6 +618,127 @@
     transition: width 0.8s ease;
   }
 
+  /* HEADER PLAYER CARD — desktop only */
+  .header-player-card {
+    display: flex;
+    align-items: stretch;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--dark3);
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    align-self: center;
+  }
+
+  .header-player-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 3px;
+    height: 100%;
+    background: var(--gold);
+  }
+
+  .hpc-photo-wrap {
+    width: 110px;
+    flex-shrink: 0;
+    overflow: hidden;
+  }
+
+  .hpc-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+  }
+
+  .hpc-info {
+    padding: 14px 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2px;
+  }
+
+  .hpc-number {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.25em;
+    color: var(--gold);
+  }
+
+  .hpc-name {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 34px;
+    line-height: 0.95;
+    letter-spacing: 0.03em;
+    color: var(--white);
+  }
+
+  .hpc-position {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gray-light);
+    margin-bottom: 6px;
+  }
+
+  .hpc-stats {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gray-light);
+  }
+
+  .hpc-verse {
+    margin-top: 8px;
+    font-size: 10px;
+    font-style: italic;
+    color: #777777;
+    line-height: 1.5;
+    border-top: 1px solid var(--dark3);
+    padding-top: 8px;
+    max-width: 300px;
+  }
+
+  @media (max-width: 900px) {
+    .header-player-card { display: none; }
+  }
+
+  /* GAME TICKER */
+  .game-ticker {
+    display: flex;
+    background: var(--dark2);
+    border-bottom: 1px solid var(--dark3);
+  }
+
+  .game-ticker .stat {
+    flex: 1;
+    text-align: center;
+    padding: 14px 0;
+    border-right: 1px solid var(--dark3);
+  }
+
+  .game-ticker .stat:last-child { border-right: none; }
+
+  .game-ticker .stat-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 34px;
+    line-height: 1;
+    color: var(--gold);
+  }
+
+  .game-ticker .stat-label {
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gray-light);
+    margin-top: 3px;
+    font-family: 'DM Mono', monospace;
+  }
+
   /* FOOTER */
   footer {
     padding: 20px 40px;
@@ -729,25 +850,39 @@
     <h1>Army <span>Football</span><br>Travel</h1>
     <div class="header-sub">2026 Season · All 13 Games</div>
   </div>
-  <div class="header-stats" id="header-stats">
-    <div class="stat">
-      <div class="stat-num" id="stat-booked">—</div>
-      <div class="stat-label">Booked</div>
+  <div class="header-player-card">
+    <div class="hpc-photo-wrap">
+      <img src="assets/Henry.jpg" alt="Henry Appleton" class="hpc-photo">
     </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-inprogress">—</div>
-      <div class="stat-label">In Progress</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-open">—</div>
-      <div class="stat-label">Open</div>
-    </div>
-    <div class="stat">
-      <div class="stat-num" id="stat-total">13</div>
-      <div class="stat-label">Total</div>
+    <div class="hpc-info">
+      <div class="hpc-number">#58</div>
+      <div class="hpc-name">Henry Appleton</div>
+      <div class="hpc-position">OL · Army Black Knights</div>
+      <div class="hpc-stats">6'2" · 300 lbs · Denton, TX</div>
+      <div class="hpc-verse">"After him was Shamgar the son of Anath, who killed 600 of the Philistines with an oxgoad, and he also saved Israel." — Judges 3:31</div>
     </div>
   </div>
 </header>
+
+<!-- GAME TICKER -->
+<div class="game-ticker" id="header-stats">
+  <div class="stat">
+    <div class="stat-num" id="stat-booked">—</div>
+    <div class="stat-label">Booked</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" id="stat-inprogress">—</div>
+    <div class="stat-label">In Progress</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" id="stat-open">—</div>
+    <div class="stat-label">Open</div>
+  </div>
+  <div class="stat">
+    <div class="stat-num" id="stat-total">13</div>
+    <div class="stat-label">Total</div>
+  </div>
+</div>
 
 <!-- CONFIG BANNER -->
 <div class="config-banner" id="config-banner">
