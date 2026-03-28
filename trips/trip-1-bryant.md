@@ -84,11 +84,11 @@ HOTEL — ✅ ALREADY BOOKED
   │  Name          : Comfort Suites Central Valley – Woodbury│
   │  Chain         : Choice Hotels                          │
   │  Address       : 100 Estrada Rd, Woodbury, NY 10917     │
-  │  Confirmation  : ⚠️ Not on file — locate and record    │
+  │  Confirmation  : 21654587                               │
   │  Check-in      : Friday, September 4, 2026              │
   │  Check-out     : Sunday, September 6, 2026              │
   │  Nights        : 2                                      │
-  │  Rate          : ⚠️ Not recorded — confirm at check-in │
+  │  Rate          : $132/night × 2 = $264 total            │
   │  Distance      : ~15 miles from Michie Stadium          │
   │  Drive time    : ~20 min via US-9W N                    │
   │  Parking       : Free on-site ✓                         │
@@ -99,11 +99,11 @@ COST SUMMARY
 ────────────────────────────────────────────────────────────────
   Outbound flight : $224/person × 3 = $672 ✅ CONFIRMED (DL551, GV8589)
   Return flight   : $224/person × 3 = $672 ✅ CONFIRMED (DL352, GV8589)
-  Hotel           : BOOKED ✅ (rate not on file — add when confirmed)
+  Hotel           : $132/night × 2 = $264 ✅ CONFIRMED (#21654587)
   Rental Car      : ✅ CONFIRMED (Hertz L5403844789 — rate not on file)
   Tolls           : ~$25 (NY Thruway)
   ─────────────────────────────────────────────────
-  CONFIRMED TOTAL : $1,344 flights + hotel rate + rental car rate + ~$25 tolls
+  CONFIRMED TOTAL : $1,608 confirmed + rental car rate + ~$25 tolls
 
   Budget Status   : ✅ WITHIN BUDGET (est.)
 
@@ -119,7 +119,7 @@ NOTES & RECOMMENDATIONS
 
 ═══════════════════════════════════════════════════════════════
   Generated   : March 23, 2026
-  Updated     : March 27, 2026 — fully booked (flights DL551+DL352 GV8589, hotel, Hertz L5403844789)
+  Updated     : March 27, 2026 — fully booked; hotel confirmation and rate added (#21654587, $132/night)
   Flights     : Live SerpAPI Google Flights data (queried March 27, 2026)
   Hotel       : Web search (booked)
   Prices subject to change — verify before booking.
