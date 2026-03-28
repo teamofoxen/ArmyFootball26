@@ -1,5 +1,5 @@
 # Trip 2 — vs South Florida Bulls (HOME)
-**Status: PARTIALLY BOOKED — Nights 1–2 hotel ✅ (West Point) | Night 3 hotel TBD (NYC) | Flights and rental car not yet booked**
+**Status: PARTIALLY BOOKED — Hotel ✅ (Nights 1–2, Five Star Inn) | Flights and rental car not yet booked**
 
 ---
 
@@ -56,7 +56,7 @@ OUTBOUND FLIGHT
 
 RETURN FLIGHT
 ────────────────────────────────────────────────────────────────
-  Travel Date : Monday, September 14, 2026
+  Travel Date : Sunday, September 13, 2026
   Route       : EWR | LGA | JFK → DFW (whichever airport you flew into)
   Rule        : No departures before 2:00 PM ET
 
@@ -81,24 +81,16 @@ GROUND TRANSPORT
                   (~65 miles, ~1h 15m)
   Hotel → Stadium: On post — walking distance to Michie Stadium ✓
 
-  SUNDAY — West Point → Airport → Times Square
+  SUNDAY — West Point → Airport → DFW
   West Point → Airport: US-9W S → I-87 S (same reverse route as Friday)
-  Drop rental car at airport on Sunday upon arrival
-  Airport → Times Square: Car service, taxi, or transit (~30–60 min depending on airport)
-    From EWR: NJ Transit to Penn Station (~35 min, ~$17) or Uber (~$50–70)
-    From LGA: Taxi/Uber to Midtown (~30 min, ~$40–60)
-    From JFK: AirTrain + subway to Midtown (~60 min, ~$10) or Uber (~$55–75)
-
-  MONDAY — Times Square hotel → Airport → DFW
-  Times Square → Airport: Reverse of above (taxi/Uber/transit)
-  Allow 2–3 hours before departure for transit + security
+  Drop rental car at airport upon arrival; fly home Sunday afternoon
 
   Est. rental cost : ~$80–110 (2-day Fri–Sun, drop Sunday at airport)
 
 
 HOTEL
 ────────────────────────────────────────────────────────────────
-  Total Nights  : 3 (Fri Sep 11 + Sat Sep 12 at West Point | Sun Sep 13 in NYC)
+  Total Nights  : 2 (Fri Sep 11 + Sat Sep 12 at West Point)
 
   NIGHT 1 — Friday, September 11 — ✅ BOOKED
   NIGHT 2 — Saturday, September 12 — ✅ BOOKED
@@ -116,30 +108,17 @@ HOTEL
   │  Parking       : On-site                                │
   └─────────────────────────────────────────────────────────┘
 
-  NIGHT 3 — Sunday, September 13 — ⚠️ PENDING — TIMES SQUARE HOTEL NEEDED
-  ┌─────────────────────────────────────────────────────────┐
-  │  Location    : Times Square / Midtown Manhattan         │
-  │                (walking distance to Times Square)       │
-  │  Chain pref  : Choice Hotels first; IHG/Marriott/Hilton │
-  │  Est. Rate   : ~$200–350/night (Midtown NYC rates)      │
-  │  Note        : No rental car in Manhattan — drop car at │
-  │                airport Sunday, taxi/transit to hotel    │
-  └─────────────────────────────────────────────────────────┘
-
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  (Option 1 flights + Option 1 hotel, 3 passengers)
+  (Option 1 flights + confirmed hotel, 3 passengers)
 
   Flights (RT)    : ~$320–420/person × 3 = ~$960–1,260 (not yet booked)
-  Hotel Nts 1–2   : $260/night × 2 nights = $520 ✅ BOOKED (Five Star Inn)
-  Hotel Night 3   : ~$200–350/night (Times Square — not yet booked)
+  Hotel           : $260/night × 2 nights = $520 ✅ BOOKED (Five Star Inn)
   Rental Car      : ~$80–110 (2-day Fri–Sun, drop at airport Sunday)
-  Airport → Times Sq: ~$10–75 depending on airport/transit choice (Sunday)
-  Times Sq → Airport: ~$10–75 depending on airport/transit choice (Monday)
   Gas/Tolls       : ~$40
   ─────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,870–2,350
+  ESTIMATED TOTAL : ~$1,600–1,930
 
   Budget Status   : ✅ WITHIN BUDGET
 
