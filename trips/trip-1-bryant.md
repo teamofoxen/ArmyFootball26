@@ -1,6 +1,5 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
 **Status: BOOKED — Flights ✅ (Delta GV8589, DFW↔LGA) | Hotel ✅ (Comfort Suites Central Valley) | Rental car ✅ (Hertz L5403844789, LGA)**
-**Hotel: ✅ ALREADY BOOKED — Comfort Suites Central Valley – Woodbury**
 
 ---
 
@@ -122,6 +121,6 @@ NOTES & RECOMMENDATIONS
   Updated     : March 27, 2026 — fully booked; hotel confirmation and rate added (#21654587, $132/night)
   Flights     : Live SerpAPI Google Flights data (queried March 27, 2026)
   Hotel       : Web search (booked)
-  Prices subject to change — verify before booking.
+  All components confirmed and paid. No open items.
 ═══════════════════════════════════════════════════════════════
 ```
