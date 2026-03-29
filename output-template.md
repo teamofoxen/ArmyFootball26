@@ -48,13 +48,13 @@ FLIGHT OPTIONS — [Origin] ↔ [Destination]  ·  Out: [Day Mon DD]  ·  Ret: [
   Rule     : [Any trip-specific routing rule — e.g., search EWR/LGA/JFK, nonstop only]
 
   OUTBOUND ([Origin] → [Destination])
-    1 ★  [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
-    2    [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
+    1 ★  [AL]  [Dep time TZ]  → [Arr time TZ]  ~$[XXX]/pp
+    2    [AL]  [Dep time TZ]  → [Arr time TZ]  ~$[XXX]/pp
     3 ↓  [AL]  1-stop (last resort)                      ~$[XXX]/pp
 
   RETURN ([Destination] → [Origin])
-    1 ★  [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
-    2 ⚠️  [AL]  [Dep time TZ]  → [Arr time TZ]  Nonstop  ~$[XXX]/pp
+    1 ★  [AL]  [Dep time TZ]  → [Arr time TZ]  ~$[XXX]/pp
+    2 ⚠️  [AL]  [Dep time TZ]  → [Arr time TZ]  ~$[XXX]/pp
 
   ★ recommended · ↓ last resort, verify layover ≤2.5h · ⚠️ before 2 PM minimum — do not book without override
 

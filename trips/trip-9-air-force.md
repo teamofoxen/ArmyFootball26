@@ -19,12 +19,12 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 6  ·  Ret: Sun Nov
 ────────────────────────────────────────────────────────────────
 
   OUTBOUND (DFW → EWR | LGA | JFK)
-    1 ★  AA    ~7–9 AM CT    → ~12–2 PM ET at EWR    Nonstop  ~$159–210/pp
-    2    UA    ~8–10 AM CT   → ~1–3 PM ET at EWR     Nonstop  ~$159–220/pp
+    1 ★  AA    ~7–9 AM CT    → ~12–2 PM ET at EWR    ~$159–210/pp
+    2    UA    ~8–10 AM CT   → ~1–3 PM ET at EWR     ~$159–220/pp
     3    AA/UA  LGA or JFK — pick cheapest · add ~15–30 min to drive  ~$130–200/pp
 
   RETURN (EWR | LGA | JFK → DFW)
-    1 ★  AA    ~2–4 PM ET    → ~5:30–7:30 PM CT      Nonstop  ~$159–210/pp
+    1 ★  AA    ~2–4 PM ET    → ~5:30–7:30 PM CT      ~$159–210/pp
 
   ★ recommended · No return before 2:00 PM ET
 
