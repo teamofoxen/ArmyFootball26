@@ -176,6 +176,16 @@ Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned
 - Do not assume exact prices
 - Use results to infer good options
 
+### Sophia (additional traveler — PHX)
+When Sophia is confirmed for a home game or Army-Navy:
+- Search PHX → [same airport as main party] nonstop, same outbound and return dates as main party
+- Same rules apply: nonstop first, lowest price, American preferred as tiebreaker (PHX is an AA hub)
+- Coordinate arrival within ~1 hour of main party at the same airport — main party picks her up
+- If no nonstop exists PHX → main party's airport, search all three NYC airports; pick cheapest nonstop; she takes Uber/transit to hotel
+- Add a `SOPHIA — PHX FLIGHT OPTIONS` section to the trip file with her options (same format as main party flight options)
+- When booked, replace with `SOPHIA ✅ CONFIRMED` booking box — separate from main party booking
+- Her flight status does **not** affect the trip's BOOKED/PARTIALLY BOOKED status — main party components only determine trip status
+
 ---
 
 ## HOTEL SEARCH RULES
