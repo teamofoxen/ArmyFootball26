@@ -48,10 +48,6 @@ HOTEL
 
   NIGHT 2 — Saturday, October 3, 2026 — ✅ BOOKED
   HOTEL ✅ CONFIRMED — Courtyard by Marriott Shreveport-Bossier City
-  ────────────────────────────────────────────────────────────────
-    Check-in Sat Oct 3 3:00 PM  →  Check-out Sun Oct 4 12:00 PM  ·  1 night
-    Marriott · 100 Boardwalk Blvd, Bossier City, LA · ~70mi from Joe Aillet Stadium
-    Phone: (318) 742-8300 · marriott.com/SHVSB
 
 
 

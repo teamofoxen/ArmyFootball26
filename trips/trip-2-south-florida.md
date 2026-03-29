@@ -30,10 +30,7 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Sep 11  ·  Ret: Sun Se
 
 
 
-HOTEL ✅ CONFIRMED — IHG Army Hotels Five Star Inn · Confirmation: 84492373
-────────────────────────────────────────────────────────────────
-  Check-in Fri Sep 11  →  Check-out Sun Sep 13  ·  2 nights · $260/night · $520 total
-  IHG · On post — walking distance to Michie Stadium · On-site parking
+HOTEL ✅ CONFIRMED — IHG Army Hotels Five Star Inn
 
 
 COST SUMMARY

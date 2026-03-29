@@ -118,45 +118,28 @@ HOTEL OPTIONS  (up to 10 options, sorted closest to stadium first)
 
 CONFIRMED BOOKING  (replace OPTIONS section when a component is booked)
 ────────────────────────────────────────────────────────────────
-  FLIGHTS ✅ CONFIRMED — [Airline] · Confirmation: [Code] · $[XXX]/pp × 3 = $[XXXX] total
+  FLIGHTS ✅ CONFIRMED — [Airline]
   ────────────────────────────────────────────────────────────────
-    Out  [Day Mon DD]  [FL#]  [Orig]  [Dep TZ] → [Dest] [Arr TZ]  Nonstop [Xh Xm]
-    Ret  [Day Mon DD]  [FL#]  [Dest]  [Dep TZ] → [Orig] [Arr TZ]  Nonstop [Xh Xm]
-    [⚠️ Any time-sensitive note — e.g., tight connection to rental car counter]
+    Out  [Day Mon DD]  [FL#]  [Orig]  [Dep TZ]  →  [Dest]  [Arr TZ]
 
-  HOTEL ✅
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name          : [Hotel Name]                           │
-  │  Chain         : [Chain]                                │
-  │  Address       : [Address]                              │
-  │  Confirmation  : #[Confirmation Number]                 │
-  │  Check-in      : [Date]                                 │
-  │  Check-out     : [Date]                                 │
-  │  Nights        : [#]                                    │
-  │  Rate          : $[XXX]/night | Total: $[XXX]           │
-  │  Distance      : [X.X miles] from [Stadium Name]        │
-  └─────────────────────────────────────────────────────────┘
+    Ret  [Day Mon DD]  [FL#]  [Dest]  [Dep TZ]  →  [Orig]  [Arr TZ]
+
+  RENTAL CAR ✅ CONFIRMED — [Vendor]
+  ────────────────────────────────────────────────────────────────
+    [Vehicle Type]
+    Pickup   [Airport]  [Day Mon DD]  [Time]
+    Return   [Airport]  [Day Mon DD]  [Time]
+
+  HOTEL ✅ CONFIRMED — [Hotel Name]
 
 
 MULTI-NIGHT HOTEL FORMAT  (use when nights are booked separately)
 ────────────────────────────────────────────────────────────────
   NIGHT 1 — [Date] — ✅ BOOKED  (or ⚠️ PENDING DECISION / ❌ Not staying)
-  ┌─────────────────────────────────────────────────────────┐
-  │  Name          : [Hotel Name]                           │
-  │  Address       : [Address]                              │
-  │  Confirmation  : #[Confirmation Number]                 │
-  │  Check-in      : [Date]                                 │
-  │  Check-out     : [Date]                                 │
-  │  Rate          : $[XXX]/night                           │
-  │  Distance      : [X.X miles] from [Stadium Name]        │
-  └─────────────────────────────────────────────────────────┘
+  HOTEL ✅ CONFIRMED — [Hotel Name]
 
   NIGHT 2 — [Date] — ⚠️ PENDING DECISION
-  ┌─────────────────────────────────────────────────────────┐
-  │  Status      : Not booked                               │
-  │  Waiting on  : [What decision is pending]               │
-  │  Options     : [What the pending choices are]           │
-  └─────────────────────────────────────────────────────────┘
+  Waiting on: [What decision is pending]
 
   NIGHT [N] OPTIONS (if pending — show options for unresolved nights only)
   [standard Option 1 / Option 2 / Option 3 boxes here]

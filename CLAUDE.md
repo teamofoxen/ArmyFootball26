@@ -227,7 +227,7 @@ immediately and without being asked:
 5. **Run a targeted consistency check on that trip file immediately after committing:**
    - Status line matches actual content (BOOKED only if all applicable components confirmed)
    - Options sections removed for every confirmed component; still present for every unresolved component
-   - CONFIRMED BOOKING box exists with all required fields (Name, Confirmation, Rate, Distance for hotels; Airline, Flight #, dates, price for flights)
+   - Confirmed sections present with correct format: hotel shows name only; flights show airline, flight numbers, dates, times (no confirmation, no price, no duration); rental car shows vendor, vehicle type, pickup/return airport, dates, times
    - Cost summary reflects confirmed prices, not stale estimates
    - No stale data left over (e.g., hotel distance in options doesn't contradict confirmed hotel)
    - If any issue is found, fix it immediately and commit with message `Fix: post-booking consistency check Trip X`

@@ -30,11 +30,7 @@ FLIGHT OPTIONS — DFW ↔ MEM  ·  Out: Fri Oct 30  ·  Ret: Sun Nov 1
   ★ recommended · ↓ last resort, verify layover ≤2.5h · ⚠️ before 2 PM minimum — do not book without override
 
 
-HOTEL ✅ CONFIRMED — Hotel Napoleon Memphis · Confirmation: 26120472 · 58,000 pts ($0 cash)
-────────────────────────────────────────────────────────────────
-  Check-in Fri Oct 30 3:00 PM  →  Check-out Sun Nov 1 11:00 AM  ·  2 nights · 1 King Standard
-  Independent · ~4.5mi from Simmons Bank Liberty Stadium · Downtown Memphis
-  Guest: Heather Appleton · Front desk: (901) 526-0002 · guestservices@hotelnapoleonmemphis.com
+HOTEL ✅ CONFIRMED — Hotel Napoleon Memphis
 
 
 

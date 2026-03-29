@@ -30,10 +30,7 @@ FLIGHT OPTIONS — DFW ↔ PHL  ·  Out: Fri Sep 25  ·  Ret: Sun Sep 27
   ★ recommended · ↓ last resort, verify layover ≤2.5h · ⚠️ before 2 PM minimum — do not book without override
 
 
-HOTEL ✅ CONFIRMED — Holiday Inn Philadelphia Arpt-Stadium Area · Confirmation: #24880388
-────────────────────────────────────────────────────────────────
-  Check-in Fri Sep 25  →  Check-out Sun Sep 27  ·  2 nights · ⚠️ Rate not recorded — confirm at check-in
-  IHG · ~1.5mi from Lincoln Financial Field · Complimentary shuttle (call 732-778-9237 to arrange)
+HOTEL ✅ CONFIRMED — Holiday Inn Philadelphia Arpt-Stadium Area
 
 
 
