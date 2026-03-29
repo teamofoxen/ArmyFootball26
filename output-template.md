@@ -30,10 +30,6 @@ When one or more components are confirmed but others are not:
 ---
 
 ```
-═══════════════════════════════════════════════════════════════
-  ARMY BLACK KNIGHTS TRAVEL PLAN
-  Trip [#] — [Opponent Name]
-═══════════════════════════════════════════════════════════════
 
 GAME DETAILS
 ────────────────────────────────────────────────────────────────
@@ -165,14 +161,6 @@ MULTI-NIGHT HOTEL FORMAT  (use when nights are booked separately)
   [standard Option 1 / Option 2 / Option 3 boxes here]
 
 
-GROUND TRANSPORTATION
-────────────────────────────────────────────────────────────────
-  Mode          : [Uber/Lyft | Rental Car | Drive | Train | Walk]
-  Details       : [Specific guidance — pickup point, estimated cost, etc.]
-  Backup        : [Alternate option if primary fails]
-  Game Day Note : [Any stadium-specific transport tips]
-
-
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   (Based on Option 1 recommendations, 3 passengers)
@@ -186,14 +174,4 @@ COST SUMMARY
   Budget Status   : [WITHIN BUDGET / OVER BUDGET — see notes]
 
 
-NOTES & RECOMMENDATIONS
-────────────────────────────────────────────────────────────────
-  [Any trip-specific advice, booking urgency, alerts, or exceptions
-   to MASTER SETTINGS with clear justification]
-
-═══════════════════════════════════════════════════════════════
-  Generated: [Date Generated]
-  Data source: SerpAPI (web search) + hotel web search
-  Flight data reflects availability at time of query only.
-═══════════════════════════════════════════════════════════════
 ```

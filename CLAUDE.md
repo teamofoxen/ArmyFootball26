@@ -17,11 +17,9 @@ Every time the user requests a trip plan, you MUST follow these steps in order:
 
 ### Step 0 — Session Orientation (run ONCE at the start of every session)
 
-**0a — Read the latest session log**
-Open `logs/` and read the most recently dated file. Extract:
-- What changed in the last session
-- Any open items or flagged follow-ups
-- Current booking status of each trip
+**0a — Read `open-items.md` and the latest session log**
+Read `open-items.md` for current open items — this is the authoritative list.
+Then open `logs/` and read the most recently dated file for context on what changed last session.
 
 **0b — Check today's date against the game schedule**
 Using today's date, scan the schedule in `travel-system.md` and identify:
@@ -54,9 +52,9 @@ BOOKING STATUS:
 URGENT (within 8 weeks, not booked): [list or "None"]
 CRITICAL (within 4 weeks, not booked): [list or "None"]
 
-OPEN ITEMS FROM LAST SESSION:
-  - [item]
-  - [item]
+OPEN ITEMS:
+  - [item from open-items.md]
+  - [item from open-items.md]
 
 Ready for your instructions.
 ```
@@ -210,7 +208,7 @@ immediately and without being asked:
 3. **Remove options sections only when fully resolved:**
    - Hotel options → remove **only when every night of the trip is booked**
      (if even one night is still undecided, keep all hotel options)
-   - Flights booked → delete the OUTBOUND FLIGHT OPTIONS and RETURN FLIGHT OPTIONS sections entirely
+   - Flights booked → delete the FLIGHT OPTIONS section entirely
    - Rental car booked → delete any rental car options section entirely
    - The confirmed booking details stay; only the "shopping" options for resolved components are removed
 4. Commit the change with a message like `Record confirmed [flight/hotel/car] booking for Trip X`
@@ -243,12 +241,21 @@ After every meaningful action — do not wait for the session to end:
    - What changed and why
    - Any booking confirmed (trip, what was booked, price)
    - Any setting or rule updated
-   - Any open items surfaced
-3. Commit the log immediately with message `Log: [one-line description of what happened]`
+   - Any open items surfaced or resolved
+3. Update `open-items.md`:
+   - Add any newly surfaced open items
+   - Remove any items that were just resolved
+4. Commit log and open-items.md together with message `Log: [one-line description of what happened]`
 
 **Why incremental, not end-of-session:** Claude cannot detect when a session ends.
 If the user closes the window without warning, an end-of-session log never gets written.
 Writing after each action ensures the log is always current regardless of how the session ends.
+
+### File integrity
+After any session where trip files are modified:
+1. Run `python validate_trips.py` — all 13 files must pass before the session ends
+2. If a format change was made to trip files (section renamed, added, or removed),
+   update `validate_trips.py` in the **same commit** as the format change — never after
 
 ---
 
@@ -262,6 +269,7 @@ Writing after each action ensures the log is always current regardless of how th
 | NO improvised dates | Use only dates from `travel-system.md` |
 | NO excess API calls | Maximum 3 `get_flights` calls per trip |
 | NO casual responses | Output must match `output-template.md` format |
+| NO booking data in `travel-system.md` | Confirmation numbers, rates, and booking status belong in trip files only — never embed them in `travel-system.md` |
 
 ---
 

@@ -400,8 +400,6 @@ HOTEL (ALT)     : Crowne Plaza Suffern-Mahwah
                   ~25 miles / ~35 min to Michie Stadium via Palisades Pkwy N
 FLIGHT COST     : ~$159–220/person one-way (American or United nonstop)
 HOTEL COST      : Comfort Suites ~$120–160/night | Crowne Plaza ~$140–180/night
-NOTE            : Trip 1 (Bryant, Sep 5) fully booked — Delta GV8589 (DFW↔LGA), Comfort Suites
-                  Central Valley #21654587, Hertz L5403844789. Total ~$2,247 (incl. food/tolls).
 ```
 
 | Game | Date | Trip File | Notable |
