@@ -40,13 +40,18 @@ VALID_STATUS_PREFIXES = (
 
 # Each entry: (label, [keywords that satisfy the check — any match passes])
 # Checked on PLANNED and BOOKED trips only. STUBs are exempt.
+#
+# Keyword notes:
+#   Transport — planned fly trips use "FLIGHT OPTIONS" header with "OUTBOUND" / "RETURN"
+#               sub-labels; booked trips use "FLIGHTS ✅ CONFIRMED"; drive trips use "DRIVE PLAN"
+#   Hotel     — planned trips use "HOTEL OPTIONS"; booked/partial trips use "HOTEL ✅ CONFIRMED"
+#   Notes & Rules Compliance sections were removed from all trip files in the 03-27 cleanup;
+#               those checks have been dropped here to match.
 REQUIRED_SECTIONS = [
     ("Game details",         ["GAME DETAILS"]),
-    ("Transport/drive plan", ["OUTBOUND FLIGHT", "DRIVE PLAN", "TRANSPORT", "RETURN FLIGHT"]),
-    ("Hotel section",        ["HOTEL OPTIONS", "HOTEL —"]),
+    ("Transport/drive plan", ["OUTBOUND FLIGHT", "FLIGHT OPTIONS", "FLIGHTS ✅", "DRIVE PLAN", "TRANSPORT", "RETURN FLIGHT"]),
+    ("Hotel section",        ["HOTEL OPTIONS", "HOTEL ✅", "HOTEL —"]),
     ("Cost summary",         ["COST SUMMARY", "COST ESTIMATE"]),
-    ("Notes section",        ["NOTES &", "NOTES AND"]),
-    ("Rules compliance",     ["RULES COMPLIANCE"]),
 ]
 
 
