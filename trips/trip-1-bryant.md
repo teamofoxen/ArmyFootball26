@@ -35,7 +35,8 @@ ACTIVITIES
 ────────────────────────────────────────────────────────────────
   West Point Museum          Free · on-campus · walk from Michie Stadium
   Trophy Point overlook      Scenic Hudson River views on West Point grounds
-  Storm King Art Center      Outdoor sculpture park · ~15 min south (Cornwall, NY)
+  Jones Farm (Sun breakfast) 190 Angola Rd, Cornwall, NY · Cafe 8am–3pm · farm café + bakery overlooking Schunemunk Mtn
+  Storm King Art Center      Outdoor sculpture park · ~15 min south (Cornwall, NY) · right next to Jones Farm
   Cold Spring, NY            Main Street shops + river views · ~20 min south
   Dia:Beacon                 Modern art museum · ~20 min north (Beacon, NY)
   Hudson Valley wineries     Brotherhood Winery, Millbrook Vineyards · 30–45 min east
