@@ -1,0 +1,9 @@
+{
+  "airline": "American Airlines",
+  "departure_airport": "DFW",
+  "arrival_airport": "EWR",
+  "departure_date": "2026-09-11",
+  "return_date": "2026-09-13",
+  "flight_numbers": ["AA9999"],
+  "passengers": [{"name": "Test Traveler"}]
+}
