@@ -34,10 +34,20 @@ HOTEL ✅ CONFIRMED — Hotel Napoleon Memphis
 
 
 
+ACTIVITIES
+────────────────────────────────────────────────────────────────
+  Beale Street               Live music + bars + BBQ · walkable from downtown hotels
+  Sun Studio                 Elvis, Cash, Jerry Lee Lewis recorded here · $15 tour
+  National Civil Rights Museum  Lorraine Motel · essential Memphis stop
+  Central BBQ / Gus's Chicken  Local Memphis institutions · multiple downtown locations
+  Graceland                  Elvis' home + museum · ~3 mi south of downtown
+  Halloween on Beale Street  Major annual event (Oct 31) · costumes encouraged
+
+
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$990–1,230 cash + 58,000 pts  ·  ✅ WITHIN BUDGET
-  Flights ~$600–840 · Hotel $0 ✅ (58k pts) · Transit ~$90 · Food ~$300
+  ESTIMATED TOTAL : ~$1,065–1,305 cash + 58,000 pts  ·  ✅ WITHIN BUDGET
+  Flights ~$600–840 · Hotel $0 ✅ (58k pts) · DFW Pkg ~$75 · Transit ~$90 · Food ~$300
 
 
 

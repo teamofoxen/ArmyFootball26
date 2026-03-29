@@ -36,10 +36,20 @@ HOTEL OPTIONS — Check-in Fri Oct 9  ·  Check-out Sun Oct 11  ·  2 nights
   2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$150–185/nt  $300–370 tot  On-site pkg
 
 
+ACTIVITIES
+────────────────────────────────────────────────────────────────
+  West Point Museum          Free · on-campus · walk from Michie Stadium
+  Trophy Point overlook      Scenic Hudson River views on West Point grounds
+  Storm King Art Center      Outdoor sculpture park · ~15 min south (Cornwall, NY)
+  Cold Spring, NY            Main Street shops + river views · ~20 min south
+  Dia:Beacon                 Modern art museum · ~20 min north (Beacon, NY)
+  Hudson Valley wineries     Brotherhood Winery, Millbrook Vineyards · 30–45 min east
+
+
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,685–1,985  ·  ✅ WITHIN BUDGET
-  Flights ~$960–1,260 · Hotel ~$290 · Rental ~$95 · Food ~$300 · Tolls ~$40
+  ESTIMATED TOTAL : ~$1,760–2,060  ·  ✅ WITHIN BUDGET
+  Flights ~$960–1,260 · Hotel ~$290 · Rental ~$95 · DFW Pkg ~$75 · Food ~$300 · Tolls ~$40
 
 
 

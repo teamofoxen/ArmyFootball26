@@ -40,10 +40,19 @@ HOTEL OPTIONS — Check-in Fri Dec 11  ·  Check-out Sun Dec 13  ·  2 nights
 
 
 
+ACTIVITIES
+────────────────────────────────────────────────────────────────
+  MetLife Stadium tailgate   Army-Navy tailgate scene · arrive 3+ hours before kickoff
+  American Dream mall        Adjacent to MetLife · largest mall in the US
+  NYC holiday season         Manhattan ~25 min via NJ Transit · Christmas markets + tree
+  Rockefeller Center tree    Dec 12 is peak holiday NYC · plan time in midtown
+  Jersey City / Hoboken      Walkable NYC-adjacent neighborhoods across the Hudson
+
+
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,800–2,160  ·  ✅ WITHIN BUDGET (premium rate override applies)
-  Flights ~$960–1,320 · Hotel ~$460 · Transit ~$80 · Food ~$300
+  ESTIMATED TOTAL : ~$1,875–2,235  ·  ✅ WITHIN BUDGET (premium rate override applies)
+  Flights ~$960–1,320 · Hotel ~$460 · DFW Pkg ~$75 · Transit ~$80 · Food ~$300
 
 
 

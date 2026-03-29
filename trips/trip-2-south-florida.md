@@ -33,10 +33,20 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Sep 11  ·  Ret: Sun Se
 HOTEL ✅ CONFIRMED — IHG Army Hotels Five Star Inn
 
 
+ACTIVITIES
+────────────────────────────────────────────────────────────────
+  West Point Museum          Free · on-campus · walk from Michie Stadium
+  Trophy Point overlook      Scenic Hudson River views on West Point grounds
+  Storm King Art Center      Outdoor sculpture park · ~15 min south (Cornwall, NY)
+  Cold Spring, NY            Main Street shops + river views · ~20 min south
+  Dia:Beacon                 Modern art museum · ~20 min north (Beacon, NY)
+  Hudson Valley wineries     Brotherhood Winery, Millbrook Vineyards · 30–45 min east
+
+
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,900–2,230  ·  ✅ WITHIN BUDGET
-  Flights ~$960–1,260 · Hotel $520 ✅ · Rental ~$80–110 · Food ~$300 · Tolls ~$40
+  ESTIMATED TOTAL : ~$1,975–2,305  ·  ✅ WITHIN BUDGET
+  Flights ~$960–1,260 · Hotel $520 ✅ · Rental ~$80–110 · DFW Pkg ~$75 · Food ~$300 · Tolls ~$40
 
 
 

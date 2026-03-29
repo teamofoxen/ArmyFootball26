@@ -42,6 +42,7 @@ HOTEL PROXIMITY    : Within 10 miles of stadium
                      The 10-mile rule is waived for home games.
 HOTEL PARKING      : Required if renting a car
 RENTAL CAR         : Hertz (preferred vendor) — only when public transit/Uber is insufficient
+DFW PARKING        : $25/day (fly trips only — DFW daily parking rate, applied to all fly trips)
 OUTBOUND TRAVEL    : Day before the game (Friday for Saturday games)
 RETURN TRAVEL      : Day after the game (Sunday for Saturday games)
 DEPART TIME PREF   : Early morning from DFW (first available flights preferred)

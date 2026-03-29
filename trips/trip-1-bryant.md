@@ -31,10 +31,20 @@ RENTAL CAR ✅ CONFIRMED — Hertz
 HOTEL ✅ CONFIRMED — Comfort Suites Central Valley
 
 
+ACTIVITIES
+────────────────────────────────────────────────────────────────
+  West Point Museum          Free · on-campus · walk from Michie Stadium
+  Trophy Point overlook      Scenic Hudson River views on West Point grounds
+  Storm King Art Center      Outdoor sculpture park · ~15 min south (Cornwall, NY)
+  Cold Spring, NY            Main Street shops + river views · ~20 min south
+  Dia:Beacon                 Modern art museum · ~20 min north (Beacon, NY)
+  Hudson Valley wineries     Brotherhood Winery, Millbrook Vineyards · 30–45 min east
+
+
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  CONFIRMED TOTAL : ~$2,247  ·  ✅ WITHIN BUDGET
-  Flights $1,344 ✅ · Hotel $264 ✅ · Rental $314.38 ✅ · Food ~$300 · Tolls ~$25
+  CONFIRMED TOTAL : ~$2,322  ·  ✅ WITHIN BUDGET
+  Flights $1,344 ✅ · Hotel $264 ✅ · Rental $314.38 ✅ · DFW Pkg $75 · Food ~$300 · Tolls ~$25
 
 
 

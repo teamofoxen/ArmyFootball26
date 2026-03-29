@@ -58,6 +58,11 @@ HOTEL OPTIONS — TBD
      Bowl host cities sell out fast — especially Dec 26–Jan 1.
 
 
+ACTIVITIES — TBD
+────────────────────────────────────────────────────────────────
+  ⚠️ Update when bowl location announced
+
+
 COST ESTIMATE — TBD
 ────────────────────────────────────────────────────────────────
   Local bowl  : ~$50–75 (gas + parking only)

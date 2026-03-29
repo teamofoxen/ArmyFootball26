@@ -145,12 +145,18 @@ MULTI-NIGHT HOTEL FORMAT  (use when nights are booked separately)
   [standard Option 1 / Option 2 / Option 3 boxes here]
 
 
+ACTIVITIES
+────────────────────────────────────────────────────────────────
+  [Activity suggestions for this destination — restaurants, attractions, things to do]
+
+
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   (Based on Option 1 recommendations, 3 passengers)
 
   Flights (RT)    : $[XXX]/person × 3 = $[XXXX]
   Hotel           : $[XXX]/night × [#] nights = $[XXXX]
+  DFW Parking     : $25/day × [#] days = $[XX]  (fly trips only)
   Ground Transit  : ~$[XXX] estimated
   ─────────────────────────────────────────
   ESTIMATED TOTAL : ~$[XXXX]

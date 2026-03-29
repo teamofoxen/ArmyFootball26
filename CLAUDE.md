@@ -115,6 +115,8 @@ Before writing output, verify:
 - [ ] Layover rules are respected (no layovers longer than 2.5 hours)
 - [ ] Budget thresholds from MASTER SETTINGS are not exceeded
 - [ ] Trip-specific overrides are applied
+- [ ] ACTIVITIES section is present with destination-appropriate suggestions
+- [ ] DFW Parking ($25/day × trip days) is included in cost summary for all fly trips
 
 ### Step 6 — Output Using `output-template.md`
 Format your final answer exactly as defined in `output-template.md`. No deviations.

@@ -51,6 +51,7 @@ REQUIRED_SECTIONS = [
     ("Game details",         ["GAME DETAILS"]),
     ("Transport/drive plan", ["OUTBOUND FLIGHT", "FLIGHT OPTIONS", "FLIGHTS ✅", "DRIVE PLAN", "TRANSPORT", "RETURN FLIGHT"]),
     ("Hotel section",        ["HOTEL OPTIONS", "HOTEL ✅", "HOTEL —"]),
+    ("Activities section",   ["ACTIVITIES"]),
     ("Cost summary",         ["COST SUMMARY", "COST ESTIMATE"]),
 ]
 

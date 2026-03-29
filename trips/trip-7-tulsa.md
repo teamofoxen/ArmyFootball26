@@ -44,6 +44,15 @@ HOTEL OPTIONS — Check-in Fri Oct 23  ·  Check-out Sat Oct 24  ·  1 night
 
 
 
+ACTIVITIES
+────────────────────────────────────────────────────────────────
+  The Gathering Place        Award-winning riverfront park · free · 5 min from downtown
+  Blue Dome District         Bars + restaurants + post-game scene · walkable downtown
+  Cain's Ballroom            Historic music venue · check show schedule
+  Woody Guthrie Center       Music history museum · $8 · downtown Tulsa
+  Art Deco architecture      Self-guided walking tour · world's largest collection outside NYC
+
+
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   ESTIMATED TOTAL : ~$565–585  ·  ✅ WELL WITHIN BUDGET
