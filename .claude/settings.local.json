@@ -1,18 +1,4 @@
 {
-  "hooks": {
-    "PostToolUse": [
-      {
-        "matcher": "Bash",
-        "hooks": [
-          {
-            "type": "command",
-            "command": "python -c \"import sys,json; d=json.load(sys.stdin); exit(0 if 'git commit' in d.get('tool_input',{}).get('command','') else 1)\" && git push || true",
-            "statusMessage": "Pushing to GitHub..."
-          }
-        ]
-      }
-    ]
-  },
   "permissions": {
     "allow": [
       "WebSearch",
@@ -36,11 +22,37 @@
       "Bash(cmd.exe:*)",
       "Bash(powershell:*)",
       "Skill(update-config)",
-      "Skill(update-config:*)"
+      "Skill(update-config:*)",
+      "WebFetch(domain:www.hotels.com)",
+      "WebFetch(domain:www.hyatt.com)",
+      "WebFetch(domain:www.booking.com)",
+      "WebFetch(domain:www.expedia.com)",
+      "WebFetch(domain:www.ihg.com)",
+      "WebFetch(domain:www.kayak.com)",
+      "WebFetch(domain:www.hotels-newyorkcity.org)",
+      "WebFetch(domain:www.momondo.com)",
+      "Bash(sort -k6,7)",
+      "Bash(xargs -I {} sed -n '2p' \"/c/Users/rossa/OneDrive/ArmyFootball26/trips/{}\")",
+      "WebFetch(domain:goarmywestpoint.com)",
+      "Bash(\"C:\\\\Users\\\\rossa\\\\OneDrive\\\\ArmyFootball26\\\\logs\\\\session-2026-03-28.md\":*)"
     ],
     "deny": [
       "Read(.env)"
     ],
     "defaultMode": "bypassPermissions"
+  },
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -c \"import sys,json; d=json.load(sys.stdin); exit(0 if 'git commit' in d.get('tool_input',{}).get('command','') else 1)\" && git push || true",
+            "statusMessage": "Pushing to GitHub..."
+          }
+        ]
+      }
+    ]
   }
 }

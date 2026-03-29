@@ -120,14 +120,23 @@ def run(page, payload: dict) -> None:
         try:
             # AA uses a native <select> with integer options 1–9
             pax_selects = page.locator("select").all()
+            matched = False
             for sel in pax_selects:
                 opts = sel.locator("option").all_text_contents()
+                # Options are plain integers ("1", "2", ..., "9")
                 if "1" in opts and "9" in opts:
                     sel.select_option(str(pax_count))
                     _delay(0.3, 0.6)
+                    matched = True
                     break
-        except Exception:
-            print(f"[american] WARNING: could not set passenger count — proceeding with 1")
+            if not matched:
+                print(
+                    f"[american] WARNING: passenger count selector not found — "
+                    f"search will default to 1 passenger. "
+                    f"Set count manually before selecting your flight."
+                )
+        except Exception as exc:
+            print(f"[american] WARNING: could not set passenger count ({exc}) — proceeding with 1")
 
     # ── submit ────────────────────────────────────────────────────────────────
     print("[american] Submitting search")

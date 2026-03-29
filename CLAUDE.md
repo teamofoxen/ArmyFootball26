@@ -329,21 +329,30 @@ Claude will execute the full 7-step workflow and return a structured plan.
 
 When the user says this, Claude must:
 
-### 8a — Extract flight data from the trip file
-Open `trips/trip-N-[opponent].md`. Read the confirmed flight section and extract:
-- Airline name
-- Departure airport (IATA code)
-- Arrival airport (IATA code)
-- Departure date (`YYYY-MM-DD`)
-- Return date (`YYYY-MM-DD`) — omit if one-way
-- Flight number(s) (e.g. `["AA1234"]`)
-- Passenger list (names of all travelers)
+### 8a — Verify the trip file has a confirmed flight
+Open `trips/trip-N-[opponent].md`. Confirm the file contains a `FLIGHTS ✅ CONFIRMED` section
+with at least one `Out` line including a flight number and IATA airports.
 
-**If any required field is missing or the trip has no confirmed flight, STOP and tell the user what is missing. Do not generate a payload with invented data.**
+**If no confirmed flight exists, STOP. Tell the user what is missing. Do not proceed.**
 
-### 8b — Generate payload JSON
-Build a JSON object in this exact format:
+### 8b — Run the executor directly from the trip file
+```bash
+python automation/booking_executor.py trips/trip-N-[opponent].md --passengers 3
+```
 
+- `--passengers 3` is the standard party size — adjust only if the user specifies otherwise
+- Add `--debug` to print the parsed payload before the browser launches (useful for verification)
+- Add `--save-payload` only if the user explicitly wants a JSON file saved to `payloads/`
+
+The executor will:
+1. Parse the confirmed flight section from the trip file (no intermediate JSON required)
+2. Launch a real browser (headed, not headless)
+3. Navigate to the airline's booking site
+4. Fill in search fields and submit
+5. Attempt to locate the target flight by flight number
+6. **Pause before payment** — user completes payment manually
+
+**Payload schema** (internal contract — used in memory, not persisted unless `--save-payload`):
 ```json
 {
   "airline": "American Airlines",
@@ -352,39 +361,22 @@ Build a JSON object in this exact format:
   "departure_date": "YYYY-MM-DD",
   "return_date": "YYYY-MM-DD",
   "flight_numbers": ["AA1234"],
-  "passengers": [{"name": "Traveler Name"}]
+  "passengers": [{"name": "Traveler 1"}]
 }
 ```
 
-### 8c — Save payload to `/payloads/`
-Write the payload to: `payloads/trip-N.json`
-
-Overwrite if a file already exists there.
-
-### 8d — Run the executor
-```bash
-python automation/booking_executor.py payloads/trip-N.json
-```
-
-The executor will:
-1. Launch a real browser (headed, not headless)
-2. Navigate to the airline's booking site
-3. Fill in search fields and submit
-4. Attempt to locate the target flight by flight number
-5. **Pause before payment** — user completes payment manually
-
-### 8e — Log the execution
+### 8c — Log the execution
 Append to `logs/session-YYYY-MM-DD.md`:
 ```
 ## Step 8 — Execute Booking: Trip N
-- Payload: payloads/trip-N.json
+- Input: trips/trip-N-[opponent].md
 - Airline: [airline]
-- Route: [DEP] → [ARR]
+- Route: [DEP] -> [ARR]
 - Flight(s): [flight numbers]
 - Status: executor launched / manual completion required
 ```
 
-### 8f — Update trip status
+### 8d — Update trip status
 Change line 2 of the trip file to:
 `IN PROGRESS — booking executor launched [YYYY-MM-DD], payment pending`
 

@@ -36,6 +36,7 @@ VALID_STATUS_PREFIXES = (
     "**Status: PARTIALLY BOOKED",
     "**Status: PLANNED",
     "**Status: STUB",
+    "**Status: IN PROGRESS",
 )
 
 # Each entry: (label, [keywords that satisfy the check — any match passes])
@@ -62,9 +63,11 @@ def parse_status(line2: str) -> str:
         if line2.startswith(prefix):
             # Extract the status keyword after "**Status: "
             rest = line2[len("**Status: "):]
-            # "PARTIALLY BOOKED" is two words — detect it before splitting
+            # Multi-word statuses — detect before single-word split
             if rest.startswith("PARTIALLY BOOKED"):
                 return "PARTIALLY BOOKED"
+            if rest.startswith("IN PROGRESS"):
+                return "IN PROGRESS"
             return rest.split()[0].rstrip("*—-,")
     return "UNKNOWN"
 
@@ -111,8 +114,8 @@ def validate_file(filename: str) -> list[str]:
         )
         return errors  # Can't determine if sections are required; stop here
 
-    # STUBs are exempt from section checks — they're intentionally incomplete
-    if status == "STUB":
+    # STUBs and IN PROGRESS trips are exempt from section checks
+    if status in ("STUB", "IN PROGRESS"):
         return errors
 
     content = "".join(lines)

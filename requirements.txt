@@ -3,4 +3,4 @@
 
 requests       # HTTP client — used by flights.py to call SerpAPI
 python-dotenv  # Loads .env file so your API key stays out of the code
-playwright     # Browser automation — used by automation/booking_executor.py (Step 8)
+playwright==1.58.0  # Browser automation — used by automation/booking_executor.py (Step 8)
