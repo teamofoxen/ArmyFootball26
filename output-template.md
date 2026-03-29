@@ -147,7 +147,8 @@ MULTI-NIGHT HOTEL FORMAT  (use when nights are booked separately)
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  [Activity suggestions for this destination — restaurants, attractions, things to do]
+  · [Activity name — one short note if needed]
+  · [Activity name — one short note if needed]
 
 
 COST SUMMARY

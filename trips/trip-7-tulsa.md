@@ -46,11 +46,11 @@ HOTEL OPTIONS — Check-in Fri Oct 23  ·  Check-out Sat Oct 24  ·  1 night
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  The Gathering Place — riverfront park (free)
-  Blue Dome District — bars + restaurants
-  Cain's Ballroom — historic music venue
-  Woody Guthrie Center — $8
-  Art Deco architecture walking tour
+  · The Gathering Place — riverfront park (free)
+  · Blue Dome District — bars + restaurants
+  · Cain's Ballroom — historic music venue
+  · Woody Guthrie Center — $8
+  · Art Deco architecture walking tour
 
 
 COST SUMMARY

@@ -42,11 +42,11 @@ HOTEL OPTIONS — Check-in Fri Dec 11  ·  Check-out Sun Dec 13  ·  2 nights
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  Army-Navy tailgate — arrive 3+ hrs before kickoff
-  American Dream mall — adjacent to MetLife
-  NYC holiday season — Manhattan ~25 min via NJ Transit
-  Rockefeller Center tree
-  Jersey City / Hoboken
+  · Army-Navy tailgate — arrive 3+ hrs before kickoff
+  · American Dream mall — adjacent to MetLife
+  · NYC holiday season — Manhattan ~25 min via NJ Transit
+  · Rockefeller Center tree
+  · Jersey City / Hoboken
 
 
 COST SUMMARY

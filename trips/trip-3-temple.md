@@ -36,12 +36,12 @@ HOTEL ✅ CONFIRMED — Holiday Inn Philadelphia Arpt-Stadium Area
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  Reading Terminal Market
-  Liberty Bell & Independence Hall
-  Rocky Steps (Philadelphia Museum of Art)
-  Pat's King of Steaks — 2nd & Passyunk
-  Eastern State Penitentiary
-  Old City / South Street
+  · Reading Terminal Market
+  · Liberty Bell & Independence Hall
+  · Rocky Steps (Philadelphia Museum of Art)
+  · Pat's King of Steaks — 2nd & Passyunk
+  · Eastern State Penitentiary
+  · Old City / South Street
 
 
 COST SUMMARY

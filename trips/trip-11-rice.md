@@ -47,11 +47,11 @@ HOTEL OPTIONS — Check-in Thu Nov 26  ·  Check-out Sun Nov 29  ·  3 nights
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  Houston Museum of Natural Science — walkable from Rice Stadium
-  Museum District — 19 museums near campus
-  Space Center NASA — ~30 min south
-  Buffalo Bayou Park — free
-  Galveston Island — ~50 min south
+  · Houston Museum of Natural Science — walkable from Rice Stadium
+  · Museum District — 19 museums near campus
+  · Space Center NASA — ~30 min south
+  · Buffalo Bayou Park — free
+  · Galveston Island — ~50 min south
 
 
 COST SUMMARY
