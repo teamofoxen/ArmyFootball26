@@ -25,6 +25,7 @@ When one or more components are confirmed but others are not:
 - Keep OPTIONS sections only for unresolved components
 - Replace the OPTIONS section with a CONFIRMED BOOKING section for each resolved component
 - Status line: `PARTIALLY BOOKED — [confirmed] | [what remains]`
+- **Do NOT include ✅ or ⬜ in status line detail text** — the dashboard renders its own ✅/❌ icons; including them causes double checkmarks
 - For multi-night hotels where nights are confirmed on different dates, use per-night entries (see MULTI-NIGHT HOTEL FORMAT below)
 
 ---

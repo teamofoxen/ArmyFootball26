@@ -1,5 +1,5 @@
 # Trip 2 — vs South Florida Bulls (HOME)
-**Status: PARTIALLY BOOKED — Hotel ✅ (Nights 1–2, Five Star Inn) | Flights and rental car not yet booked**
+**Status: PARTIALLY BOOKED — Hotel (Nights 1–2, Five Star Inn) | Flights and rental car not yet booked**
 
 ---
 

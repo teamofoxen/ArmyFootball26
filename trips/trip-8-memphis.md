@@ -1,5 +1,5 @@
 # Trip 8 — @ Memphis Tigers
-**Status: PARTIALLY BOOKED — Hotel ✅ (Hotel Napoleon, Downtown Memphis) | Flights ⬜**
+**Status: PARTIALLY BOOKED — Hotel (Hotel Napoleon, Downtown Memphis) | Flights not yet booked**
 
 ---
 

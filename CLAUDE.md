@@ -214,6 +214,8 @@ immediately and without being asked:
      - Drive trips: all hotel nights ✅ (no flight or rental car required)
    - Use `PARTIALLY BOOKED — [what is confirmed] | [what remains]` when one or more
      applicable components are confirmed but others are not yet booked
+   - **Do NOT include ✅ or ⬜ in status line detail text** — the dashboard adds its own
+     ✅/❌ icons when rendering; including them in the text causes double checkmarks
 2. Update the booking details section inside the trip file
 3. **Remove options sections only when fully resolved:**
    - Hotel options → remove **only when every night of the trip is booked**
@@ -240,7 +242,7 @@ Some trips may have hotel bookings across multiple nights booked at different ti
 - Each pending night shows what decision is waiting (kickoff time, team hotel info, etc.)
 - Keep options sections for any night that is not yet resolved
 - The status line should reflect the multi-night split:
-  `PARTIALLY BOOKED — Night 2 hotel ✅ | Night 1 hotel TBD`
+  `PARTIALLY BOOKED — Night 2 hotel | Night 1 hotel TBD`
 - Only mark a trip's hotel as fully booked when every night is resolved
 
 ### Session logging

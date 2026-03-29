@@ -1,5 +1,5 @@
 # Trip 1 — vs Bryant Bulldogs (HOME)
-**Status: BOOKED — Flights ✅ (Delta GV8589, DFW↔LGA) | Hotel ✅ (Comfort Suites Central Valley) | Rental car ✅ (Hertz L5403844789, LGA)**
+**Status: BOOKED — Flights (Delta GV8589, DFW↔LGA) | Hotel (Comfort Suites Central Valley) | Rental car (Hertz L5403844789, LGA)**
 
 ---
 

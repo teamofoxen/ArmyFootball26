@@ -1,5 +1,5 @@
 # Trip 3 — @ Temple Owls
-**Status: PARTIALLY BOOKED — Hotel ✅ | Flights ⬜**
+**Status: PARTIALLY BOOKED — Hotel (Holiday Inn #24880388) | Flights not yet booked**
 
 ---
 
