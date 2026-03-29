@@ -320,3 +320,97 @@ Tell Claude which trip you want:
 - `"Plan the October Memphis trip"` — uses month + opponent
 
 Claude will execute the full 7-step workflow and return a structured plan.
+
+---
+
+## STEP 8 — EXECUTE BOOKING
+
+**Trigger phrase:** `EXECUTE BOOKING FOR TRIP N`
+
+When the user says this, Claude must:
+
+### 8a — Extract flight data from the trip file
+Open `trips/trip-N-[opponent].md`. Read the confirmed flight section and extract:
+- Airline name
+- Departure airport (IATA code)
+- Arrival airport (IATA code)
+- Departure date (`YYYY-MM-DD`)
+- Return date (`YYYY-MM-DD`) — omit if one-way
+- Flight number(s) (e.g. `["AA1234"]`)
+- Passenger list (names of all travelers)
+
+**If any required field is missing or the trip has no confirmed flight, STOP and tell the user what is missing. Do not generate a payload with invented data.**
+
+### 8b — Generate payload JSON
+Build a JSON object in this exact format:
+
+```json
+{
+  "airline": "American Airlines",
+  "departure_airport": "DFW",
+  "arrival_airport": "BOS",
+  "departure_date": "YYYY-MM-DD",
+  "return_date": "YYYY-MM-DD",
+  "flight_numbers": ["AA1234"],
+  "passengers": [{"name": "Traveler Name"}]
+}
+```
+
+### 8c — Save payload to `/payloads/`
+Write the payload to: `payloads/trip-N.json`
+
+Overwrite if a file already exists there.
+
+### 8d — Run the executor
+```bash
+python automation/booking_executor.py payloads/trip-N.json
+```
+
+The executor will:
+1. Launch a real browser (headed, not headless)
+2. Navigate to the airline's booking site
+3. Fill in search fields and submit
+4. Attempt to locate the target flight by flight number
+5. **Pause before payment** — user completes payment manually
+
+### 8e — Log the execution
+Append to `logs/session-YYYY-MM-DD.md`:
+```
+## Step 8 — Execute Booking: Trip N
+- Payload: payloads/trip-N.json
+- Airline: [airline]
+- Route: [DEP] → [ARR]
+- Flight(s): [flight numbers]
+- Status: executor launched / manual completion required
+```
+
+### 8f — Update trip status
+Change line 2 of the trip file to:
+`IN PROGRESS — booking executor launched [YYYY-MM-DD], payment pending`
+
+Commit all changes with: `Step 8: Launch booking executor for Trip N`
+
+---
+
+### Supported airlines for Step 8
+
+| Airline          | Handler status        |
+|------------------|-----------------------|
+| American Airlines | ✅ Fully implemented  |
+| Delta             | ⚠️ Stub only — book manually |
+| United            | ⚠️ Stub only — book manually |
+| Spirit            | ⚠️ Stub only — book manually |
+
+If the trip's airline is not American Airlines, inform the user that automated
+booking is not available for that carrier and they must book manually.
+
+---
+
+### Step 8 setup (first time only)
+
+After installing `playwright` via `requirements.txt`, run:
+```bash
+playwright install chromium
+```
+
+This downloads the Chromium browser binary used by the executor.

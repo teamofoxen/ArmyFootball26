@@ -1,0 +1,12 @@
+{
+  "_comment": "Example payload — copy and rename to trip-N.json, fill in real values from the trip file.",
+  "airline": "American Airlines",
+  "departure_airport": "DFW",
+  "arrival_airport": "BOS",
+  "departure_date": "2026-09-11",
+  "return_date": "2026-09-13",
+  "flight_numbers": ["AA1234"],
+  "passengers": [
+    {"name": "Traveler One"}
+  ]
+}
