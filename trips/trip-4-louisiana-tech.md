@@ -53,10 +53,11 @@ HOTEL
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  · Louisiana Tech campus walk
-  · Lincoln Parish Park
-  · Downtown Ruston dining (limited — arrive early)
-  · Shreveport Red River District (Sat night area)
+
+- Louisiana Tech campus walk
+- Lincoln Parish Park
+- Downtown Ruston dining (limited — arrive early)
+- Shreveport Red River District (Sat night area)
 
 
 COST SUMMARY

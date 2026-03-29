@@ -36,12 +36,13 @@ HOTEL ✅ CONFIRMED — Hotel Napoleon Memphis
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  · Beale Street — live music, bars, BBQ
-  · Sun Studio — $15 tour
-  · National Civil Rights Museum
-  · Central BBQ / Gus's Fried Chicken
-  · Graceland — ~3 mi south
-  · Halloween on Beale Street (Oct 31)
+
+- Beale Street — live music, bars, BBQ
+- Sun Studio — $15 tour
+- National Civil Rights Museum
+- Central BBQ / Gus's Fried Chicken
+- Graceland — ~3 mi south
+- Halloween on Beale Street (Oct 31)
 
 
 COST SUMMARY

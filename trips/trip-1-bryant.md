@@ -33,7 +33,8 @@ HOTEL ✅ CONFIRMED — Comfort Suites Central Valley
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  · Jones Farm — 190 Angola Rd, Cornwall, NY — Sun breakfast — Cafe open 8am–3pm
+
+- Jones Farm — 190 Angola Rd, Cornwall, NY — Sun breakfast — Cafe open 8am–3pm
 
 
 COST SUMMARY
