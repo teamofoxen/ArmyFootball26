@@ -36,12 +36,12 @@ HOTEL ✅ CONFIRMED — Hotel Napoleon Memphis
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  Beale Street               Live music + bars + BBQ · walkable from downtown hotels
-  Sun Studio                 Elvis, Cash, Jerry Lee Lewis recorded here · $15 tour
-  National Civil Rights Museum  Lorraine Motel · essential Memphis stop
-  Central BBQ / Gus's Chicken  Local Memphis institutions · multiple downtown locations
-  Graceland                  Elvis' home + museum · ~3 mi south of downtown
-  Halloween on Beale Street  Major annual event (Oct 31) · costumes encouraged
+  Beale Street — live music, bars, BBQ
+  Sun Studio — $15 tour
+  National Civil Rights Museum
+  Central BBQ / Gus's Fried Chicken
+  Graceland — ~3 mi south
+  Halloween on Beale Street (Oct 31)
 
 
 COST SUMMARY

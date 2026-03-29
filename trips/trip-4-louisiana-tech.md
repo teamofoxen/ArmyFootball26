@@ -53,10 +53,10 @@ HOTEL
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  Louisiana Tech campus      Walk the Bulldogs' home turf pre-game
-  Lincoln Parish Park        Outdoor lake park · 5 min from downtown Ruston
-  Downtown Ruston dining     Local restaurants — limited options, arrive early on game day
-  Shreveport (evening)       Red River District + Boardwalk · ~70 mi west (Saturday night hotel)
+  Louisiana Tech campus walk
+  Lincoln Parish Park
+  Downtown Ruston dining (limited — arrive early)
+  Shreveport Red River District (Sat night area)
 
 
 COST SUMMARY

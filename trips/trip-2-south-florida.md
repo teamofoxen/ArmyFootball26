@@ -35,12 +35,6 @@ HOTEL ✅ CONFIRMED — IHG Army Hotels Five Star Inn
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  West Point Museum          Free · on-campus · walk from Michie Stadium
-  Trophy Point overlook      Scenic Hudson River views on West Point grounds
-  Storm King Art Center      Outdoor sculpture park · ~15 min south (Cornwall, NY)
-  Cold Spring, NY            Main Street shops + river views · ~20 min south
-  Dia:Beacon                 Modern art museum · ~20 min north (Beacon, NY)
-  Hudson Valley wineries     Brotherhood Winery, Millbrook Vineyards · 30–45 min east
 
 
 COST SUMMARY

@@ -36,12 +36,12 @@ HOTEL ✅ CONFIRMED — Holiday Inn Philadelphia Arpt-Stadium Area
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  Reading Terminal Market    Iconic covered market · perfect for breakfast before game
-  Liberty Bell / Independence Hall  Historic district · ~30 min Uber from South Philly hotel
-  Rocky Steps                Philadelphia Museum of Art · iconic landmark
-  Pat's King of Steaks       2nd & Passyunk · 10 min from Lincoln Financial
-  Eastern State Penitentiary Historic prison + Halloween events · Center City
-  Old City / South Street    Bars + restaurants + nightlife
+  Reading Terminal Market
+  Liberty Bell & Independence Hall
+  Rocky Steps (Philadelphia Museum of Art)
+  Pat's King of Steaks — 2nd & Passyunk
+  Eastern State Penitentiary
+  Old City / South Street
 
 
 COST SUMMARY

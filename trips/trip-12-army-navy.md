@@ -42,11 +42,11 @@ HOTEL OPTIONS — Check-in Fri Dec 11  ·  Check-out Sun Dec 13  ·  2 nights
 
 ACTIVITIES
 ────────────────────────────────────────────────────────────────
-  MetLife Stadium tailgate   Army-Navy tailgate scene · arrive 3+ hours before kickoff
-  American Dream mall        Adjacent to MetLife · largest mall in the US
-  NYC holiday season         Manhattan ~25 min via NJ Transit · Christmas markets + tree
-  Rockefeller Center tree    Dec 12 is peak holiday NYC · plan time in midtown
-  Jersey City / Hoboken      Walkable NYC-adjacent neighborhoods across the Hudson
+  Army-Navy tailgate — arrive 3+ hrs before kickoff
+  American Dream mall — adjacent to MetLife
+  NYC holiday season — Manhattan ~25 min via NJ Transit
+  Rockefeller Center tree
+  Jersey City / Hoboken
 
 
 COST SUMMARY
