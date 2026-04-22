@@ -52,7 +52,7 @@ HOTEL
   │  Check-in : Sat Oct 10, 2026  (4:00–5:00 PM)               │
   │  Check-out: Sun Oct 11, 2026                                │
   │  Guests   : Heather Appleton (Primary)                      │
-  │  Rate     : ⚠️ Rate not recorded — confirm from booking      │
+  │  Rate     : $338.26 total (incl. tax)                        │
   └─────────────────────────────────────────────────────────────┘
 
 
@@ -64,13 +64,13 @@ ACTIVITIES
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   Night 1 hotel (confirmed) : $295.76
-  Night 2 hotel (confirmed) : ⚠️ Rate TBD
+  Night 2 hotel (confirmed) : $338.26
   Flights (TBD)             : ~$960–1,260
   Rental car (TBD)          : ~$95
   DFW Parking               : ~$75 (3 days × $25)
   Food / Tolls              : ~$340
   ──────────────────────────────────────────────
-  ESTIMATED TOTAL           : ~$1,765–2,065 + Night 2 rate  ·  ✅ WITHIN BUDGET
+  ESTIMATED TOTAL           : ~$2,103–2,403  ·  ✅ WITHIN BUDGET
 
 
 
