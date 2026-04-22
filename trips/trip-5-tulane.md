@@ -1,5 +1,5 @@
 # Trip 5 — vs Tulane Green Wave (HOME)
-**Status: PLANNED — March 23, 2026**
+**Status: PARTIALLY BOOKED — Night 1 hotel | Night 2 hotel TBD | Flights TBD**
 
 ---
 
@@ -30,10 +30,29 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Oct 9  ·  Ret: Sun Oct
 
 
 
-HOTEL OPTIONS — Check-in Fri Oct 9  ·  Check-out Sun Oct 11  ·  2 nights
+HOTEL
 ────────────────────────────────────────────────────────────────
-  1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$130–160/nt  $260–320 tot  Free pkg
-  2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$150–185/nt  $300–370 tot  On-site pkg
+
+  NIGHT 1 — Friday, Oct 9 — ✅ BOOKED
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Crowne Plaza Suffern-Mahwah                                │
+  │  Three Executive Boulevard, Suffern, NY 10901               │
+  │  Confirmation #86357203                                     │
+  │  Check-in : Fri Oct 9, 2026  (3:00 PM)                     │
+  │  Check-out: Sat Oct 10, 2026  (11:00 AM)                   │
+  │  Room     : 2 Queen Standard                                │
+  │  Guests   : 3 Adults — Heather Appleton (Primary)          │
+  │  Rate     : $265.55 + $30.21 taxes = $295.76 total          │
+  └─────────────────────────────────────────────────────────────┘
+
+  NIGHT 2 — Saturday, Oct 10 — ⚠️ PENDING DECISION
+  (Waiting on: kickoff time confirmed, game-day plan)
+
+  HOTEL OPTIONS — Night 2 (Sat Oct 10 → Sun Oct 11)
+  ────────────────────────────────────────────────
+    1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$130–160/nt
+    2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$150–185/nt  (same property — call to extend)
+
 
 
 ACTIVITIES
@@ -42,8 +61,14 @@ ACTIVITIES
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,760–2,060  ·  ✅ WITHIN BUDGET
-  Flights ~$960–1,260 · Hotel ~$290 · Rental ~$95 · DFW Pkg ~$75 · Food ~$300 · Tolls ~$40
+  Night 1 hotel (confirmed) : $295.76
+  Night 2 hotel (TBD)       : ~$130–185
+  Flights (TBD)             : ~$960–1,260
+  Rental car                : ~$95
+  DFW Parking               : ~$75 (3 days × $25)
+  Food / Tolls              : ~$340
+  ──────────────────────────────────────────────
+  ESTIMATED TOTAL           : ~$1,895–2,250  ·  ✅ WITHIN BUDGET
 
 
 
