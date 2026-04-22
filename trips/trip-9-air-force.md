@@ -1,5 +1,5 @@
 # Trip 9 — vs Air Force Falcons (HOME — CIC Trophy)
-**Status: PLANNED — March 23, 2026**
+**Status: PARTIALLY BOOKED — Night 1 hotel | Night 2 hotel TBD | Flights TBD**
 
 ---
 
@@ -30,10 +30,29 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Nov 6  ·  Ret: Sun Nov
 
 
 
-HOTEL OPTIONS — Check-in Fri Nov 6  ·  Check-out Sun Nov 8  ·  2 nights
+HOTEL
 ────────────────────────────────────────────────────────────────
-  1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$130–160/nt  $260–320 tot  Free pkg
-  2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$145–180/nt  $290–360 tot  On-site pkg
+
+  NIGHT 1 — Friday, Nov 6 — ✅ BOOKED
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Crowne Plaza Suffern-Mahwah                                │
+  │  Three Executive Boulevard, Suffern, NY 10901               │
+  │  Confirmation #63457181                                     │
+  │  Check-in : Fri Nov 6, 2026  (3:00 PM)                     │
+  │  Check-out: Sat Nov 7, 2026  (11:00 AM)                    │
+  │  Room     : 2 Queen Standard                                │
+  │  Guest    : Heather Appleton (Primary)                      │
+  │  Rate     : $189.05 + $21.50 taxes = $210.55 total          │
+  └─────────────────────────────────────────────────────────────┘
+
+  NIGHT 2 — Saturday, Nov 7 — ⚠️ PENDING DECISION
+  (Waiting on: kickoff time confirmed, game-day plan)
+
+  HOTEL OPTIONS — Night 2 (Sat Nov 7 → Sun Nov 8)
+  ────────────────────────────────────────────────
+    1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$130–160/nt
+    2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$145–180/nt  (same property as Night 1 — call to extend)
+
 
 
 ACTIVITIES
@@ -42,8 +61,14 @@ ACTIVITIES
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,760–2,060  ·  ✅ WITHIN BUDGET
-  Flights ~$960–1,260 · Hotel ~$290 · Rental ~$95 · DFW Pkg ~$75 · Food ~$300 · Tolls ~$40
+  Night 1 hotel (confirmed) : $210.55
+  Night 2 hotel (TBD)       : ~$130–180
+  Flights (TBD)             : ~$960–1,260
+  Rental car                : ~$95
+  DFW Parking               : ~$75 (3 days × $25)
+  Food / Tolls              : ~$340
+  ──────────────────────────────────────────────
+  ESTIMATED TOTAL           : ~$1,810–2,160  ·  ✅ WITHIN BUDGET
 
 
 
