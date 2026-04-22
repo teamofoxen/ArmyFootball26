@@ -1,5 +1,5 @@
 # Trip 5 — vs Tulane Green Wave (HOME)
-**Status: PARTIALLY BOOKED — Night 1 hotel | Night 2 hotel TBD | Flights TBD**
+**Status: PARTIALLY BOOKED — Night 1 hotel, Night 2 hotel | Flights TBD | Rental car TBD**
 
 ---
 
@@ -45,13 +45,15 @@ HOTEL
   │  Rate     : $265.55 + $30.21 taxes = $295.76 total          │
   └─────────────────────────────────────────────────────────────┘
 
-  NIGHT 2 — Saturday, Oct 10 — ⚠️ PENDING DECISION
-  (Waiting on: kickoff time confirmed, game-day plan)
-
-  HOTEL OPTIONS — Night 2 (Sat Oct 10 → Sun Oct 11)
-  ────────────────────────────────────────────────
-    1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$130–160/nt
-    2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$150–185/nt  (same property — call to extend)
+  NIGHT 2 — Saturday, Oct 10 — ✅ BOOKED
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Overlook Lodge and Stone Cottages at Bear Mountain         │
+  │  Confirmation #6681533622                                   │
+  │  Check-in : Sat Oct 10, 2026  (4:00–5:00 PM)               │
+  │  Check-out: Sun Oct 11, 2026                                │
+  │  Guests   : Heather Appleton (Primary)                      │
+  │  Rate     : ⚠️ Rate not recorded — confirm from booking      │
+  └─────────────────────────────────────────────────────────────┘
 
 
 
@@ -62,13 +64,13 @@ ACTIVITIES
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   Night 1 hotel (confirmed) : $295.76
-  Night 2 hotel (TBD)       : ~$130–185
+  Night 2 hotel (confirmed) : ⚠️ Rate TBD
   Flights (TBD)             : ~$960–1,260
-  Rental car                : ~$95
+  Rental car (TBD)          : ~$95
   DFW Parking               : ~$75 (3 days × $25)
   Food / Tolls              : ~$340
   ──────────────────────────────────────────────
-  ESTIMATED TOTAL           : ~$1,895–2,250  ·  ✅ WITHIN BUDGET
+  ESTIMATED TOTAL           : ~$1,765–2,065 + Night 2 rate  ·  ✅ WITHIN BUDGET
 
 
 
