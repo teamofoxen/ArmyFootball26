@@ -1,5 +1,5 @@
 # Trip 6 — vs Florida Atlantic Owls (HOME)
-**Status: PLANNED — March 23, 2026**
+**Status: PARTIALLY BOOKED — Hotel | Flight pending | Rental car pending**
 
 ---
 
@@ -30,10 +30,16 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Oct 16  ·  Ret: Sun Oc
 
 
 
-HOTEL OPTIONS — Check-in Fri Oct 16  ·  Check-out Sun Oct 18  ·  2 nights
+HOTEL ✅ CONFIRMED — Modern 1BR Near Woodbury Commons
 ────────────────────────────────────────────────────────────────
-  1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$130–160/nt  $260–320 tot  Free pkg
-  2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$150–185/nt  $300–370 tot  On-site pkg
+  28 Desanctis Drive, Woodbury, NY 10930
+  Check-in    : Friday, October 16, 2026
+  Check-out   : Sunday, October 18, 2026
+  Nights      : 2
+  Total       : $435.10 (incl. tax)
+  Booking #   : 5461885821  ·  PIN: 5444
+  Booked by   : Heather Appleton
+
 
 
 ACTIVITIES
@@ -42,8 +48,13 @@ ACTIVITIES
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,760–2,060  ·  ✅ WITHIN BUDGET
-  Flights ~$960–1,260 · Hotel ~$290 · Rental ~$95 · DFW Pkg ~$75 · Food ~$300 · Tolls ~$40
+  Flights (RT)    : ~$960–1,260 (est.)
+  Hotel           : $435.10 confirmed
+  Rental car      : ~$95 (est.)
+  DFW Parking     : ~$75 (est.)
+  Ground/Food     : ~$340 (est.)
+  ─────────────────────────────────────────
+  ESTIMATED TOTAL : ~$1,905–2,205  ·  ✅ WITHIN BUDGET
 
 
 
