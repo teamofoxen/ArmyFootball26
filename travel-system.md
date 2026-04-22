@@ -17,15 +17,6 @@ NYC AREA AIRPORTS  : EWR | LGA | JFK — search all three; nonstop only, lowest 
                      LGA: ~55 mi to Central Valley via GWB → I-87 N (~1h–1h 30m)
                      JFK: ~65 mi to Central Valley via GWB → I-87 N (~1h 15m–1h 45m)
 TRAVEL PARTY SIZE  : 3 passengers (main party, all from DFW)
-ADDITIONAL TRAVELER: Sophia (daughter) — Arizona State University, Phoenix AZ
-  AIRPORT           : PHX (Phoenix Sky Harbor)
-  ELIGIBLE TRIPS    : Home games at West Point (Trips 1, 2, 5, 6, 9, 10) + Army-Navy (Trip 12)
-  HOTEL / CAR       : Stays with main party — no additional room or rental car needed
-  FLIGHT            : Separate booking, PHX → NYC; same date as main party outbound/return
-  COORDINATION      : Same airport as main party preferred — main party picks her up at arrival
-                      If same airport unavailable nonstop, pick cheapest PHX→NYC nonstop;
-                      she takes Uber/transit to hotel and meets there
-  STATUS            : Not confirmed for any game — add PHX flight to trip file when she confirms
 AIRLINE PREFERENCE : Nonstop first, lowest price second; American preferred as tiebreaker only (DFW hub)
 SEAT CLASS         : Economy (upgrades only if ≤ $75 more per person)
 MAX FLIGHT PRICE   : $600/person one-way (domestic)
