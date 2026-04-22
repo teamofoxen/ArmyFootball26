@@ -147,18 +147,6 @@ Update the status line at the top from `UNPLANNED` to `PLANNED — [Date planned
 
 ---
 
-## WHEN PLANNING A TRIP
-
-1. Identify trip details from `travel-system.md`
-2. Check `TRANSPORT MODE` — drive or fly?
-3. If **fly**: determine airports, call `get_flights`, extract best options
-4. If **drive**: document route, distance, and departure time — skip `get_flights`
-5. Use web search for hotels (up to 10, sorted by distance from stadium)
-6. Apply MASTER SETTINGS and trip rules
-7. Output structured plan
-
----
-
 ## FLIGHT DATA RULES
 
 - Use the `get_flights` tool to search for flights
@@ -277,42 +265,6 @@ After any session where trip files are modified:
 
 ---
 
-## SETUP REQUIREMENTS
-
-Before running this system:
-
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Copy `.env.example` to `.env` and add your SerpAPI key:
-   ```bash
-   cp .env.example .env
-   # Edit .env and set SERPAPI_KEY=your_actual_key
-   ```
-
-3. Get a free SerpAPI key at: https://serpapi.com
-
-4. Verify the setup:
-   ```bash
-   python flights.py
-   ```
-
----
-
-## HOW TO REQUEST A TRIP PLAN
-
-Tell Claude which trip you want:
-
-- `"Plan trip 3"` — uses trip number
-- `"Plan the Navy game"` — uses opponent name
-- `"Plan the October Memphis trip"` — uses month + opponent
-
-Claude will execute the full 7-step workflow and return a structured plan.
-
----
-
 ## STEP 8 — EXECUTE BOOKING
 
 **Trigger phrase:** `EXECUTE BOOKING FOR TRIP N`
@@ -341,19 +293,6 @@ The executor will:
 4. Fill in search fields and submit
 5. Attempt to locate the target flight by flight number
 6. **Pause before payment** — user completes payment manually
-
-**Payload schema** (internal contract — used in memory, not persisted unless `--save-payload`):
-```json
-{
-  "airline": "American Airlines",
-  "departure_airport": "DFW",
-  "arrival_airport": "BOS",
-  "departure_date": "YYYY-MM-DD",
-  "return_date": "YYYY-MM-DD",
-  "flight_numbers": ["AA1234"],
-  "passengers": [{"name": "Traveler 1"}]
-}
-```
 
 ### 8c — Log the execution
 Append to `logs/session-YYYY-MM-DD.md`:
@@ -386,13 +325,3 @@ Commit all changes with: `Step 8: Launch booking executor for Trip N`
 If the trip's airline is not American Airlines, inform the user that automated
 booking is not available for that carrier and they must book manually.
 
----
-
-### Step 8 setup (first time only)
-
-After installing `playwright` via `requirements.txt`, run:
-```bash
-playwright install chromium
-```
-
-This downloads the Chromium browser binary used by the executor.
