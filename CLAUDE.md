@@ -59,7 +59,11 @@ OPEN ITEMS:
 Ready for your instructions.
 ```
 
-Do not skip this step. Do not proceed until the briefing is delivered.
+**Exception — booking confirmation as first message:** If the user's first message in a
+session contains a booking confirmation (confirmation number, property/flight name, dates,
+and rate), process the booking immediately — update the trip file, commit, and log — then
+deliver the session briefing afterward. Do not make the user wait through the briefing
+before their booking is recorded.
 
 ---
 
