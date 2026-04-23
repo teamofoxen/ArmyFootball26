@@ -61,11 +61,10 @@ Ready for your instructions.
 
 **Exception — booking confirmation as first message:** If the user's first message in a
 session contains a booking confirmation — whether a clean summary or a raw email paste —
-extract the relevant fields (confirmation number, property/flight name, dates, rate) and
-process the booking immediately: update the trip file, commit, and log. Deliver the session
-briefing afterward. Do not make the user wait through the briefing before their booking is
-recorded. The format of the input does not matter; if a confirmation number and booking
-details are present, treat it as a booking confirmation.
+skip Step 0 entirely. Extract the relevant fields (confirmation number, property/flight
+name, dates, rate), process the booking (update trip file, commit, log), and stop. No
+session briefing. The format of the input does not matter; if a confirmation number and
+booking details are present, treat it as a booking confirmation and do nothing else.
 
 ---
 
