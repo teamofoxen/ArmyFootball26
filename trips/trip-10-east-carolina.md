@@ -1,5 +1,5 @@
 # Trip 10 — vs East Carolina Pirates (HOME)
-**Status: PARTIALLY BOOKED — Night 1 hotel | Night 2 hotel TBD | Flights TBD | Rental car TBD**
+**Status: PARTIALLY BOOKED — Night 1 hotel, Night 2 hotel | Flights TBD | Rental car TBD**
 
 ---
 
@@ -46,13 +46,17 @@ HOTEL
   │  Rate     : $189.05 + $21.50 taxes = $210.55 total          │
   └─────────────────────────────────────────────────────────────┘
 
-  NIGHT 2 — Saturday, Nov 21 — ⚠️ PENDING DECISION
-  (Waiting on: kickoff time confirmed, game-day plan)
-
-  HOTEL OPTIONS — Night 2 (Sat Nov 21 → Sun Nov 22)
-  ────────────────────────────────────────────────
-    1 ★  Comfort Suites Central Valley   Choice  ~15mi  ~$120–150/nt
-    2    Crowne Plaza Suffern-Mahwah      IHG     ~25mi  ~$140–170/nt  (same property — call to extend)
+  NIGHT 2 — Saturday, Nov 21 — ✅ BOOKED
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Comfort Suites Central Valley - Woodbury                   │
+  │  100 Estrada Road, Central Valley, NY 10917                 │
+  │  Confirmation #32246415                                     │
+  │  Check-in : Sat Nov 21, 2026  (3:00 PM)                    │
+  │  Check-out: Sun Nov 22, 2026  (11:00 AM)                   │
+  │  Room     : 1 King Bed Suite, 2-Person Sofabed, No Smoking  │
+  │  Guests   : 2 Adults — Ross Appleton (Primary)              │
+  │  Rate     : $121.64 + $28.13 taxes = $149.77 total          │
+  └─────────────────────────────────────────────────────────────┘
 
 
 
@@ -63,7 +67,7 @@ ACTIVITIES
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
   Night 1 hotel (confirmed) : $210.55
-  Night 2 hotel (TBD)       : ~$120–170
+  Night 2 hotel (confirmed) : $149.77
   Flights (TBD)             : ~$960–1,260
   Rental car (TBD)          : ~$95
   DFW Parking               : ~$75 (3 days × $25)
