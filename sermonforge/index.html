@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SermonForge — Sermon Preparation Workspace</title>
+  <meta name="description" content="A sermon preparation workspace for pastors. Built for the full arc of study — exegesis, structure, manuscript, and delivery.">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --gold: #C8A84B;
+      --gold-light: #E8C96A;
+      --gold-dim: #8A6F2E;
+      --black: #0A0A0A;
+      --dark: #111111;
+      --dark2: #1A1A1A;
+      --dark3: #222222;
+      --gray: #444444;
+      --gray-light: #888888;
+      --white: #F5F0E8;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--black);
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── Nav ── */
+    nav {
+      padding: 18px 40px;
+      border-bottom: 1px solid var(--dark3);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-back {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.1em;
+      color: var(--gray-light);
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    .nav-back:hover { color: var(--gold); }
+
+    .nav-back::before { content: "← "; }
+
+    /* ── Hero ── */
+    .hero {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 80px 40px 60px;
+      max-width: 720px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .eyebrow {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      letter-spacing: 0.15em;
+      color: var(--gold-dim);
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(64px, 12vw, 100px);
+      letter-spacing: 0.03em;
+      line-height: 0.95;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    h1 span { color: var(--gold); }
+
+    .tagline {
+      font-size: 18px;
+      font-weight: 300;
+      color: var(--gray-light);
+      margin-bottom: 48px;
+      line-height: 1.5;
+      max-width: 480px;
+    }
+
+    /* ── CTA ── */
+    .cta-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 64px;
+    }
+
+    .btn-download {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--black);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      letter-spacing: 0.04em;
+      text-decoration: none;
+      padding: 14px 36px;
+      border-radius: 3px;
+      transition: background 0.15s;
+    }
+
+    .btn-download:hover { background: var(--gold-light); }
+
+    .cta-meta {
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--gray);
+      letter-spacing: 0.06em;
+    }
+
+    /* ── Details ── */
+    .details {
+      width: 100%;
+      max-width: 520px;
+      border-top: 1px solid var(--dark3);
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .detail-row {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      text-align: left;
+    }
+
+    .detail-label {
+      font-family: 'DM Mono', monospace;
+      font-size: 10px;
+      letter-spacing: 0.12em;
+      color: var(--gold-dim);
+      text-transform: uppercase;
+      min-width: 110px;
+      padding-top: 2px;
+    }
+
+    .detail-value {
+      font-size: 13px;
+      font-weight: 400;
+      color: var(--gray-light);
+      line-height: 1.5;
+    }
+
+    .detail-value a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .detail-value a:hover { color: var(--gold-light); }
+
+    /* ── Footer ── */
+    footer {
+      padding: 20px 40px;
+      border-top: 1px solid var(--dark3);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'DM Mono', monospace;
+      font-size: 11px;
+      color: var(--gray);
+      letter-spacing: 0.08em;
+    }
+
+    footer a {
+      color: var(--gray);
+      text-decoration: none;
+    }
+
+    footer a:hover { color: var(--gold); }
+
+    @media (max-width: 640px) {
+      nav { padding: 16px 20px; }
+      .hero { padding: 60px 24px 48px; }
+      footer { padding: 16px 20px; flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-back">teamofoxen.com</a>
+  </nav>
+
+  <main class="hero">
+    <div class="eyebrow">Desktop App · Windows</div>
+    <h1>Sermon<span>Forge</span></h1>
+    <p class="tagline">A sermon preparation workspace for pastors. Built for the full arc of study — exegesis, structure, manuscript, and delivery.</p>
+
+    <div class="cta-group">
+      <a class="btn-download" href="https://github.com/teamofoxen/sermonforge/releases/latest" target="_blank" rel="noopener">
+        Download for Windows
+      </a>
+      <span class="cta-meta">Free · Windows 10 or later · 64-bit</span>
+    </div>
+
+    <div class="details">
+      <div class="detail-row">
+        <span class="detail-label">Requires</span>
+        <span class="detail-value">A Claude API key from <a href="https://console.anthropic.com" target="_blank" rel="noopener">console.anthropic.com</a>. Enter it on first launch — no account or subscription beyond that.</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Updates</span>
+        <span class="detail-value">Automatic. The app checks for new releases on launch and installs them silently in the background.</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">Source</span>
+        <span class="detail-value"><a href="https://github.com/teamofoxen/sermonforge" target="_blank" rel="noopener">github.com/teamofoxen/sermonforge</a></span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div>SermonForge</div>
+    <div><a href="https://github.com/teamofoxen/sermonforge/releases" target="_blank" rel="noopener">Release history</a></div>
+  </footer>
+
+</body>
+</html>
