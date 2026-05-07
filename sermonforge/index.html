@@ -5,47 +5,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SermonForge — Sermon Preparation Workspace</title>
   <meta name="description" content="A sermon preparation workspace for pastors. Built for the full arc of study — exegesis, structure, manuscript, and delivery.">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
-      --gold: #C8A84B;
-      --gold-light: #E8C96A;
-      --gold-dim: #8A6F2E;
-      --black: #0A0A0A;
-      --dark: #111111;
-      --dark2: #1A1A1A;
-      --dark3: #222222;
-      --gray: #444444;
-      --gray-light: #888888;
-      --white: #F5F0E8;
+      --ink: #1a1410;
+      --ink-mid: #3d3229;
+      --ink-soft: #6b5c4e;
+      --ink-ghost: #a8998a;
+      --parchment: #f7f3ec;
+      --parchment-warm: #efe9de;
+      --parchment-deep: #e4dace;
+      --gold: #b8860b;
+      --gold-bright: #d4a017;
+      --gold-pale: #f0e4b8;
+      --crimson: #8b1a1a;
+      --white: #ffffff;
+      --shadow-soft: 0 2px 12px rgba(26,20,16,0.08);
+
+      --font-serif: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+      --font-mono:  "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: var(--black);
-      color: var(--white);
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 400;
+      background: var(--parchment);
+      color: var(--ink);
+      font-family: var(--font-serif);
+      font-size: 16px;
+      line-height: 1.6;
       min-height: 100vh;
       display: flex;
       flex-direction: column;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
     }
 
     /* ── Nav ── */
     nav {
       padding: 18px 40px;
-      border-bottom: 1px solid var(--dark3);
+      border-bottom: 1px solid var(--parchment-deep);
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
 
     .nav-back {
-      font-family: 'DM Mono', monospace;
+      font-family: var(--font-mono);
       font-size: 11px;
-      letter-spacing: 0.1em;
-      color: var(--gray-light);
+      font-weight: 500;
+      letter-spacing: 0.18em;
+      color: var(--ink-soft);
       text-decoration: none;
       text-transform: uppercase;
     }
@@ -69,32 +79,37 @@
     }
 
     .eyebrow {
-      font-family: 'DM Mono', monospace;
+      font-family: var(--font-mono);
+      font-weight: 500;
       font-size: 11px;
-      letter-spacing: 0.15em;
-      color: var(--gold-dim);
+      letter-spacing: 0.18em;
+      color: var(--ink-soft);
       text-transform: uppercase;
-      margin-bottom: 20px;
+      margin-bottom: 24px;
     }
 
     h1 {
-      font-family: 'Bebas Neue', sans-serif;
-      font-size: clamp(64px, 12vw, 100px);
-      letter-spacing: 0.03em;
-      line-height: 0.95;
-      color: var(--white);
-      margin-bottom: 8px;
+      font-family: var(--font-serif);
+      font-weight: 600;
+      font-size: clamp(56px, 11vw, 88px);
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      color: var(--ink);
+      margin-bottom: 12px;
     }
 
-    h1 span { color: var(--gold); }
+    h1 span { color: var(--gold); font-style: italic; font-weight: 500; }
 
     .tagline {
-      font-size: 18px;
-      font-weight: 300;
-      color: var(--gray-light);
-      margin-bottom: 48px;
+      font-family: var(--font-serif);
+      font-size: 19px;
+      font-style: italic;
+      font-weight: 400;
+      color: var(--ink-mid);
+      margin-bottom: 56px;
       line-height: 1.5;
-      max-width: 480px;
+      max-width: 520px;
+      text-wrap: pretty;
     }
 
     /* ── CTA ── */
@@ -112,101 +127,126 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
     }
 
     .btn-download {
       display: inline-block;
       background: var(--gold);
-      color: var(--black);
-      font-family: 'DM Sans', sans-serif;
+      color: var(--white);
+      font-family: var(--font-serif);
       font-weight: 600;
-      font-size: 15px;
-      letter-spacing: 0.04em;
+      font-size: 16px;
+      letter-spacing: 0.01em;
       text-decoration: none;
       padding: 14px 36px;
-      border-radius: 3px;
-      transition: background 0.15s;
-      min-width: 220px;
+      border-radius: 4px;
+      border: 1px solid var(--gold);
+      transition: background 0.15s, border-color 0.15s, box-shadow 0.15s;
+      min-width: 240px;
       text-align: center;
+      box-shadow: var(--shadow-soft);
     }
 
-    .btn-download:hover { background: var(--gold-light); }
+    .btn-download:hover {
+      background: var(--gold-bright);
+      border-color: var(--gold-bright);
+    }
 
     .cta-meta {
-      font-family: 'DM Mono', monospace;
+      font-family: var(--font-mono);
+      font-weight: 400;
       font-size: 11px;
-      color: var(--gray);
-      letter-spacing: 0.06em;
+      letter-spacing: 0.14em;
+      color: var(--ink-soft);
+      text-transform: uppercase;
       text-align: center;
     }
 
     /* ── Details ── */
     .details {
       width: 100%;
-      max-width: 520px;
-      border-top: 1px solid var(--dark3);
+      max-width: 560px;
+      border-top: 1px solid var(--parchment-deep);
       padding-top: 40px;
       display: flex;
       flex-direction: column;
-      gap: 20px;
+      gap: 22px;
     }
 
     .detail-row {
       display: flex;
-      gap: 16px;
+      gap: 20px;
       align-items: flex-start;
       text-align: left;
     }
 
     .detail-label {
-      font-family: 'DM Mono', monospace;
+      font-family: var(--font-mono);
+      font-weight: 500;
       font-size: 10px;
-      letter-spacing: 0.12em;
-      color: var(--gold-dim);
+      letter-spacing: 0.18em;
+      color: var(--gold);
       text-transform: uppercase;
-      min-width: 110px;
-      padding-top: 2px;
+      min-width: 130px;
+      padding-top: 4px;
     }
 
     .detail-value {
-      font-size: 13px;
+      font-family: var(--font-serif);
+      font-size: 15px;
       font-weight: 400;
-      color: var(--gray-light);
-      line-height: 1.5;
+      color: var(--ink-mid);
+      line-height: 1.6;
+      text-wrap: pretty;
+    }
+
+    .detail-value strong {
+      font-weight: 600;
+      color: var(--ink);
     }
 
     .detail-value a {
       color: var(--gold);
       text-decoration: none;
+      border-bottom: 1px solid rgba(184, 134, 11, 0.3);
+      transition: border-color 0.15s;
     }
 
-    .detail-value a:hover { color: var(--gold-light); }
+    .detail-value a:hover {
+      color: var(--gold-bright);
+      border-bottom-color: var(--gold-bright);
+    }
 
     /* ── Footer ── */
     footer {
-      padding: 20px 40px;
-      border-top: 1px solid var(--dark3);
+      padding: 24px 40px;
+      border-top: 1px solid var(--parchment-deep);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-family: 'DM Mono', monospace;
+      font-family: var(--font-mono);
+      font-weight: 400;
       font-size: 11px;
-      color: var(--gray);
-      letter-spacing: 0.08em;
+      color: var(--ink-soft);
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
     }
 
     footer a {
-      color: var(--gray);
+      color: var(--ink-soft);
       text-decoration: none;
+      transition: color 0.15s;
     }
 
     footer a:hover { color: var(--gold); }
 
     @media (max-width: 640px) {
       nav { padding: 16px 20px; }
-      .hero { padding: 60px 24px 48px; }
-      footer { padding: 16px 20px; flex-direction: column; gap: 8px; }
+      .hero { padding: 56px 24px 44px; }
+      .detail-row { flex-direction: column; gap: 6px; }
+      .detail-label { min-width: 0; }
+      footer { padding: 18px 20px; flex-direction: column; gap: 8px; text-align: center; }
     }
   </style>
 </head>
@@ -239,11 +279,11 @@
     <div class="details">
       <div class="detail-row">
         <span class="detail-label">First Run · Mac</span>
-        <span class="detail-value">Open the <strong style="color: var(--white);">.dmg</strong>, drag SermonForge into your Applications folder, and double-click to launch. The app is signed and notarized by Apple — no Gatekeeper warnings.</span>
+        <span class="detail-value">Open the <strong>.dmg</strong>, drag SermonForge into your Applications folder, and double-click to launch. The app is signed and notarized by Apple — no Gatekeeper warnings.</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">First Run · Windows</span>
-        <span class="detail-value">Windows will show a blue <strong style="color: var(--white);">"Windows protected your PC"</strong> warning because the installer isn't yet signed. Click <strong style="color: var(--white);">More info</strong>, then <strong style="color: var(--white);">Run anyway</strong>. This is normal for new apps and doesn't mean anything is wrong.</span>
+        <span class="detail-value">Windows will show a blue <strong>"Windows protected your PC"</strong> warning because the installer isn't yet signed. Click <strong>More info</strong>, then <strong>Run anyway</strong>. This is normal for new apps and doesn't mean anything is wrong.</span>
       </div>
       <div class="detail-row">
         <span class="detail-label">Requires</span>
