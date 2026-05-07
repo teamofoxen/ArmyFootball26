@@ -100,10 +100,19 @@
     /* ── CTA ── */
     .cta-group {
       display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 24px 32px;
+      margin-bottom: 64px;
+    }
+
+    .cta-item {
+      display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 64px;
+      gap: 10px;
     }
 
     .btn-download {
@@ -118,6 +127,8 @@
       padding: 14px 36px;
       border-radius: 3px;
       transition: background 0.15s;
+      min-width: 220px;
+      text-align: center;
     }
 
     .btn-download:hover { background: var(--gold-light); }
@@ -127,6 +138,7 @@
       font-size: 11px;
       color: var(--gray);
       letter-spacing: 0.06em;
+      text-align: center;
     }
 
     /* ── Details ── */
@@ -205,20 +217,32 @@
   </nav>
 
   <main class="hero">
-    <div class="eyebrow">Desktop App · Windows</div>
+    <div class="eyebrow">Desktop App · Windows + Mac</div>
     <h1>Sermon<span>Forge</span></h1>
     <p class="tagline">A sermon preparation workspace for pastors. Built for the full arc of study — exegesis, structure, manuscript, and delivery.</p>
 
     <div class="cta-group">
-      <a class="btn-download" href="https://github.com/teamofoxen/sermonforge/releases/latest/download/SermonForge-Setup.exe" rel="noopener">
-        Download for Windows
-      </a>
-      <span class="cta-meta">Free · Windows 10 or later · 64-bit</span>
+      <div class="cta-item">
+        <a class="btn-download" href="https://github.com/teamofoxen/sermonforge/releases/latest/download/SermonForge-Setup.exe" rel="noopener">
+          Download for Windows
+        </a>
+        <span class="cta-meta">Free · Windows 10 or later · 64-bit</span>
+      </div>
+      <div class="cta-item">
+        <a class="btn-download" href="https://github.com/teamofoxen/sermonforge/releases/latest/download/SermonForge-Setup.dmg" rel="noopener">
+          Download for Mac
+        </a>
+        <span class="cta-meta">Free · macOS 13 (Ventura) or later · Apple Silicon + Intel</span>
+      </div>
     </div>
 
     <div class="details">
       <div class="detail-row">
-        <span class="detail-label">First Run</span>
+        <span class="detail-label">First Run · Mac</span>
+        <span class="detail-value">Open the <strong style="color: var(--white);">.dmg</strong>, drag SermonForge into your Applications folder, and double-click to launch. The app is signed and notarized by Apple — no Gatekeeper warnings.</span>
+      </div>
+      <div class="detail-row">
+        <span class="detail-label">First Run · Windows</span>
         <span class="detail-value">Windows will show a blue <strong style="color: var(--white);">"Windows protected your PC"</strong> warning because the installer isn't yet signed. Click <strong style="color: var(--white);">More info</strong>, then <strong style="color: var(--white);">Run anyway</strong>. This is normal for new apps and doesn't mean anything is wrong.</span>
       </div>
       <div class="detail-row">
