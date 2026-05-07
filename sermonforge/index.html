@@ -88,28 +88,12 @@
       margin-bottom: 24px;
     }
 
-    h1 {
-      font-family: var(--font-serif);
-      font-weight: 600;
-      font-size: clamp(56px, 11vw, 88px);
-      letter-spacing: -0.02em;
-      line-height: 1.05;
-      color: var(--ink);
-      margin-bottom: 12px;
-    }
-
-    h1 span { color: var(--gold); font-style: italic; font-weight: 500; }
-
-    .tagline {
-      font-family: var(--font-serif);
-      font-size: 19px;
-      font-style: italic;
-      font-weight: 400;
-      color: var(--ink-mid);
-      margin-bottom: 56px;
-      line-height: 1.5;
-      max-width: 520px;
-      text-wrap: pretty;
+    .wordmark {
+      display: block;
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin: 0 auto 56px;
     }
 
     /* ── CTA ── */
@@ -258,8 +242,7 @@
 
   <main class="hero">
     <div class="eyebrow">Desktop App · Windows + Mac</div>
-    <h1>Sermon<span>Forge</span></h1>
-    <p class="tagline">A sermon preparation workspace for pastors. Built for the full arc of study — exegesis, structure, manuscript, and delivery.</p>
+    <img class="wordmark" src="lockup-horizontal-light.svg" alt="SermonForge — Clarity through Constraint">
 
     <div class="cta-group">
       <div class="cta-item">
