@@ -57,8 +57,8 @@ ACTIVITIES
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,975–2,305  ·  ✅ WITHIN BUDGET
-  Flights ~$960–1,260 · Hotel $520 ✅ · Rental ~$80–110 · DFW Pkg ~$75 · Food ~$300 · Tolls ~$40
+  ESTIMATED TOTAL : ~$1,555–1,935  ·  ✅ WITHIN BUDGET
+  Flights ~$960–1,260 · Night 1: IHG Reward Nights (40k pts) · Night 2: Five Star Inn (rate TBD) · Rental ~$80–110 · DFW Pkg ~$75 · Food ~$300 · Tolls ~$40
 
 
 
