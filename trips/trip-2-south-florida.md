@@ -1,5 +1,5 @@
 # Trip 2 — vs South Florida Bulls (HOME)
-**Status: PARTIALLY BOOKED — Hotel (Nights 1–2, Five Star Inn) | Flights and rental car not yet booked**
+**Status: PARTIALLY BOOKED — Night 1 (Holiday Inn Express Hawthorne) + Night 2 (Five Star Inn) | Flights and rental car not yet booked**
 
 ---
 
@@ -30,7 +30,25 @@ FLIGHT OPTIONS — DFW ↔ EWR / LGA / JFK  ·  Out: Fri Sep 11  ·  Ret: Sun Se
 
 
 
-HOTEL ✅ CONFIRMED — IHG Army Hotels Five Star Inn
+HOTEL
+────────────────────────────────────────────────────────────────
+
+  NIGHT 1 — Friday, Sep 11, 2026 — ✅ BOOKED
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Holiday Inn Express & Suites Hawthorne - Elmsford North    │
+  │  Confirmation #85710804                                     │
+  │  Check-in : Fri Sep 11, 2026                                │
+  │  Check-out: Sat Sep 12, 2026                                │
+  │  Room     : 1 King Standard Tub                             │
+  │  Guests   : 2 Adults — Heather Appleton (Primary)           │
+  │  Rate     : Reward Nights (40,000 IHG Points redeemed)      │
+  └─────────────────────────────────────────────────────────────┘
+
+  NIGHT 2 — Saturday, Sep 12, 2026 — ✅ BOOKED
+  ┌─────────────────────────────────────────────────────────────┐
+  │  IHG Army Hotels Five Star Inn                              │
+  │  West Point, NY                                             │
+  └─────────────────────────────────────────────────────────────┘
 
 
 ACTIVITIES

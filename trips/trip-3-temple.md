@@ -31,6 +31,15 @@ FLIGHT OPTIONS — DFW ↔ PHL  ·  Out: Fri Sep 25  ·  Ret: Sun Sep 27
 
 
 HOTEL ✅ CONFIRMED — Holiday Inn Philadelphia Arpt-Stadium Area
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Holiday Inn Philadelphia Arpt-Stadium Area                 │
+  │  Confirmation #42187434                                     │
+  │  Check-in : Fri Sep 25, 2026                                │
+  │  Check-out: Sat Sep 26, 2026                                │
+  │  Room     : 2 Queen Standard                                │
+  │  Guests   : 3 Adults — Heather Appleton (Primary)           │
+  │  Rate     : Reward Nights (29,000 IHG Points redeemed)      │
+  └─────────────────────────────────────────────────────────────┘
 
 
 
@@ -47,8 +56,8 @@ ACTIVITIES
 
 COST SUMMARY
 ────────────────────────────────────────────────────────────────
-  ESTIMATED TOTAL : ~$1,375–1,675 + hotel rate TBD  ·  ✅ WITHIN BUDGET
-  Flights ~$900–1,200 · Hotel ✅ booked (rate TBD) · DFW Pkg ~$75 · Transit ~$100 · Food ~$300
+  ESTIMATED TOTAL : ~$1,375–1,675  ·  ✅ WITHIN BUDGET
+  Flights ~$900–1,200 · Hotel: Reward Nights (29,000 IHG Points) · DFW Pkg ~$75 · Transit ~$100 · Food ~$300
 
 
 
